@@ -2,9 +2,11 @@
 
 The policy determines the amount of food growth per site.
 ## Called By
+1. [[Food Growth Control Action]]
 ## Domain Spaces
 1. [[Locations Space]]
 ## Followed By
+1. [[Update Food Locations Mechanism]]
 ## Codomain Spaces
 1. [[Location Food Delta Space]]
 ## Constraints

@@ -2,6 +2,7 @@
 
 A mechanism for updating food locations
 ## Called By
+1. [[Food Growth Policy]]
 ## Domain Spaces
 1. [[Location Food Delta Space]]
 ## Constraints
