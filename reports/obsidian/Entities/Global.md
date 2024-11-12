@@ -1,3 +1,6 @@
+## Notes
+
+## State
 ### Notes
 
 ### Variable Table
@@ -8,6 +11,8 @@
 |[[Global State-Simulation Log\|Simulation Log]]|The simulation log holding historical data|[[Simulation Log Type]]|||
 
 
-## Updated By
+## Boundary Actions
+## Mechanisms Impacting the Entity
 ### [[DUMMY Increment Time Mechanism]]
 ### [[DUMMY Log Simulation Data Mechanism]]
+## Actions Impacting the Entity

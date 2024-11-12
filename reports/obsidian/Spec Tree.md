@@ -23,6 +23,7 @@ cssclasses:
 │   ├──[[DUMMY Decimal Type]]
 │   ├──[[Entity Type]]
 │   ├──[[Simulation Log Type]]
+│   ├──[[2D Size Type]]
 ├──**Spaces**
 │   ├──[[Terminating Space]]
 │   ├──[[Empty Space]]

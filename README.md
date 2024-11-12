@@ -253,6 +253,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──DUMMY Decimal Type
 │   ├──Entity Type
 │   ├──Simulation Log Type
+│   ├──2D Size Type
 ├──Spaces
 │   ├──Terminating Space
 │   ├──Empty Space

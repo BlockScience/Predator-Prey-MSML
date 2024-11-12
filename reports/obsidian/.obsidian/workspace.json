@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md",
+                "file": "Types/Agent Age Delta Array Type.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Agent Age Delta Array Type"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md",
+                "file": "Types/Agent Age Delta Array Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Agent Age Delta Array Type"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md",
+                "file": "Types/Agent Age Delta Array Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Agent Age Delta Array Type"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md"
-              }
+                "file": "Types/Agent Age Delta Array Type.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Agent Age Delta Array Type"
             }
           }
         ]
@@ -148,20 +164,31 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
-    "Displays/Wiring/All Top Level Wirings.md",
-    "Boundary Actions/DUMMY Length-2 ABC Combo Boundary Action.md",
-    "Boundary Actions/DUMMY Length-1 ABC Boundary Action.md",
-    "Control Actions/DUMMY Length-1 DEF Control Action.md",
-    "Mechanisms/DUMMY Log Results Mechanism.md",
+    "Types/2D Size Type.md",
+    "Metrics/DUMMY Multiplied Length Metric.md",
+    "Stateful Metrics/DUMMY Nominal Length Stateful Metric.md",
     "Parameters/DUMMY Length Multiplier.md",
     "Parameters/DUMMY D Probability.md",
-    "Metrics/DUMMY Multiplied Length Metric.md",
-    "State Variables/DUMMY State-Words.md",
-    "State Variables/DUMMY State-Total Length.md",
-    "States/DUMMY State.md",
     "Wiring/DUMMY Length-2 Boundary Wiring.md",
-    "Wiring/DUMMY Length-1 Boundary Wiring.md",
     "Wiring/DUMMY Control Wiring.md",
-    "Spec Tree.md"
+    "Wiring/DUMMY Length-1 Boundary Wiring.md",
+    "Wiring/DUMMY State Update Mechanisms.md",
+    "Control Actions/DUMMY Length-1 DEF Control Action.md",
+    "Spaces/DUMMY String Length Space.md",
+    "Spaces/DUMMY ABCDEF Space.md",
+    "Spaces/Empty Space.md",
+    "Spaces/Terminating Space.md",
+    "Mechanisms/DUMMY Log Simulation Data Mechanism.md",
+    "Mechanisms/DUMMY Increment Time Mechanism.md",
+    "Mechanisms/DUMMY Update Dummy Entity Mechanism.md",
+    "Policies/DUMMY Letter Count Policy.md",
+    "Boundary Actions/DUMMY Length-2 ABC Combo Boundary Action.md",
+    "Boundary Actions/DUMMY Length-1 ABC Boundary Action.md",
+    "Types/Simulation Log Type.md",
+    "Types/Entity Type.md",
+    "Types/DUMMY Decimal Type.md",
+    "Types/DUMMY Integer Type.md",
+    "Types/DUMMY ABCDEF Type.md",
+    "State Variables/Global State-Simulation Log.md"
   ]
 }
