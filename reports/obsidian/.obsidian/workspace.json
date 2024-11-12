@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Location Food Delta Space.md",
+                "file": "Policies/Food Growth Policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Location Food Delta Space"
+              "title": "Food Growth Policy"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Location Food Delta Space.md",
+                "file": "Policies/Food Growth Policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Location Food Delta Space"
+              "title": "Backlinks for Food Growth Policy"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Location Food Delta Space.md",
+                "file": "Policies/Food Growth Policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Location Food Delta Space"
+              "title": "Outgoing links from Food Growth Policy"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Location Food Delta Space.md"
+                "file": "Policies/Food Growth Policy.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Location Food Delta Space"
+              "title": "Outline of Food Growth Policy"
             }
           }
         ]
@@ -164,8 +164,8 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
-    "Types/Food Location Array Type.md",
     "Spaces/Location Food Delta Space.md",
+    "Types/Food Location Array Type.md",
     "Policies/Food Growth Policy.md",
     "Control Actions/Food Growth Control Action.md",
     "Spaces/Locations Space.md",
