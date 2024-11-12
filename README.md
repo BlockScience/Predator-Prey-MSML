@@ -257,11 +257,14 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Agent Entity Type
 │   ├──Integer Type
 │   ├──Float Type
+│   ├──Food Type
+│   ├──Location Type
 │   ├──Agent Age Delta Array Type
 │   ├──Agent Array Type
 │   ├──Agent Food Delta Array Type
 │   ├──Agent Location Array Type
 │   ├──Food Location Array Type
+│   ├──Locations Array Type
 ├──Spaces
 │   ├──Terminating Space
 │   ├──Empty Space

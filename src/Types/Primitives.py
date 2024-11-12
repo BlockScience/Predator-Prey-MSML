@@ -33,6 +33,18 @@ FloatType = {
     "notes": "A floating point number",
 }
 
+FoodType = {
+    "name": "Food Type",
+    "type": "FoodType",
+    "notes": "A subclass of [[integer type]] which represents some amount of food",
+}
+
+LocationType = {
+    "name": "Location Type",
+    "type": "LocationType",
+    "notes": "A type with x and y as integers representing the 0-indexed grid location",
+}
+
 primitive_types = [
     EntityType,
     SimulationLogType,
@@ -40,4 +52,6 @@ primitive_types = [
     AgentEntityType,
     IntegerType,
     FloatType,
+    FoodType,
+    LocationType,
 ]

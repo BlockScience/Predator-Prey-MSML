@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Types/Food Location Array Type.md",
+                "file": "Types/Locations Array Type.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Food Location Array Type"
+              "title": "Locations Array Type"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Types/Food Location Array Type.md",
+                "file": "Types/Locations Array Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Food Location Array Type"
+              "title": "Backlinks for Locations Array Type"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Types/Food Location Array Type.md",
+                "file": "Types/Locations Array Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Food Location Array Type"
+              "title": "Outgoing links from Locations Array Type"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types/Food Location Array Type.md"
+                "file": "Types/Locations Array Type.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Food Location Array Type"
+              "title": "Outline of Locations Array Type"
             }
           }
         ]
@@ -164,6 +164,9 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
+    "Types/Location Type.md",
+    "Types/Food Type.md",
+    "Types/Food Location Array Type.md",
     "Types/Float Type.md",
     "Types/Integer Type.md",
     "Types/Entity Type.md",
@@ -186,9 +189,6 @@
     "Spaces/DUMMY ABCDEF Space.md",
     "Spaces/Empty Space.md",
     "Spaces/Terminating Space.md",
-    "Mechanisms/DUMMY Log Simulation Data Mechanism.md",
-    "Mechanisms/DUMMY Increment Time Mechanism.md",
-    "Mechanisms/DUMMY Update Dummy Entity Mechanism.md",
-    "Policies/DUMMY Letter Count Policy.md"
+    "Mechanisms/DUMMY Log Simulation Data Mechanism.md"
   ]
 }
