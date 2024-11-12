@@ -1,5 +1,5 @@
 ## Notes
-An agent within the system
+A site within the sites
 ## State
 ### Notes
 

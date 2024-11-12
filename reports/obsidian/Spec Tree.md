@@ -6,6 +6,8 @@ cssclasses:
 ├──**Entities**
 │   ├──[[DUMMY Entity]]
 │   ├──[[Global]]
+│   ├──[[Site]]
+│   ├──[[Agent]]
 ├──**State**
 │   ├──[[DUMMY State]]
 │   │   ├──[[DUMMY State-Words\|Words]]
@@ -14,6 +16,8 @@ cssclasses:
 │   │   ├──[[Global State-Dummy\|Dummy]]
 │   │   ├──[[Global State-Time\|Time]]
 │   │   ├──[[Global State-Simulation Log\|Simulation Log]]
+│   ├──[[Agent State]]
+│   ├──[[Site State]]
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]

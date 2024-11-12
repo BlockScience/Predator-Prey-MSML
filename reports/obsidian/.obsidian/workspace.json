@@ -164,6 +164,7 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
+    "Entities/Site.md",
     "Types/Location Type.md",
     "Types/Food Type.md",
     "Types/Food Location Array Type.md",
@@ -188,7 +189,6 @@
     "Spaces/DUMMY String Length Space.md",
     "Spaces/DUMMY ABCDEF Space.md",
     "Spaces/Empty Space.md",
-    "Spaces/Terminating Space.md",
-    "Mechanisms/DUMMY Log Simulation Data Mechanism.md"
+    "Spaces/Terminating Space.md"
   ]
 }
