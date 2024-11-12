@@ -1,2 +1,3 @@
-Schema:
-{"Food Locations": [[Food Location Array Type]]}
+## Schema
+
+{Food Locations: [[Food Location Array Type]]}

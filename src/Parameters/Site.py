@@ -25,6 +25,14 @@ site_parameter_set = {
             "domain": None,
             "parameter_class": "Behavioral",
         },
+        {
+            "variable_type": "Food Type",
+            "name": "Food Growth Rate",
+            "description": "The growth rate of food per epoch",
+            "symbol": None,
+            "domain": None,
+            "parameter_class": "Behavioral",
+        },
     ],
 }
 

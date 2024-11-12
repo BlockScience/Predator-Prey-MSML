@@ -53,6 +53,7 @@ cssclasses:
 │   ├──[[DUMMY ABCDEF Space]]
 │   ├──[[DUMMY String Length Space]]
 │   ├──[[Locations Space]]
+│   ├──[[Location Food Delta Space]]
 ├──**Parameters**
 │   ├──DUMMY Parameter Set
 │   │   ├──[[DUMMY D Probability]]
@@ -61,6 +62,7 @@ cssclasses:
 │   │   ├──[[Site Size]]
 │   ├──Site Parameter Set
 │   │   ├──[[Maximum Food per Tile]]
+│   │   ├──[[Food Growth Rate]]
 ├──**Boundary Actions**
 │   ├──[[DUMMY Length-1 ABC Boundary Action]]
 │   ├──[[DUMMY Length-2 ABC Combo Boundary Action]]
@@ -69,6 +71,7 @@ cssclasses:
 │   ├──[[Food Growth Control Action]]
 ├──**Policies**
 │   ├──[[DUMMY Letter Count Policy]]
+│   ├──[[Food Growth Policy]]
 ├──**Mechanisms**
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
