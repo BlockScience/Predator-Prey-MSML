@@ -19,6 +19,9 @@ cssclasses:
 │   │   ├──[[Global State-Agents\|Agents]]
 │   │   ├──[[Global State-Sites\|Sites]]
 │   ├──[[Agent State]]
+│   │   ├──[[Agent State-Age\|Age]]
+│   │   ├──[[Agent State-Agent Type\|Agent Type]]
+│   │   ├──[[Agent State-Food\|Food]]
 │   ├──[[Site State]]
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
@@ -35,6 +38,7 @@ cssclasses:
 │   ├──[[Float Type]]
 │   ├──[[Food Type]]
 │   ├──[[Location Type]]
+│   ├──[[Agent Type]]
 │   ├──[[Agent Age Delta Array Type]]
 │   ├──[[Agent Array Type]]
 │   ├──[[Agent Food Delta Array Type]]

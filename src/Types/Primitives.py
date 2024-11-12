@@ -45,6 +45,13 @@ LocationType = {
     "notes": "A type with x and y as integers representing the 0-indexed grid location",
 }
 
+AgentType = {
+    "name": "Agent Type",
+    "type": "AgentType",
+    "notes": "A string of either 'Prey' or 'Predator'",
+}
+
+
 primitive_types = [
     EntityType,
     SimulationLogType,
@@ -54,4 +61,5 @@ primitive_types = [
     FloatType,
     FoodType,
     LocationType,
+    AgentType,
 ]

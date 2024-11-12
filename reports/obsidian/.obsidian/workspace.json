@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Types/Locations Array Type.md",
+                "file": "State Variables/Agent State-Food.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Locations Array Type"
+              "title": "Agent State-Food"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Types/Locations Array Type.md",
+                "file": "State Variables/Agent State-Food.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Locations Array Type"
+              "title": "Backlinks for Agent State-Food"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Types/Locations Array Type.md",
+                "file": "State Variables/Agent State-Food.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Locations Array Type"
+              "title": "Outgoing links from Agent State-Food"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types/Locations Array Type.md"
+                "file": "State Variables/Agent State-Food.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Locations Array Type"
+              "title": "Outline of Agent State-Food"
             }
           }
         ]
@@ -164,6 +164,15 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
+    "Types/Agent Type.md",
+    "State Variables/Agent State-Agent Type.md",
+    "State Variables/Agent State-Age.md",
+    "State Variables/Site State-Food.md",
+    "State Variables/Global State-Time.md",
+    "State Variables/Global State-Sites.md",
+    "State Variables/Global State-Simulation Log.md",
+    "State Variables/Global State-Agents.md",
+    "Types/Locations Array Type.md",
     "Entities/Site.md",
     "Types/Location Type.md",
     "Types/Food Type.md",
@@ -180,15 +189,6 @@
     "Metrics/DUMMY Multiplied Length Metric.md",
     "Stateful Metrics/DUMMY Nominal Length Stateful Metric.md",
     "Parameters/DUMMY Length Multiplier.md",
-    "Parameters/DUMMY D Probability.md",
-    "Wiring/DUMMY Length-2 Boundary Wiring.md",
-    "Wiring/DUMMY Control Wiring.md",
-    "Wiring/DUMMY Length-1 Boundary Wiring.md",
-    "Wiring/DUMMY State Update Mechanisms.md",
-    "Control Actions/DUMMY Length-1 DEF Control Action.md",
-    "Spaces/DUMMY String Length Space.md",
-    "Spaces/DUMMY ABCDEF Space.md",
-    "Spaces/Empty Space.md",
-    "Spaces/Terminating Space.md"
+    "Parameters/DUMMY D Probability.md"
   ]
 }

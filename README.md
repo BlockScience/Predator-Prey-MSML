@@ -249,6 +249,9 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Agents
 │   │   ├──Sites
 │   ├──Agent State
+│   │   ├──Age
+│   │   ├──Agent Type
+│   │   ├──Food
 │   ├──Site State
 ├──Stateful Metrics
 │   ├──DUMMY Stateful Metrics
@@ -265,6 +268,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Float Type
 │   ├──Food Type
 │   ├──Location Type
+│   ├──Agent Type
 │   ├──Agent Age Delta Array Type
 │   ├──Agent Array Type
 │   ├──Agent Food Delta Array Type
