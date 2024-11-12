@@ -76,3 +76,4 @@ cssclasses:
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
 │   ├──[[DUMMY Log Simulation Data Mechanism]]
+│   ├──[[Update Food Locations Mechanism]]

@@ -12,4 +12,5 @@ A site within the sites
 
 ## Boundary Actions
 ## Mechanisms Impacting the Entity
+### [[Update Food Locations Mechanism]]
 ## Actions Impacting the Entity

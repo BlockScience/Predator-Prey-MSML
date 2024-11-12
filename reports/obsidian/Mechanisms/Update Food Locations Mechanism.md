@@ -1,3 +1,13 @@
+## Description
 
-- Domain of [[Location Food Delta Space]]
-- Updates the amount of food in locations by the deltas
+A mechanism for updating food locations
+## Called By
+## Domain Spaces
+1. [[Empty Space]]
+## Constraints
+## Logic
+Add the delta food to each locations food amount
+
+## Updates
+
+1. [[Site]].[[Site State-Food|Food]]
