@@ -1,1 +1,5 @@
-A representation of an [[MSML Scaffold 2/Entities/Agent|agent]]
+## Type
+
+## Notes
+
+A representation of an [[Entities/Agent|agent]]

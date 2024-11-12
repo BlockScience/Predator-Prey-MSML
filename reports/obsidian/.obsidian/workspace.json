@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Types/Agent Array Type.md",
+                "file": "Types/Agent Location Array Type.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agent Array Type"
+              "title": "Agent Location Array Type"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Types/Agent Array Type.md",
+                "file": "Types/Agent Location Array Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Agent Array Type"
+              "title": "Backlinks for Agent Location Array Type"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Types/Agent Array Type.md",
+                "file": "Types/Agent Location Array Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Agent Array Type"
+              "title": "Outgoing links from Agent Location Array Type"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types/Agent Array Type.md"
+                "file": "Types/Agent Location Array Type.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Agent Array Type"
+              "title": "Outline of Agent Location Array Type"
             }
           }
         ]
@@ -164,8 +164,11 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
-    "Types/2D Size Type.md",
+    "Types/Agent Food Delta Array Type.md",
+    "Types/Agent Entity Type.md",
+    "Types/Agent Array Type.md",
     "Types/Agent Age Delta Array Type.md",
+    "Types/2D Size Type.md",
     "Metrics/DUMMY Multiplied Length Metric.md",
     "Stateful Metrics/DUMMY Nominal Length Stateful Metric.md",
     "Parameters/DUMMY Length Multiplier.md",
@@ -186,9 +189,6 @@
     "Boundary Actions/DUMMY Length-2 ABC Combo Boundary Action.md",
     "Boundary Actions/DUMMY Length-1 ABC Boundary Action.md",
     "Types/Simulation Log Type.md",
-    "Types/Entity Type.md",
-    "Types/DUMMY Decimal Type.md",
-    "Types/DUMMY Integer Type.md",
-    "Types/DUMMY ABCDEF Type.md"
+    "Types/Entity Type.md"
   ]
 }

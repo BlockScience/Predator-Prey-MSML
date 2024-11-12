@@ -10,4 +10,23 @@ AgentArrayType = {
     "notes": """An array of [[agent entity type]]""",
 }
 
-data_types = [AgentAgeDeltaArrayType, AgentArrayType]
+AgentFoodDeltaArrayType = {
+    "name": "Agent Food Delta Array Type",
+    "type": "AgentFoodDeltaArrayType",
+    "notes": """An array where the objects the form of {"Agent": [[Agent Entity Type]], "Delta Food": [[Types/Food Type|Food Type]]}""",
+}
+
+
+AgentLocationArrayType = {
+    "name": "Agent Location Array Type",
+    "type": "AgentLocationArrayType",
+    "notes": """An array where the objects the form of {"Agent": [[Agent Entity Type]], "Location": [[Location Type]]}""",
+}
+
+
+data_types = [
+    AgentAgeDeltaArrayType,
+    AgentArrayType,
+    AgentFoodDeltaArrayType,
+    AgentLocationArrayType,
+]
