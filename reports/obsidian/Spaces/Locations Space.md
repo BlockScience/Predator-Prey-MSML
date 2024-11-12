@@ -1,2 +1,3 @@
-Schema:
-{"Locations": [[Locations Array Type]]}
+## Schema
+
+{Locations: [[Locations Array Type]]}

@@ -282,17 +282,21 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Empty Space
 │   ├──DUMMY ABCDEF Space
 │   ├──DUMMY String Length Space
+│   ├──Locations Space
 ├──Parameters
 │   ├──DUMMY Parameter Set
 │   │   ├──DUMMY D Probability
 │   │   ├──DUMMY Length Multiplier
 │   ├──Initial Site Parameter Set
 │   │   ├──Site Size
+│   ├──Site Parameter Set
+│   │   ├──Maximum Food per Tile
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action
 ├──Control Actions
 │   ├──DUMMY Length-1 DEF Control Action
+│   ├──Food Growth Control Action
 ├──Policies
 │   ├──DUMMY Letter Count Policy
 ├──Mechanisms
