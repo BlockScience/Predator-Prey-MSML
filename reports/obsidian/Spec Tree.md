@@ -24,6 +24,8 @@ cssclasses:
 │   ├──[[Entity Type]]
 │   ├──[[Simulation Log Type]]
 │   ├──[[2D Size Type]]
+│   ├──[[Agent Age Delta Array Type]]
+│   ├──[[Agent Array Type]]
 ├──**Spaces**
 │   ├──[[Terminating Space]]
 │   ├──[[Empty Space]]

@@ -254,6 +254,8 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Entity Type
 │   ├──Simulation Log Type
 │   ├──2D Size Type
+│   ├──Agent Age Delta Array Type
+│   ├──Agent Array Type
 ├──Spaces
 │   ├──Terminating Space
 │   ├──Empty Space
