@@ -236,6 +236,8 @@ There are five notebooks built in which will listed sequentially by what order i
 ├──Entities
 │   ├──DUMMY Entity
 │   ├──Global
+│   ├──Site
+│   ├──Agent
 ├──State
 │   ├──DUMMY State
 │   │   ├──Words
@@ -244,6 +246,15 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Dummy
 │   │   ├──Time
 │   │   ├──Simulation Log
+│   │   ├──Agents
+│   │   ├──Sites
+│   ├──Agent State
+│   │   ├──Age
+│   │   ├──Agent Type
+│   │   ├──Food
+│   ├──Site State
+│   │   ├──Location
+│   │   ├──Food
 ├──Stateful Metrics
 │   ├──DUMMY Stateful Metrics
 │   │   ├──DUMMY Nominal Length Stateful Metric
@@ -253,25 +264,48 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──DUMMY Decimal Type
 │   ├──Entity Type
 │   ├──Simulation Log Type
+│   ├──2D Size Type
+│   ├──Agent Entity Type
+│   ├──Integer Type
+│   ├──Float Type
+│   ├──Food Type
+│   ├──Location Type
+│   ├──Agent Type
+│   ├──Agent Age Delta Array Type
+│   ├──Agent Array Type
+│   ├──Agent Food Delta Array Type
+│   ├──Agent Location Array Type
+│   ├──Food Location Array Type
+│   ├──Locations Array Type
 ├──Spaces
 │   ├──Terminating Space
 │   ├──Empty Space
 │   ├──DUMMY ABCDEF Space
 │   ├──DUMMY String Length Space
+│   ├──Locations Space
+│   ├──Location Food Delta Space
 ├──Parameters
 │   ├──DUMMY Parameter Set
 │   │   ├──DUMMY D Probability
 │   │   ├──DUMMY Length Multiplier
+│   ├──Initial Site Parameter Set
+│   │   ├──Site Size
+│   ├──Site Parameter Set
+│   │   ├──Maximum Food per Tile
+│   │   ├──Food Growth Rate
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action
 ├──Control Actions
 │   ├──DUMMY Length-1 DEF Control Action
+│   ├──Food Growth Control Action
 ├──Policies
 │   ├──DUMMY Letter Count Policy
+│   ├──Food Growth Policy
 ├──Mechanisms
 │   ├──DUMMY Update Dummy Entity Mechanism
 │   ├──DUMMY Increment Time Mechanism
 │   ├──DUMMY Log Simulation Data Mechanism
+│   ├──Update Food Locations Mechanism
 
 ```

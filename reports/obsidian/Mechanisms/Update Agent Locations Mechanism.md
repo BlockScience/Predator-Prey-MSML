@@ -1,0 +1,2 @@
+- Domain of [[Agent Location Space]]
+- Updates agent spaces
