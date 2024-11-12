@@ -164,6 +164,8 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
+    "Types/Food Location Array Type.md",
+    "Spaces/Location Food Delta Space.md",
     "Policies/Food Growth Policy.md",
     "Control Actions/Food Growth Control Action.md",
     "Spaces/Locations Space.md",
@@ -183,12 +185,10 @@
     "Entities/Site.md",
     "Types/Location Type.md",
     "Types/Food Type.md",
-    "Types/Food Location Array Type.md",
     "Types/Float Type.md",
     "Types/Integer Type.md",
     "Types/Entity Type.md",
     "Types/Agent Location Array Type.md",
-    "Types/Agent Food Delta Array Type.md",
-    "Types/Agent Entity Type.md"
+    "Types/Agent Food Delta Array Type.md"
   ]
 }

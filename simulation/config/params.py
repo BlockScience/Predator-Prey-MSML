@@ -7,11 +7,13 @@ params_base = {
     "FP DUMMY Length-2 ABC Combo Boundary Action": "DUMMY Length-2 ABC Equal Weight Option",
     "Site Size": (5, 5),
     "Maximum Food per Tile": 10,
+    "Food Growth Rate": 1,
 }
 
 params_test_food_growth = deepcopy(params_base)
 params_test_food_growth["Site Size"] = (2, 2)
 params_test_food_growth["Maximum Food per Tile"] = 2
+params_test_food_growth["Food Growth Rate"] = 1
 
 
 params_test2 = deepcopy(params_base)
