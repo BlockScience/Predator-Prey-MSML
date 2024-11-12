@@ -3,7 +3,7 @@ from .config import (
     params_base,
     experiments_map,
     state_test1,
-    params_test1,
+    params_test_food_growth,
     params_test2,
 )
 from .preprocessing import (
