@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parameters/Maximum Food per Tile.md",
+                "file": "Spaces/Locations Space.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maximum Food per Tile"
+              "title": "Locations Space"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parameters/Maximum Food per Tile.md",
+                "file": "Spaces/Locations Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Maximum Food per Tile"
+              "title": "Backlinks for Locations Space"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parameters/Maximum Food per Tile.md",
+                "file": "Spaces/Locations Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Maximum Food per Tile"
+              "title": "Outgoing links from Locations Space"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parameters/Maximum Food per Tile.md"
+                "file": "Spaces/Locations Space.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Maximum Food per Tile"
+              "title": "Outline of Locations Space"
             }
           }
         ]
@@ -164,8 +164,9 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
-    "Spaces/Locations Space.md",
     "Control Actions/Food Growth Control Action.md",
+    "Parameters/Maximum Food per Tile.md",
+    "Spaces/Locations Space.md",
     "Parameters/Site Size.md",
     "Parameters/Initial Number of Food Tiles.md",
     "State Variables/Agent State-Food.md",
@@ -188,7 +189,6 @@
     "Types/Agent Location Array Type.md",
     "Types/Agent Food Delta Array Type.md",
     "Types/Agent Entity Type.md",
-    "Types/Agent Array Type.md",
-    "Types/Agent Age Delta Array Type.md"
+    "Types/Agent Array Type.md"
   ]
 }
