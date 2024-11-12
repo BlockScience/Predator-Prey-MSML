@@ -6,7 +6,11 @@ from .config import (
     params_test1,
     params_test2,
 )
-from .preprocessing import compute_starting_total_length, check_d_probability
+from .preprocessing import (
+    compute_starting_total_length,
+    check_d_probability,
+    create_sites,
+)
 from .postprocessing import (
     post_processing_function,
     percent_ending_in_d_metric,
