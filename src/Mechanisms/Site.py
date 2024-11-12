@@ -3,7 +3,7 @@ update_food_locations_mechanism = {
     "description": "A mechanism for updating food locations",
     "constraints": [],
     "logic": """Add the delta food to each locations food amount""",
-    "domain": [],
+    "domain": ["Location Food Delta Space"],
     "parameters_used": [],
     "updates": [
         ("Site", "Food", False),

@@ -3,7 +3,7 @@
 A mechanism for updating food locations
 ## Called By
 ## Domain Spaces
-1. [[Empty Space]]
+1. [[Location Food Delta Space]]
 ## Constraints
 ## Logic
 Add the delta food to each locations food amount
