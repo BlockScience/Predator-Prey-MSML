@@ -56,6 +56,8 @@ cssclasses:
 │   ├──DUMMY Parameter Set
 │   │   ├──[[DUMMY D Probability]]
 │   │   ├──[[DUMMY Length Multiplier]]
+│   ├──Initial Site Parameter Set
+│   │   ├──[[Site Size]]
 ├──**Boundary Actions**
 │   ├──[[DUMMY Length-1 ABC Boundary Action]]
 │   ├──[[DUMMY Length-2 ABC Combo Boundary Action]]
