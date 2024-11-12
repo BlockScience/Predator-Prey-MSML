@@ -1,0 +1,2 @@
+- Domain of [[Agents Space]]
+- Adds to the [[Global State-Agents]]
