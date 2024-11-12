@@ -246,6 +246,8 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Dummy
 │   │   ├──Time
 │   │   ├──Simulation Log
+│   │   ├──Agents
+│   │   ├──Sites
 │   ├──Agent State
 │   ├──Site State
 ├──Stateful Metrics

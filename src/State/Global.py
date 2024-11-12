@@ -23,5 +23,19 @@ global_state = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Entity Type",
+            "name": "Agents",
+            "description": "The agents in the simulation",
+            "symbol": None,
+            "domain": None,
+        },
+        {
+            "type": "Entity Type",
+            "name": "Sites",
+            "description": "The sites in the simulation",
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }

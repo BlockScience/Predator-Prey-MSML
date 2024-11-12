@@ -16,6 +16,8 @@ cssclasses:
 │   │   ├──[[Global State-Dummy\|Dummy]]
 │   │   ├──[[Global State-Time\|Time]]
 │   │   ├──[[Global State-Simulation Log\|Simulation Log]]
+│   │   ├──[[Global State-Agents\|Agents]]
+│   │   ├──[[Global State-Sites\|Sites]]
 │   ├──[[Agent State]]
 │   ├──[[Site State]]
 ├──**Stateful Metrics**
