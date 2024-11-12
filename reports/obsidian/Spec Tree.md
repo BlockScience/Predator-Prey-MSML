@@ -25,10 +25,13 @@ cssclasses:
 │   ├──[[Simulation Log Type]]
 │   ├──[[2D Size Type]]
 │   ├──[[Agent Entity Type]]
+│   ├──[[Integer Type]]
+│   ├──[[Float Type]]
 │   ├──[[Agent Age Delta Array Type]]
 │   ├──[[Agent Array Type]]
 │   ├──[[Agent Food Delta Array Type]]
 │   ├──[[Agent Location Array Type]]
+│   ├──[[Food Location Array Type]]
 ├──**Spaces**
 │   ├──[[Terminating Space]]
 │   ├──[[Empty Space]]

@@ -1,1 +1,5 @@
-An integer type
+## Type
+
+## Notes
+
+An integer

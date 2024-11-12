@@ -23,10 +23,17 @@ AgentLocationArrayType = {
     "notes": """An array where the objects the form of {"Agent": [[Agent Entity Type]], "Location": [[Location Type]]}""",
 }
 
+FoodLocationArrayType = {
+    "name": "Food Location Array Type",
+    "type": "FoodLocationArrayType",
+    "notes": """An array where the objects the form of {"Location": [[Location Type]], "Food": [[Types/Food Type|Food Type]]}""",
+}
+
 
 data_types = [
     AgentAgeDeltaArrayType,
     AgentArrayType,
     AgentFoodDeltaArrayType,
     AgentLocationArrayType,
+    FoodLocationArrayType,
 ]

@@ -21,4 +21,23 @@ AgentEntityType = {
     "notes": "A representation of an [[Entities/Agent|agent]]",
 }
 
-primitive_types = [EntityType, SimulationLogType, Size2DType, AgentEntityType]
+IntegerType = {
+    "name": "Integer Type",
+    "type": "IntegerType",
+    "notes": "An integer",
+}
+
+FloatType = {
+    "name": "Float Type",
+    "type": "FloatType",
+    "notes": "A floating point number",
+}
+
+primitive_types = [
+    EntityType,
+    SimulationLogType,
+    Size2DType,
+    AgentEntityType,
+    IntegerType,
+    FloatType,
+]
