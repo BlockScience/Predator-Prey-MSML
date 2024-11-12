@@ -23,6 +23,8 @@ cssclasses:
 │   │   ├──[[Agent State-Agent Type\|Agent Type]]
 │   │   ├──[[Agent State-Food\|Food]]
 │   ├──[[Site State]]
+│   │   ├──[[Site State-Location\|Location]]
+│   │   ├──[[Site State-Food\|Food]]
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]
