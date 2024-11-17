@@ -11,14 +11,12 @@
             "id": "7b64dae3c9d62616",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Spaces/Location Food Delta Space.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.7.6"
               },
               "icon": "lucide-file",
-              "title": "Location Food Delta Space"
+              "title": "Release Notes 1.7.6"
             }
           }
         ]
@@ -93,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Location Food Delta Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Location Food Delta Space"
+              "title": "Backlinks"
             }
           },
           {
@@ -112,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Location Food Delta Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Location Food Delta Space"
+              "title": "Outgoing links"
             }
           },
           {
@@ -138,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spaces/Location Food Delta Space.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Location Food Delta Space"
+              "title": "Outline"
             }
           }
         ]
@@ -164,31 +158,31 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
-    "Policies/Food Growth Policy.md",
-    "Control Actions/Food Growth Control Action.md",
-    "Mechanisms/Update Food Locations Mechanism.md",
-    "Spaces/Location Food Delta Space.md",
-    "Types/Food Location Array Type.md",
-    "Spaces/Locations Space.md",
-    "Parameters/Maximum Food per Tile.md",
-    "Parameters/Site Size.md",
-    "Parameters/Initial Number of Food Tiles.md",
-    "State Variables/Agent State-Food.md",
-    "Types/Agent Type.md",
-    "State Variables/Agent State-Agent Type.md",
-    "State Variables/Agent State-Age.md",
-    "State Variables/Site State-Food.md",
-    "State Variables/Global State-Time.md",
-    "State Variables/Global State-Sites.md",
-    "State Variables/Global State-Simulation Log.md",
-    "State Variables/Global State-Agents.md",
+    "Wiring/Prey Feeding Wiring.md",
+    "Wiring/Natural Death Wiring.md",
+    "Wiring/Increase Agent Age Wiring.md",
+    "Wiring/Hunt Prey Wiring.md",
+    "Wiring/Food Growth Wiring.md",
+    "Wiring/Agent Reproduction Wiring.md",
+    "Wiring/Agent Movement Wiring.md",
     "Types/Locations Array Type.md",
-    "Entities/Site.md",
     "Types/Location Type.md",
-    "Types/Food Type.md",
-    "Types/Float Type.md",
     "Types/Integer Type.md",
-    "Types/Entity Type.md",
-    "Types/Agent Location Array Type.md"
+    "Types/Food Type.md",
+    "Types/Food Location Array Type.md",
+    "Types/Float Type.md",
+    "Types/Agent Type.md",
+    "Types/Agent Location Array Type.md",
+    "Types/Agent Food Delta Array Type.md",
+    "Types/Agent Entity Type.md",
+    "Types/Agent Array Type.md",
+    "Types/Agent Age Delta Array Type.md",
+    "Types/2D Size Type.md",
+    "States/Site State.md",
+    "States/Agent State.md",
+    "Stateful Metrics/Prey Stateful Metric.md",
+    "Stateful Metrics/Predator Stateful Metric.md",
+    "Stateful Metrics/Number of Prey Stateful Metric.md",
+    "Stateful Metrics/Number of Predators Stateful Metric.md"
   ]
 }

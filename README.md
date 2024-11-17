@@ -290,9 +290,12 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──DUMMY Length Multiplier
 │   ├──Initial Site Parameter Set
 │   │   ├──Site Size
+│   │   ├──Initial Number of Food Tiles
 │   ├──Site Parameter Set
 │   │   ├──Maximum Food per Tile
 │   │   ├──Food Growth Rate
+│   ├──Agent Parameter Set
+│   │   ├──Hunger Threshold
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action

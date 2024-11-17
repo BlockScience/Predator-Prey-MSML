@@ -10,8 +10,17 @@ initial_site_parameter_set = {
             "domain": None,
             "parameter_class": "Functional",
         },
+        {
+            "variable_type": "Food Type",
+            "name": "Initial Number of Food Tiles",
+            "description": "The initial number of food tiles in the sites",
+            "symbol": None,
+            "domain": None,
+            "parameter_class": "Functional",
+        },
     ],
 }
+
 
 site_parameter_set = {
     "name": "Site Parameter Set",
