@@ -62,6 +62,8 @@ cssclasses:
 │   ├──Initial Site Parameter Set
 │   │   ├──[[Site Size]]
 │   │   ├──[[Initial Number of Food Tiles]]
+│   │   ├──[[Initial Number of Predators]]
+│   │   ├──[[Initial Number of Prey]]
 │   ├──Site Parameter Set
 │   │   ├──[[Maximum Food per Tile]]
 │   │   ├──[[Food Growth Rate]]
