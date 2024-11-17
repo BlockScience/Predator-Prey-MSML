@@ -10,6 +10,22 @@ agent_parameter_set = {
             "domain": None,
             "parameter_class": "Behavioral",
         },
+        {
+            "variable_type": "Float Type",
+            "name": "Maximum Age Parameter",
+            "description": "The maximum age an agent can reach",
+            "symbol": None,
+            "domain": None,
+            "parameter_class": "System",
+        },
+        {
+            "variable_type": "Food Type",
+            "name": "Reproduction Food Threshold",
+            "description": "The amount of food needed for an agent to reporduce",
+            "symbol": None,
+            "domain": None,
+            "parameter_class": "System",
+        },
     ],
 }
 

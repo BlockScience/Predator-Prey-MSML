@@ -11,12 +11,14 @@
             "id": "7b64dae3c9d62616",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.6"
+                "file": "Parameters/Maximum Age Parameter.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "Maximum Age Parameter"
             }
           }
         ]
@@ -158,6 +160,8 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
+    "Types/Agent Age Delta Array Type.md",
+    "Parameters/Maximum Age Parameter.md",
     "Wiring/Prey Feeding Wiring.md",
     "Wiring/Natural Death Wiring.md",
     "Wiring/Increase Agent Age Wiring.md",
@@ -176,13 +180,11 @@
     "Types/Agent Food Delta Array Type.md",
     "Types/Agent Entity Type.md",
     "Types/Agent Array Type.md",
-    "Types/Agent Age Delta Array Type.md",
     "Types/2D Size Type.md",
     "States/Site State.md",
     "States/Agent State.md",
     "Stateful Metrics/Prey Stateful Metric.md",
     "Stateful Metrics/Predator Stateful Metric.md",
-    "Stateful Metrics/Number of Prey Stateful Metric.md",
-    "Stateful Metrics/Number of Predators Stateful Metric.md"
+    "Stateful Metrics/Number of Prey Stateful Metric.md"
   ]
 }

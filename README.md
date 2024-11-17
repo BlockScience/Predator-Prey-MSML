@@ -296,6 +296,8 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Food Growth Rate
 │   ├──Agent Parameter Set
 │   │   ├──Hunger Threshold
+│   │   ├──Maximum Age Parameter
+│   │   ├──Reproduction Food Threshold
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action
