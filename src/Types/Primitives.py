@@ -51,6 +51,12 @@ AgentType = {
     "notes": "A string of either 'Prey' or 'Predator'",
 }
 
+ProbabilityType = {
+    "name": "Probability Type",
+    "type": "ProbabilityType",
+    "notes": "A probability which takes a value between 0 and 1 inclusive.",
+}
+
 
 primitive_types = [
     EntityType,
@@ -62,4 +68,5 @@ primitive_types = [
     FoodType,
     LocationType,
     AgentType,
+    ProbabilityType,
 ]

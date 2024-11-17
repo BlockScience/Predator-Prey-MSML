@@ -26,6 +26,22 @@ agent_parameter_set = {
             "domain": None,
             "parameter_class": "System",
         },
+        {
+            "variable_type": "Probability Type",
+            "name": "Reproduction Probability",
+            "description": "The probability of reproduction",
+            "symbol": None,
+            "domain": None,
+            "parameter_class": "Behavioral",
+        },
+        {
+            "variable_type": "Food Type",
+            "name": "Reproduction Food Needed",
+            "description": "The amount of food required to be burned for reproduction",
+            "symbol": None,
+            "domain": None,
+            "parameter_class": "System",
+        },
     ],
 }
 

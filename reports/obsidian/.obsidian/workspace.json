@@ -160,6 +160,7 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
+    "Types/Probability Type.md",
     "Types/Agent Age Delta Array Type.md",
     "Parameters/Maximum Age Parameter.md",
     "Wiring/Prey Feeding Wiring.md",
@@ -184,7 +185,6 @@
     "States/Site State.md",
     "States/Agent State.md",
     "Stateful Metrics/Prey Stateful Metric.md",
-    "Stateful Metrics/Predator Stateful Metric.md",
-    "Stateful Metrics/Number of Prey Stateful Metric.md"
+    "Stateful Metrics/Predator Stateful Metric.md"
   ]
 }

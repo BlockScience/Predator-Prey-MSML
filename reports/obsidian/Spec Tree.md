@@ -41,6 +41,7 @@ cssclasses:
 │   ├──[[Food Type]]
 │   ├──[[Location Type]]
 │   ├──[[Agent Type]]
+│   ├──[[Probability Type]]
 │   ├──[[Agent Age Delta Array Type]]
 │   ├──[[Agent Array Type]]
 │   ├──[[Agent Food Delta Array Type]]
@@ -68,6 +69,8 @@ cssclasses:
 │   │   ├──[[Hunger Threshold]]
 │   │   ├──[[Maximum Age Parameter]]
 │   │   ├──[[Reproduction Food Threshold]]
+│   │   ├──[[Reproduction Probability]]
+│   │   ├──[[Reproduction Food Needed]]
 ├──**Boundary Actions**
 │   ├──[[DUMMY Length-1 ABC Boundary Action]]
 │   ├──[[DUMMY Length-2 ABC Combo Boundary Action]]
