@@ -8,7 +8,16 @@ params_base = {
     "Site Size": (5, 5),
     "Maximum Food per Tile": 10,
     "Food Growth Rate": 1,
+    "Initial Number of Food Tiles": 5,
+    "Initial Number of Predators": 5,
+    "Initial Number of Prey": 5,
+    "Hunger Threshold": 5,
+    "Maximum Age Parameter": 10,
+    "Reproduction Food Threshold": 2,
+    "Reproduction Probability": 0.25,
+    "Reproduction Food Needed": 3,
 }
+
 
 params_test_food_growth = deepcopy(params_base)
 params_test_food_growth["Site Size"] = (2, 2)
