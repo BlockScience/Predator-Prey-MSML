@@ -55,6 +55,7 @@ cssclasses:
 │   ├──[[DUMMY String Length Space]]
 │   ├──[[Locations Space]]
 │   ├──[[Location Food Delta Space]]
+│   ├──[[Agents Space]]
 ├──**Parameters**
 │   ├──DUMMY Parameter Set
 │   │   ├──[[DUMMY D Probability]]
@@ -79,6 +80,7 @@ cssclasses:
 ├──**Control Actions**
 │   ├──[[DUMMY Length-1 DEF Control Action]]
 │   ├──[[Food Growth Control Action]]
+│   ├──[[Natural Death Control Action]]
 ├──**Policies**
 │   ├──[[DUMMY Letter Count Policy]]
 │   ├──[[Food Growth Policy]]

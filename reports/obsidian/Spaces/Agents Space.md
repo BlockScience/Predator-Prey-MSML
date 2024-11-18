@@ -1,3 +1,3 @@
-Schema:
+## Schema
 
-{"agents": [[Agent Array Type]]}
+{Agents: [[Agent Array Type]]}
