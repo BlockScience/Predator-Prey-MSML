@@ -13,3 +13,4 @@
 ## Updated By
 ### [[DUMMY Increment Time Mechanism]]
 ### [[DUMMY Log Simulation Data Mechanism]]
+### [[Remove Agents Mechanism]]

@@ -17,4 +17,6 @@
 ## Mechanisms Impacting the Entity
 ### [[DUMMY Increment Time Mechanism]]
 ### [[DUMMY Log Simulation Data Mechanism]]
+### [[Remove Agents Mechanism]]
 ## Actions Impacting the Entity
+### [[Natural Death Control Action]]
