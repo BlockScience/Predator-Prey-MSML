@@ -19,4 +19,24 @@ natural_death_policy = {
     "metrics_used": [],
 }
 
-agent_policies = [natural_death_policy]
+increase_agent_age_policy1 = {
+    "name": "Increase Agent Age Policy +1",
+    "description": "Simple +1 to age and -1 to food",
+    "logic": """Return spaces that increase age by 1 and decrease food by 1 for all agents in the domain""",
+}
+
+increase_agent_age_policy = {
+    "name": "Increase Agent Age Policy",
+    "description": "The policy which determines the age increase and the decrease in food.",
+    "constraints": [],
+    "policy_options": [increase_agent_age_policy1],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Agent Food Delta Space", "Agent Age Delta Space"],
+    "parameters_used": [],
+    "metrics_used": [],
+}
+
+
+agent_policies = [natural_death_policy, increase_agent_age_policy]

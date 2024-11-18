@@ -89,9 +89,12 @@ cssclasses:
 │   ├──[[DUMMY Letter Count Policy]]
 │   ├──[[Food Growth Policy]]
 │   ├──[[Natural Death Policy]]
+│   ├──[[Increase Agent Age Policy]]
 ├──**Mechanisms**
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
 │   ├──[[DUMMY Log Simulation Data Mechanism]]
 │   ├──[[Update Food Locations Mechanism]]
 │   ├──[[Remove Agents Mechanism]]
+│   ├──[[Update Food Mechanism]]
+│   ├──[[Increase Agent Age Mechanism]]
