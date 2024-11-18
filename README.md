@@ -317,6 +317,7 @@ There are five notebooks built in which will listed sequentially by what order i
 ├──Policies
 │   ├──DUMMY Letter Count Policy
 │   ├──Food Growth Policy
+│   ├──Natural Death Policy
 ├──Mechanisms
 │   ├──DUMMY Update Dummy Entity Mechanism
 │   ├──DUMMY Increment Time Mechanism

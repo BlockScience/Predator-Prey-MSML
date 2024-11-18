@@ -87,6 +87,7 @@ cssclasses:
 ├──**Policies**
 │   ├──[[DUMMY Letter Count Policy]]
 │   ├──[[Food Growth Policy]]
+│   ├──[[Natural Death Policy]]
 ├──**Mechanisms**
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
