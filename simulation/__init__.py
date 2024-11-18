@@ -5,6 +5,7 @@ from .config import (
     state_test1,
     params_test_food_growth,
     params_test2,
+    state_test_natural_death,
 )
 from .preprocessing import (
     compute_starting_total_length,

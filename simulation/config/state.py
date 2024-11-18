@@ -10,3 +10,11 @@ state_base = {
 
 state_test1 = deepcopy(state_base)
 state_test1["Time"] = 100
+
+state_test_natural_death = deepcopy(state_base)
+state_test_natural_death["Agents"] = [
+    {"Age": 5, "Agent Type": "Predator", "Food": 10},
+    {"Age": 5, "Agent Type": "Predator", "Food": 0},
+    {"Age": 10, "Agent Type": "Predator", "Food": 10},
+    {"Age": 15, "Agent Type": "Predator", "Food": 10},
+]
