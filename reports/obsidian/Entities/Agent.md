@@ -13,4 +13,6 @@ An agent within the system
 
 ## Boundary Actions
 ## Mechanisms Impacting the Entity
+### [[Update Food Mechanism]]
+### [[Increase Agent Age Mechanism]]
 ## Actions Impacting the Entity

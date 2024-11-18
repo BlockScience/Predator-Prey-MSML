@@ -96,3 +96,5 @@ cssclasses:
 │   ├──[[DUMMY Log Simulation Data Mechanism]]
 │   ├──[[Update Food Locations Mechanism]]
 │   ├──[[Remove Agents Mechanism]]
+│   ├──[[Update Food Mechanism]]
+│   ├──[[Increase Agent Age Mechanism]]
