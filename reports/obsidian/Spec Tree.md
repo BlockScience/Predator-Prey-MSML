@@ -56,6 +56,9 @@ cssclasses:
 │   ├──[[Locations Space]]
 │   ├──[[Location Food Delta Space]]
 │   ├──[[Agents Space]]
+│   ├──[[Agent Age Delta Space]]
+│   ├──[[Agent Food Delta Space]]
+│   ├──[[Agent Location Space]]
 ├──**Parameters**
 │   ├──DUMMY Parameter Set
 │   │   ├──[[DUMMY D Probability]]

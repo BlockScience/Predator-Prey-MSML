@@ -5,4 +5,31 @@ agents_space = {
     },
 }
 
-agents_spaces = [agents_space]
+agent_age_delta_space = {
+    "name": "Agent Age Delta Space",
+    "schema": {
+        "Age Deltas": "Agent Age Delta Array Type",
+    },
+}
+
+agent_food_delta_space = {
+    "name": "Agent Food Delta Space",
+    "schema": {
+        "Food Deltas": "Agent Food Delta Array Type",
+    },
+}
+
+agent_locations_space = {
+    "name": "Agent Location Space",
+    "schema": {
+        "Agent Locations": "Agent Location Array Type",
+    },
+}
+
+
+agents_spaces = [
+    agents_space,
+    agent_age_delta_space,
+    agent_food_delta_space,
+    agent_locations_space,
+]

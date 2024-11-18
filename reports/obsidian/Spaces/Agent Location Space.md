@@ -1,2 +1,3 @@
-Schema:
-{"Agent Locations": [[Agent Location Array Type]]}
+## Schema
+
+{Agent Locations: [[Agent Location Array Type]]}

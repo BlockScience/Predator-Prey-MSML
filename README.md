@@ -286,6 +286,9 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Locations Space
 │   ├──Location Food Delta Space
 │   ├──Agents Space
+│   ├──Agent Age Delta Space
+│   ├──Agent Food Delta Space
+│   ├──Agent Location Space
 ├──Parameters
 │   ├──DUMMY Parameter Set
 │   │   ├──DUMMY D Probability
