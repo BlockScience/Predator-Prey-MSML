@@ -2,6 +2,7 @@
 
 Returns a list of potential agents that might die
 ## Followed By
+1. [[Natural Death Policy]]
 
 ## Constraints
 ## Codomain Spaces

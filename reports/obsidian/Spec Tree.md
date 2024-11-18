@@ -84,6 +84,7 @@ cssclasses:
 │   ├──[[DUMMY Length-1 DEF Control Action]]
 │   ├──[[Food Growth Control Action]]
 │   ├──[[Natural Death Control Action]]
+│   ├──[[Increase Age Control Action]]
 ├──**Policies**
 │   ├──[[DUMMY Letter Count Policy]]
 │   ├──[[Food Growth Policy]]

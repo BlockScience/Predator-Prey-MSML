@@ -2,9 +2,11 @@
 
 The policy which determines which agents die.
 ## Called By
+1. [[Natural Death Control Action]]
 ## Domain Spaces
 1. [[Agents Space]]
 ## Followed By
+1. [[Remove Agents Mechanism]]
 ## Codomain Spaces
 1. [[Agents Space]]
 ## Constraints

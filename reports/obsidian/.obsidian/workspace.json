@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Policies/Natural Death Policy.md",
+                "file": "Control Actions/Increase Age Control Action.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Natural Death Policy"
+              "title": "Increase Age Control Action"
             }
           },
           {
@@ -189,6 +189,8 @@
   },
   "active": "68fcad9eeddca0d9",
   "lastOpenFiles": [
+    "Wiring/Increase Agent Age Wiring.md",
+    "Policies/Natural Death Policy.md",
     "Types/Agent Food Delta Array Type.md",
     "Spaces/Agent Food Delta Space.md",
     "Spaces/Agent Location Space.md",
@@ -199,7 +201,6 @@
     "Parameters/Maximum Age Parameter.md",
     "Types/Probability Type.md",
     "Wiring/Prey Feeding Wiring.md",
-    "Wiring/Increase Agent Age Wiring.md",
     "Wiring/Hunt Prey Wiring.md",
     "Wiring/Food Growth Wiring.md",
     "Wiring/Agent Reproduction Wiring.md",
@@ -213,7 +214,6 @@
     "Types/Agent Type.md",
     "Types/Agent Location Array Type.md",
     "Types/Agent Entity Type.md",
-    "Types/Agent Array Type.md",
-    "Types/2D Size Type.md"
+    "Types/Agent Array Type.md"
   ]
 }

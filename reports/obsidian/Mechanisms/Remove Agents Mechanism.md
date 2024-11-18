@@ -2,6 +2,7 @@
 
 A mechanism for removing agents
 ## Called By
+1. [[Natural Death Policy]]
 ## Domain Spaces
 1. [[Agents Space]]
 ## Constraints
