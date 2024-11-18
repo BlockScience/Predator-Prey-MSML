@@ -93,3 +93,4 @@ cssclasses:
 │   ├──[[DUMMY Increment Time Mechanism]]
 │   ├──[[DUMMY Log Simulation Data Mechanism]]
 │   ├──[[Update Food Locations Mechanism]]
+│   ├──[[Remove Agents Mechanism]]
