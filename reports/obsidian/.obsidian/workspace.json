@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanisms/Increase Agent Age Mechanism.md",
+                "file": "Spaces/Agent Age Delta Space.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Increase Agent Age Mechanism"
+              "title": "Agent Age Delta Space"
             }
           }
         ],
@@ -189,12 +189,13 @@
   },
   "active": "8e34289ad79add83",
   "lastOpenFiles": [
-    "Mechanisms/Update Food Mechanism.md",
     "Mechanisms/Increase Agent Age Mechanism.md",
+    "Mechanisms/Update Food Locations Mechanism.md",
+    "Mechanisms/Update Food Mechanism.md",
+    "Spaces/Agent Food Delta Space.md",
+    "Types/Agent Food Delta Array Type.md",
     "Types/Agent Age Delta Array Type.md",
     "Spaces/Agent Age Delta Space.md",
-    "Types/Agent Food Delta Array Type.md",
-    "Spaces/Agent Food Delta Space.md",
     "Policies/Increase Agent Age Policy.md",
     "Policies/Hunt Prey Policy.md",
     "Control Actions/Increase Age Control Action.md",
@@ -213,7 +214,6 @@
     "Types/Locations Array Type.md",
     "Types/Location Type.md",
     "Types/Integer Type.md",
-    "Types/Food Type.md",
-    "Types/Food Location Array Type.md"
+    "Types/Food Type.md"
   ]
 }
