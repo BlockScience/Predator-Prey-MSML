@@ -2,9 +2,12 @@
 
 The policy which determines the age increase and the decrease in food.
 ## Called By
+1. [[Increase Age Control Action]]
 ## Domain Spaces
 1. [[Agents Space]]
 ## Followed By
+1. [[Update Food Mechanism]]
+2. [[Increase Agent Age Mechanism]]
 ## Codomain Spaces
 1. [[Agent Food Delta Space]]
 2. [[Agent Age Delta Space]]

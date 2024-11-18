@@ -13,3 +13,30 @@ agent_wiring.append(
         "type": "Stack",
     }
 )
+
+agent_wiring.append(
+    {
+        "name": "Age & Food Mechanisms",
+        "components": [
+            "Update Food Mechanism",
+            "Increase Agent Age Mechanism",
+        ],
+        "description": "Mechanisms for updating food and age",
+        "constraints": [],
+        "type": "Parallel",
+    }
+)
+
+agent_wiring.append(
+    {
+        "name": "Increase Agent Age Wiring",
+        "components": [
+            "Increase Age Control Action",
+            "Increase Agent Age Policy",
+            "Age & Food Mechanisms",
+        ],
+        "description": "Wiring for updating of the agent age and decreasing their food from aging",
+        "constraints": [],
+        "type": "Stack",
+    }
+)

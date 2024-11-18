@@ -16,3 +16,4 @@ An agent within the system
 ### [[Update Food Mechanism]]
 ### [[Increase Agent Age Mechanism]]
 ## Actions Impacting the Entity
+### [[Increase Age Control Action]]
