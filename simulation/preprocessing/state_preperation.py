@@ -1,4 +1,4 @@
-from random import shuffle
+from random import shuffle, choices
 
 
 def compute_starting_total_length(state, params):
@@ -17,6 +17,9 @@ def create_sites(state, params):
             site = {"Location": (i, j), "Food": 0, "Agent": None}
             state["Sites"].append(site)
             state["Sites Matrix"][-1].append(state["Sites"][-1])
+    location_indices = list(range(len(state["Sites"])))
+    for l in choices(location_indices, k=params["Initial Number of Food Tiles"]):
+        state["Sites"][l]["Food"] += 1
     return state
 
 
