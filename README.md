@@ -252,9 +252,11 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Age
 │   │   ├──Agent Type
 │   │   ├──Food
+│   │   ├──Location
 │   ├──Site State
 │   │   ├──Location
 │   │   ├──Food
+│   │   ├──Agent
 ├──Stateful Metrics
 │   ├──DUMMY Stateful Metrics
 │   │   ├──DUMMY Nominal Length Stateful Metric

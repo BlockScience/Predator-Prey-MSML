@@ -16,5 +16,12 @@ site_state = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Agent Type",
+            "name": "Agent",
+            "description": "The agent on the site or none if there are none",
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }
