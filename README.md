@@ -311,6 +311,8 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Reproduction Food Threshold
 │   │   ├──Reproduction Probability
 │   │   ├──Reproduction Food Needed
+│   │   ├──Initial Prey Food
+│   │   ├──Initial Predator Food
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action

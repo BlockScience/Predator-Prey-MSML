@@ -22,6 +22,9 @@ def create_initial_agents(state, params):
     agent_types = ["Prey"] * params["Initial Number of Prey"] + ["Predator"] * params[
         "Initial Number of Predators"
     ]
-    assert len(agent_types) <= len(state["Sites"])
+    open_locations = state["Stateful Metrics"]["Open Locations Stateful Metric"](
+        state, params
+    )
+    assert len(agent_types) <= len(open_locations)
 
     return state

@@ -189,6 +189,8 @@
   },
   "active": "8e34289ad79add83",
   "lastOpenFiles": [
+    "Parameters/Initial Predator Food.md",
+    "Parameters/Initial Prey Food.md",
     "Stateful Metrics/Open Locations Stateful Metric.md",
     "Wiring/Prey Feeding Wiring.md",
     "State Variables/Site State-Agent.md",
@@ -212,8 +214,6 @@
     "Wiring/Natural Death Wiring.md",
     "Parameters/Maximum Age Parameter.md",
     "Wiring/Hunt Prey Wiring.md",
-    "Wiring/Food Growth Wiring.md",
-    "Wiring/Agent Reproduction Wiring.md",
-    "Wiring/Agent Movement Wiring.md"
+    "Wiring/Food Growth Wiring.md"
   ]
 }

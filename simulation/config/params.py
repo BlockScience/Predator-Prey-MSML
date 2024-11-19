@@ -16,6 +16,8 @@ params_base = {
     "Reproduction Food Threshold": 2,
     "Reproduction Probability": 0.25,
     "Reproduction Food Needed": 3,
+    "Initial Prey Food": 5,
+    "Initial Predator Food": 5,
 }
 
 
