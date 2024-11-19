@@ -1,3 +1,6 @@
+from random import shuffle
+
+
 def compute_starting_total_length(state, params):
     state["Dummy"]["Total Length"] = params["DUMMY Length Multiplier"] * len(
         state["Dummy"]["Words"]
@@ -26,5 +29,22 @@ def create_initial_agents(state, params):
         state, params
     )
     assert len(agent_types) <= len(open_locations)
+    shuffle(agent_types)
+    shuffle(open_locations)
+    print(agent_types)
+    for agent, location in zip(agent_types, open_locations):
+        if agent == "Predator":
+            food = params["Initial Predator Food"]
+        else:
+            food = params["Initial Prey Food"]
+
+        agent = {
+            "Age": 0,
+            "Agent Type": agent,
+            "Food": food,
+            "Location": location["Location"],
+        }
+        state["Agents"].append(agent)
+        location["Agent"] = agent
 
     return state
