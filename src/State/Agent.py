@@ -23,5 +23,12 @@ agent_state = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Location Type",
+            "name": "Location",
+            "description": "The current location of an agent",
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }

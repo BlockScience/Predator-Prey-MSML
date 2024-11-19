@@ -16,6 +16,8 @@ params_base = {
     "Reproduction Food Threshold": 2,
     "Reproduction Probability": 0.25,
     "Reproduction Food Needed": 3,
+    "Initial Prey Food": 5,
+    "Initial Predator Food": 5,
 }
 
 
@@ -30,3 +32,11 @@ params_test2["DUMMY D Probability"] = 0
 params_test2["FP DUMMY Length-1 DEF Control Action"] = (
     "DUMMY Length-1 DEF D Probability Option"
 )
+
+params_prey_feeding_test = deepcopy(params_base)
+params_prey_feeding_test["Site Size"] = (3, 2)
+params_prey_feeding_test["Initial Number of Predators"] = 2
+params_prey_feeding_test["Initial Number of Prey"] = 3
+params_prey_feeding_test["Initial Prey Food"] = 5
+params_prey_feeding_test["Initial Predator Food"] = 7
+params_prey_feeding_test["Initial Number of Food Tiles"] = 10

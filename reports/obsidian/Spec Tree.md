@@ -22,12 +22,18 @@ cssclasses:
 │   │   ├──[[Agent State-Age\|Age]]
 │   │   ├──[[Agent State-Agent Type\|Agent Type]]
 │   │   ├──[[Agent State-Food\|Food]]
+│   │   ├──[[Agent State-Location\|Location]]
 │   ├──[[Site State]]
 │   │   ├──[[Site State-Location\|Location]]
 │   │   ├──[[Site State-Food\|Food]]
+│   │   ├──[[Site State-Agent\|Agent]]
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]
+│   ├──Site Stateful Metrics
+│   │   ├──[[Open Locations Stateful Metric]]
+│   ├──Agent Stateful Metrics
+│   │   ├──[[Prey Stateful Metric]]
 ├──**Types**
 │   ├──[[DUMMY ABCDEF Type]]
 │   ├──[[DUMMY Integer Type]]
@@ -77,9 +83,12 @@ cssclasses:
 │   │   ├──[[Reproduction Food Threshold]]
 │   │   ├──[[Reproduction Probability]]
 │   │   ├──[[Reproduction Food Needed]]
+│   │   ├──[[Initial Prey Food]]
+│   │   ├──[[Initial Predator Food]]
 ├──**Boundary Actions**
 │   ├──[[DUMMY Length-1 ABC Boundary Action]]
 │   ├──[[DUMMY Length-2 ABC Combo Boundary Action]]
+│   ├──[[Prey Feeding Boundary Action]]
 ├──**Control Actions**
 │   ├──[[DUMMY Length-1 DEF Control Action]]
 │   ├──[[Food Growth Control Action]]

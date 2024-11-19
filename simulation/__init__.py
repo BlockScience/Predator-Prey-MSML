@@ -6,11 +6,14 @@ from .config import (
     params_test_food_growth,
     params_test2,
     state_test_natural_death,
+    params_prey_feeding_test,
+    state_base_prey_feeding_test,
 )
 from .preprocessing import (
     compute_starting_total_length,
     check_d_probability,
     create_sites,
+    create_initial_agents,
 )
 from .postprocessing import (
     post_processing_function,

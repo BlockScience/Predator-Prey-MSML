@@ -252,12 +252,18 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Age
 │   │   ├──Agent Type
 │   │   ├──Food
+│   │   ├──Location
 │   ├──Site State
 │   │   ├──Location
 │   │   ├──Food
+│   │   ├──Agent
 ├──Stateful Metrics
 │   ├──DUMMY Stateful Metrics
 │   │   ├──DUMMY Nominal Length Stateful Metric
+│   ├──Site Stateful Metrics
+│   │   ├──Open Locations Stateful Metric
+│   ├──Agent Stateful Metrics
+│   │   ├──Prey Stateful Metric
 ├──Types
 │   ├──DUMMY ABCDEF Type
 │   ├──DUMMY Integer Type
@@ -307,9 +313,12 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Reproduction Food Threshold
 │   │   ├──Reproduction Probability
 │   │   ├──Reproduction Food Needed
+│   │   ├──Initial Prey Food
+│   │   ├──Initial Predator Food
 ├──Boundary Actions
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action
+│   ├──Prey Feeding Boundary Action
 ├──Control Actions
 │   ├──DUMMY Length-1 DEF Control Action
 │   ├──Food Growth Control Action
