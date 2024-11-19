@@ -11,6 +11,7 @@ from .preprocessing import (
     compute_starting_total_length,
     check_d_probability,
     create_sites,
+    create_initial_agents,
 )
 from .postprocessing import (
     post_processing_function,

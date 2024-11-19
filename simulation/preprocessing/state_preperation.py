@@ -11,7 +11,17 @@ def create_sites(state, params):
     for i in range(params["Site Size"][0]):
         state["Sites Matrix"].append([])
         for j in range(params["Site Size"][1]):
-            site = {"Location": (i, j), "Food": 0}
+            site = {"Location": (i, j), "Food": 0, "Agent": None}
             state["Sites"].append(site)
             state["Sites Matrix"][-1].append(state["Sites"][-1])
+    return state
+
+
+def create_initial_agents(state, params):
+    state["Agents"] = []
+    agent_types = ["Prey"] * params["Initial Number of Prey"] + ["Predator"] * params[
+        "Initial Number of Predators"
+    ]
+    assert len(agent_types) <= len(state["Sites"])
+
     return state
