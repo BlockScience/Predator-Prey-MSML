@@ -189,6 +189,7 @@
   },
   "active": "8e34289ad79add83",
   "lastOpenFiles": [
+    "Stateful Metrics/Open Locations Stateful Metric.md",
     "Wiring/Prey Feeding Wiring.md",
     "State Variables/Site State-Agent.md",
     "State Variables/Agent State-Location.md",
@@ -213,7 +214,6 @@
     "Wiring/Hunt Prey Wiring.md",
     "Wiring/Food Growth Wiring.md",
     "Wiring/Agent Reproduction Wiring.md",
-    "Wiring/Agent Movement Wiring.md",
-    "Types/Locations Array Type.md"
+    "Wiring/Agent Movement Wiring.md"
   ]
 }

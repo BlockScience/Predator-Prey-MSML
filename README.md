@@ -260,6 +260,8 @@ There are five notebooks built in which will listed sequentially by what order i
 ├──Stateful Metrics
 │   ├──DUMMY Stateful Metrics
 │   │   ├──DUMMY Nominal Length Stateful Metric
+│   ├──Site Stateful Metrics
+│   │   ├──Open Locations Stateful Metric
 ├──Types
 │   ├──DUMMY ABCDEF Type
 │   ├──DUMMY Integer Type
