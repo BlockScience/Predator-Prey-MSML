@@ -31,7 +31,7 @@ def create_initial_agents(state, params):
     assert len(agent_types) <= len(open_locations)
     shuffle(agent_types)
     shuffle(open_locations)
-    print(agent_types)
+
     for agent, location in zip(agent_types, open_locations):
         if agent == "Predator":
             food = params["Initial Predator Food"]

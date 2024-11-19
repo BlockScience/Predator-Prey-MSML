@@ -18,3 +18,5 @@ state_test_natural_death["Agents"] = [
     {"Age": 10, "Agent Type": "Predator", "Food": 10},
     {"Age": 15, "Agent Type": "Predator", "Food": 10},
 ]
+
+state_base_prey_feeding_test = deepcopy(state_base)
