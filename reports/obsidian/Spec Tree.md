@@ -32,6 +32,8 @@ cssclasses:
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]
 │   ├──Site Stateful Metrics
 │   │   ├──[[Open Locations Stateful Metric]]
+│   ├──Agent Stateful Metrics
+│   │   ├──[[Prey Stateful Metric]]
 ├──**Types**
 │   ├──[[DUMMY ABCDEF Type]]
 │   ├──[[DUMMY Integer Type]]

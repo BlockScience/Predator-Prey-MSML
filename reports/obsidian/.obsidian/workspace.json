@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boundary Actions/Prey Feeding Boundary Action.md",
+                "file": "Stateful Metrics/Prey Stateful Metric.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prey Feeding Boundary Action"
+              "title": "Prey Stateful Metric"
             }
           }
         ],
@@ -189,6 +189,7 @@
   },
   "active": "8e34289ad79add83",
   "lastOpenFiles": [
+    "Boundary Actions/Prey Feeding Boundary Action.md",
     "Spec Tree.md",
     "Parameters/Initial Predator Food.md",
     "Parameters/Initial Prey Food.md",
@@ -213,7 +214,6 @@
     "Spaces/Agent Location Space.md",
     "Spaces/Agents Space.md",
     "Wiring/Natural Death Wiring.md",
-    "Parameters/Maximum Age Parameter.md",
-    "Wiring/Hunt Prey Wiring.md"
+    "Parameters/Maximum Age Parameter.md"
   ]
 }
