@@ -1,3 +1,20 @@
-- Called by [[MSML Scaffold 2/Entities/Agent|Agent]]
-- Codomain of [[Agents Space]] which represents which agents are moving
-- First boundary action will be all agents try to move
+## Description
+
+Boundary action which determines which agents can move and also the ordering of which ones move first.
+## Called By
+1. [[Agent]]
+
+## Followed By
+
+## Constraints
+
+## Codomain Spaces
+1. [[Agents Space]]
+
+## Boundary Action Options:
+### 1. All Agents Movement
+#### Description
+All agents move
+#### Logic
+Return all agents after randomly shuffling the order
+

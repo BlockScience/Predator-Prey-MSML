@@ -1,4 +1,20 @@
-- Called by [[MSML Scaffold 2/Entities/Agent|Agent]]
-- Returns a codomain of [[Agents Space]] representing the eligible potential agents for reproduction
-- Uses [[MSML Scaffold 2/Parameters/Reproduction Food Threshold|Reproduction Food Threshold]] to determine the list
-- Uses [[MSML Scaffold 2/Parameters/Reproduction Probability|Reproduction Probability]] as well
+## Description
+
+Boundary action which determines which agents are eligible for reproduction.
+## Called By
+1. [[Agent]]
+
+## Followed By
+
+## Constraints
+
+## Codomain Spaces
+1. [[Agents Space]]
+
+## Boundary Action Options:
+### 1. Reproduction Threshold Reproduction Boundary Action
+#### Description
+All agents with food equal to or over the reproduction threshold reproduce
+#### Logic
+Return all agents eligible for reproduction after shuffling
+

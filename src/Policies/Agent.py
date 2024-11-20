@@ -38,5 +38,24 @@ increase_agent_age_policy = {
     "metrics_used": [],
 }
 
+prey_feeding_policy_option1 = {
+    "name": "Prey Eat All Food Policy",
+    "description": "Eat all the food at the location",
+    "logic": """For every location the prey eats all the food available""",
+}
 
-agent_policies = [natural_death_policy, increase_agent_age_policy]
+prey_feeding_policy = {
+    "name": "Prey Feeding Policy",
+    "description": "The policy which determines the amount of food that each location will eat.",
+    "constraints": [],
+    "policy_options": [prey_feeding_policy_option1],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Location Food Delta Space", "Agent Food Delta Space"],
+    "parameters_used": [],
+    "metrics_used": ["Available Food Metric"],
+}
+
+
+agent_policies = [natural_death_policy, increase_agent_age_policy, prey_feeding_policy]

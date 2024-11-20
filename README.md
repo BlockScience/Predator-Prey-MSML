@@ -264,6 +264,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Open Locations Stateful Metric
 │   ├──Agent Stateful Metrics
 │   │   ├──Prey Stateful Metric
+│   │   ├──Predator Stateful Metric
 ├──Types
 │   ├──DUMMY ABCDEF Type
 │   ├──DUMMY Integer Type
@@ -319,6 +320,9 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──DUMMY Length-1 ABC Boundary Action
 │   ├──DUMMY Length-2 ABC Combo Boundary Action
 │   ├──Prey Feeding Boundary Action
+│   ├──Hunt Prey Boundary Action
+│   ├──Agent Movement Boundary Action
+│   ├──Agent Reproduction Boundary Action
 ├──Control Actions
 │   ├──DUMMY Length-1 DEF Control Action
 │   ├──Food Growth Control Action
@@ -329,6 +333,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Food Growth Policy
 │   ├──Natural Death Policy
 │   ├──Increase Agent Age Policy
+│   ├──Prey Feeding Policy
 ├──Mechanisms
 │   ├──DUMMY Update Dummy Entity Mechanism
 │   ├──DUMMY Increment Time Mechanism

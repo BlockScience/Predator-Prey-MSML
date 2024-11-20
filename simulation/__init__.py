@@ -8,6 +8,12 @@ from .config import (
     state_test_natural_death,
     params_prey_feeding_test,
     state_base_prey_feeding_test,
+    params_hunt_prey_test,
+    state_hunt_prey_test,
+    params_agent_movement_test,
+    state_agent_movement_test,
+    params_agent_reproduction_test,
+    state_agent_reproduction_test,
 )
 from .preprocessing import (
     compute_starting_total_length,

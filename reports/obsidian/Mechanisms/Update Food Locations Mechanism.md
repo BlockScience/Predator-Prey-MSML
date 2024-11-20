@@ -3,6 +3,7 @@
 A mechanism for updating food locations
 ## Called By
 1. [[Food Growth Policy]]
+2. [[Prey Feeding Policy]]
 ## Domain Spaces
 1. [[Location Food Delta Space]]
 ## Constraints

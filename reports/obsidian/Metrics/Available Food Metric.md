@@ -1,4 +1,18 @@
-- Domain of [[Locations Space]] that gives locations to query
-- Output of [[Location Food Delta Space]]
-- Uses [[MSML Scaffold 2/State Variables/Global State-Sites|Global State-Sites]]
-- Uses [[Site State-Food]]
+Description: A metric of the available food at each location.
+
+Type: [[Food Type]]
+
+Symbol: None
+
+## Logic
+Query the locations and their foods
+
+## Parameters Used
+
+## Variables Used
+1. [[Global State]].[[Global State-Sites|Sites]]
+2. [[Site State]].[[Site State-Food|Food]]
+
+## Domain Spaces
+1. [[Locations Space]]
+## Metrics Used
