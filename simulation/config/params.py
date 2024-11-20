@@ -40,3 +40,6 @@ params_prey_feeding_test["Initial Number of Prey"] = 3
 params_prey_feeding_test["Initial Prey Food"] = 5
 params_prey_feeding_test["Initial Predator Food"] = 7
 params_prey_feeding_test["Initial Number of Food Tiles"] = 10
+
+params_hunt_prey_test = deepcopy(params_prey_feeding_test)
+params_hunt_prey_test["Hunger Threshold"] = 10

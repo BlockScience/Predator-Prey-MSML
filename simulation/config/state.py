@@ -20,3 +20,6 @@ state_test_natural_death["Agents"] = [
 ]
 
 state_base_prey_feeding_test = deepcopy(state_base)
+
+
+state_hunt_prey_test = deepcopy(state_base)
