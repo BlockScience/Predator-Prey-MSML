@@ -264,6 +264,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Open Locations Stateful Metric
 │   ├──Agent Stateful Metrics
 │   │   ├──Prey Stateful Metric
+│   │   ├──Predator Stateful Metric
 ├──Types
 │   ├──DUMMY ABCDEF Type
 │   ├──DUMMY Integer Type

@@ -34,6 +34,7 @@ cssclasses:
 │   │   ├──[[Open Locations Stateful Metric]]
 │   ├──Agent Stateful Metrics
 │   │   ├──[[Prey Stateful Metric]]
+│   │   ├──[[Predator Stateful Metric]]
 ├──**Types**
 │   ├──[[DUMMY ABCDEF Type]]
 │   ├──[[DUMMY Integer Type]]
