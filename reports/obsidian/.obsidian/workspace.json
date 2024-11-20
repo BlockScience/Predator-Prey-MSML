@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Types/Agent Food Delta Array Type.md",
+                "file": "Wiring/Prey Feeding Wiring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agent Food Delta Array Type"
+              "title": "Prey Feeding Wiring"
             }
           },
           {
@@ -150,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Wiring/Prey Feeding Wiring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Prey Feeding Wiring"
             }
           },
           {
@@ -202,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,9 +217,11 @@
   },
   "active": "f31cc0b701368bb1",
   "lastOpenFiles": [
-    "Spaces/Agent Food Delta Space.md",
-    "Policies/Prey Feeding Policy.md",
+    "Wiring/Food Eating Mechanisms.md",
     "Spaces/Location Food Delta Space.md",
+    "Policies/Prey Feeding Policy.md",
+    "Spaces/Agent Food Delta Space.md",
+    "Types/Agent Food Delta Array Type.md",
     "Types/Food Location Array Type.md",
     "Metrics/Available Food Metric.md",
     "Spaces/Locations Space.md",
@@ -240,8 +242,6 @@
     "Mechanisms/Increase Agent Age Mechanism.md",
     "Mechanisms/Update Food Locations Mechanism.md",
     "Mechanisms/Update Food Mechanism.md",
-    "Types/Agent Food Delta Array Type.md",
-    "Types/Agent Age Delta Array Type.md",
-    "Policies/Hunt Prey Policy.md"
+    "Types/Agent Age Delta Array Type.md"
   ]
 }

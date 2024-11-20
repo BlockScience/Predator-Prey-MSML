@@ -27,6 +27,7 @@ agent_wiring.append(
     }
 )
 
+
 agent_wiring.append(
     {
         "name": "Increase Agent Age Wiring",
@@ -36,6 +37,33 @@ agent_wiring.append(
             "Age & Food Mechanisms",
         ],
         "description": "Wiring for updating of the agent age and decreasing their food from aging",
+        "constraints": [],
+        "type": "Stack",
+    }
+)
+
+agent_wiring.append(
+    {
+        "name": "Food Eating Mechanisms",
+        "components": [
+            "Update Food Locations Mechanism",
+            "Update Food Mechanism",
+        ],
+        "description": "Mechanisms for when food is eaten by prey",
+        "constraints": [],
+        "type": "Parallel",
+    }
+)
+
+agent_wiring.append(
+    {
+        "name": "Prey Feeding Wiring",
+        "components": [
+            "Prey Feeding Boundary Action",
+            "Prey Feeding Policy",
+            "Food Eating Mechanisms",
+        ],
+        "description": "Wiring for when prey eats food",
         "constraints": [],
         "type": "Stack",
     }
