@@ -12,3 +12,9 @@ def hunt_prey_boundary_action_v1(state, params, spaces):
     predators = [x for x in predators if x["Food"] <= params["Hunger Threshold"]]
     shuffle(predators)
     return [{"Agents": predators}]
+
+
+def all_agents_move(state, params, spaces):
+    agents = [x for x in state["Agents"]]
+    shuffle(agents)
+    return [{"Agents": agents}]
