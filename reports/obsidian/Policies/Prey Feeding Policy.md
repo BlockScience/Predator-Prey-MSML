@@ -13,9 +13,9 @@ The policy which determines the amount of food that each location will eat.
 ## Metrics Used
 1. [[Available Food Metric]]
 ## Policy Options
-### 1. Prey Feeding Policy
+### 1. Prey Eat All Food Policy
 #### Description
-Prey Eat All Food Policy
+Eat all the food at the location
 #### Logic
 For every location the prey eats all the food available
 

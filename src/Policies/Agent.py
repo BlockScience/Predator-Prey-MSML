@@ -39,8 +39,8 @@ increase_agent_age_policy = {
 }
 
 prey_feeding_policy_option1 = {
-    "name": "Prey Feeding Policy",
-    "description": "Prey Eat All Food Policy",
+    "name": "Prey Eat All Food Policy",
+    "description": "Eat all the food at the location",
     "logic": """For every location the prey eats all the food available""",
 }
 
