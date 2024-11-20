@@ -18,3 +18,11 @@ def all_agents_move(state, params, spaces):
     agents = [x for x in state["Agents"]]
     shuffle(agents)
     return [{"Agents": agents}]
+
+
+def reproduction_threshold_reproduction_boundary_action(state, params, spaces):
+    agents = [
+        x for x in state["Agents"] if x["Food"] >= params["Reproduction Food Threshold"]
+    ]
+    shuffle(agents)
+    return [{"Agents": agents}]
