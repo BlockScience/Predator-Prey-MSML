@@ -1,3 +1,21 @@
-- Domain of [[Agents Space]]
-- Uses [[Available Food Metric]]
-- Codomain of [[Location Food Delta Space]] and [[Agent Food Delta Space]]
+## Description
+
+The policy which determines the amount of food that each location will eat.
+## Called By
+## Domain Spaces
+1. [[Agents Space]]
+## Followed By
+## Codomain Spaces
+1. [[Location Food Delta Space]]
+2. [[Agent Food Delta Space]]
+## Constraints
+## Parameters Used
+## Metrics Used
+1. [[Available Food Metric]]
+## Policy Options
+### 1. Prey Feeding Policy
+#### Description
+Prey Eat All Food Policy
+#### Logic
+For every location the prey eats all the food available
+

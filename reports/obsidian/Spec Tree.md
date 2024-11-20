@@ -99,6 +99,7 @@ cssclasses:
 │   ├──[[Food Growth Policy]]
 │   ├──[[Natural Death Policy]]
 │   ├──[[Increase Agent Age Policy]]
+│   ├──[[Prey Feeding Policy]]
 ├──**Mechanisms**
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
