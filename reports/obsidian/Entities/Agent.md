@@ -16,6 +16,7 @@ An agent within the system
 ### [[Prey Feeding Boundary Action]]
 ### [[Hunt Prey Boundary Action]]
 ### [[Agent Movement Boundary Action]]
+### [[Agent Reproduction Boundary Action]]
 ## Mechanisms Impacting the Entity
 ### [[Update Food Mechanism]]
 ### [[Increase Agent Age Mechanism]]

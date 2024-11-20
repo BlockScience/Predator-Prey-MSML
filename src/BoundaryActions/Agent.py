@@ -61,8 +61,32 @@ agent_movement_boundary_action = {
     "metrics_used": [],
 }
 
+
+agent_reproduction_boundary_action_option1 = {
+    "name": "Reproduction Threshold Reproduction Boundary Action",
+    "description": "All agents with food equal to or over the reproduction threshold reproduce",
+    "logic": "Return all agents eligible for reproduction after shuffling",
+}
+
+agent_reproduction_boundary_action = {
+    "name": "Agent Reproduction Boundary Action",
+    "description": "Boundary action which determines which agents are eligible for reproduction.",
+    "constraints": [],
+    "boundary_action_options": [
+        agent_reproduction_boundary_action_option1,
+    ],
+    "called_by": ["Agent"],
+    "codomain": [
+        "Agents Space",
+    ],
+    "parameters_used": ["Reproduction Food Threshold"],
+    "metrics_used": [],
+}
+
+
 agent_boundary_actions = [
     prey_feeding_boundary_action,
     hunt_prey_boundary_action,
     agent_movement_boundary_action,
+    agent_reproduction_boundary_action,
 ]
