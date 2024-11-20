@@ -12,6 +12,8 @@ from .config import (
     state_hunt_prey_test,
     params_agent_movement_test,
     state_agent_movement_test,
+    params_agent_reproduction_test,
+    state_agent_reproduction_test,
 )
 from .preprocessing import (
     compute_starting_total_length,
