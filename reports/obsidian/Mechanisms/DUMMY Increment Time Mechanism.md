@@ -5,6 +5,10 @@ A mechanism which adds one to the clock time
 ## Domain Spaces
 1. [[Empty Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 1. Increment the global time by 1
 

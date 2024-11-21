@@ -11,6 +11,10 @@ Boundary action which determines which agents can move and also the ordering of 
 ## Codomain Spaces
 1. [[Agents Space]]
 
+## Metrics Used
+
+## Parameters Used
+
 ## Boundary Action Options:
 ### 1. All Agents Movement
 #### Description

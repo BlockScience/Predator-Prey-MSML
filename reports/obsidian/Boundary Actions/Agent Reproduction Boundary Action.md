@@ -11,6 +11,11 @@ Boundary action which determines which agents are eligible for reproduction.
 ## Codomain Spaces
 1. [[Agents Space]]
 
+## Metrics Used
+
+## Parameters Used
+1. [[Reproduction Food Threshold]]
+
 ## Boundary Action Options:
 ### 1. Reproduction Threshold Reproduction Boundary Action
 #### Description

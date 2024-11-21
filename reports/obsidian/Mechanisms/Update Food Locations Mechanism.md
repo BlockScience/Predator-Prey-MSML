@@ -7,6 +7,10 @@ A mechanism for updating food locations
 ## Domain Spaces
 1. [[Location Food Delta Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 Add the delta food to each locations food amount
 

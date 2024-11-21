@@ -73,6 +73,9 @@ Dummy Boundary Block
 3. [[Empty Space]]
 4. [[Terminating Space]]
 
+## Metrics Used
+1. [[DUMMY Multiplied Length Metric]]
+
 ## Parameters Used
 1. [[DUMMY Length Multiplier]]
 

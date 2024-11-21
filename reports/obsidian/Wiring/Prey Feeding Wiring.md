@@ -65,6 +65,10 @@ Wiring for when prey eats food
 4. [[Location Food Delta Space]]
 5. [[Terminating Space]]
 
+## Metrics Used
+1. [[Available Food Metric]]
+2. [[Prey Stateful Metric]]
+
 ## Parameters Used
 1. [[Hunger Threshold]]
 

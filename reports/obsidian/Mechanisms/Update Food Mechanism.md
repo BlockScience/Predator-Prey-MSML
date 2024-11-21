@@ -7,6 +7,10 @@ Updates the agent food based on the delta
 ## Domain Spaces
 1. [[Agent Food Delta Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 Updates the agent food based on the delta
 

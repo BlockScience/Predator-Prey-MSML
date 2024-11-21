@@ -12,6 +12,10 @@ Boundary action which returns a string of length 2 which is some combination of 
 ## Codomain Spaces
 1. [[DUMMY ABCDEF Space]]
 
+## Metrics Used
+
+## Parameters Used
+
 ## Boundary Action Options:
 ### 1. DUMMY Length-2 ABC Equal Weight Option
 #### Description

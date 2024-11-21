@@ -47,6 +47,8 @@ Wiring for growth of food
 2. [[Empty Space]]
 3. [[Terminating Space]]
 
+## Metrics Used
+
 ## Parameters Used
 1. [[Maximum Age Parameter]]
 

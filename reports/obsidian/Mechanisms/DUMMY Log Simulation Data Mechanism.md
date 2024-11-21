@@ -5,6 +5,10 @@ A mechanism for logging simulation data
 ## Domain Spaces
 1. [[Empty Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 Append simulation data to the simulation log
 

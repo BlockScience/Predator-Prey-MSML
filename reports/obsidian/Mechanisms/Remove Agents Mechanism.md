@@ -6,6 +6,10 @@ A mechanism for removing agents
 ## Domain Spaces
 1. [[Agents Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 Remove the agents that are in the agents space
 

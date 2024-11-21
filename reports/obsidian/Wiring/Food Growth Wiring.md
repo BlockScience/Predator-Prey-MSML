@@ -48,6 +48,8 @@ Wiring for growth of food
 3. [[Locations Space]]
 4. [[Terminating Space]]
 
+## Metrics Used
+
 ## Parameters Used
 1. [[Food Growth Rate]]
 2. [[Maximum Food per Tile]]

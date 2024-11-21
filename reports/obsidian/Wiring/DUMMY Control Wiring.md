@@ -73,6 +73,9 @@ Dummy Control Block
 3. [[Empty Space]]
 4. [[Terminating Space]]
 
+## Metrics Used
+1. [[DUMMY Multiplied Length Metric]]
+
 ## Parameters Used
 1. [[DUMMY D Probability]]
 2. [[DUMMY Length Multiplier]]

@@ -8,6 +8,8 @@ Returns a list of locations that might potentially have food growth
 ## Codomain Spaces
 1. [[Locations Space]]
 
+## Metrics Used
+
 ## Parameters Used
 1. [[Maximum Food per Tile]]
 

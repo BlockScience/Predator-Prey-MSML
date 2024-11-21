@@ -6,6 +6,10 @@ A mechanism which updates agent ages
 ## Domain Spaces
 1. [[Agent Age Delta Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 Update each agent age by iterating through the list of agent updates from the domain
 

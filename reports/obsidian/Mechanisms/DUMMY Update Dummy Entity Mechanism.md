@@ -7,6 +7,10 @@ A mechanism which appends the word just added and also increments the total leng
 ## Domain Spaces
 1. [[DUMMY String Length Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 1. Append the string from DOMAIN[0] to the Words state variable for DUMMY entity
     2. Increment the Total Length state variable by the length from DOMAIN[0]

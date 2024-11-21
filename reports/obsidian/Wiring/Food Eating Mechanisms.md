@@ -54,6 +54,8 @@ Mechanisms for when food is eaten by prey
 3. [[Location Food Delta Space]]
 4. [[Terminating Space]]
 
+## Metrics Used
+
 ## Parameters Used
 
 ## Called By

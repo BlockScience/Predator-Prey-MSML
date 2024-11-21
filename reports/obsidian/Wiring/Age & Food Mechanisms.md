@@ -53,6 +53,8 @@ Mechanisms for updating food and age
 3. [[Empty Space]]
 4. [[Terminating Space]]
 
+## Metrics Used
+
 ## Parameters Used
 
 ## Called By
