@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiring/Agent Movement Wiring.md",
+                "file": "Spaces/Agent Age Delta Space.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agent Movement Wiring"
+              "title": "Agent Age Delta Space"
             }
           },
           {
@@ -169,12 +169,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiring/Agent Movement Wiring.md",
+                "file": "Spaces/Agent Age Delta Space.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Agent Movement Wiring"
+              "title": "Outgoing links from Agent Age Delta Space"
             }
           },
           {
@@ -219,18 +219,22 @@
   },
   "active": "f31cc0b701368bb1",
   "lastOpenFiles": [
+    "Spaces/Agent Food Delta Space.md",
+    "Spaces/Agent Location Space.md",
+    "Spaces/DUMMY ABCDEF Space.md",
+    "Spaces/DUMMY String Length Space.md",
+    "Spaces/Empty Space.md",
+    "Wiring/Agent Movement Wiring.md",
     "Boundary Actions/Hunt Prey Boundary Action.md",
     "Wiring/Hunt Prey Wiring.md",
     "Mechanisms/Update Agents Mechanism.md",
     "Mechanisms/Update Agent Locations Mechanism.md",
-    "Wiring/Agent Movement Wiring.md",
     "Wiring/Increase Agent Age Wiring.md",
     "Wiring/Natural Death Wiring.md",
     "Wiring/Prey Feeding Wiring.md",
     "Wiring/Food Eating Mechanisms.md",
     "Spaces/Location Food Delta Space.md",
     "Policies/Prey Feeding Policy.md",
-    "Spaces/Agent Food Delta Space.md",
     "Types/Agent Food Delta Array Type.md",
     "Types/Food Location Array Type.md",
     "Metrics/Available Food Metric.md",
@@ -240,10 +244,6 @@
     "Stateful Metrics/Prey Stateful Metric.md",
     "Boundary Actions/Prey Feeding Boundary Action.md",
     "Spec Tree.md",
-    "Parameters/Initial Predator Food.md",
-    "Parameters/Initial Prey Food.md",
-    "Stateful Metrics/Open Locations Stateful Metric.md",
-    "State Variables/Site State-Agent.md",
-    "State Variables/Agent State-Location.md"
+    "Parameters/Initial Predator Food.md"
   ]
 }
