@@ -2,6 +2,10 @@ def remove_agents_mechanism(state, params, spaces):
     state["Agents"] = [
         agent for agent in state["Agents"] if agent not in spaces[0]["Agents"]
     ]
+    for agent in spaces[0]["Agents"]:
+        state["Sites Matrix"][agent["Location"][0]][agent["Location"][1]][
+            "Agent"
+        ] = None
 
 
 def update_food_mechanism(state, params, spaces):
