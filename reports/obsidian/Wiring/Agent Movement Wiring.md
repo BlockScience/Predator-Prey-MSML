@@ -23,3 +23,5 @@ def move_agents(params, substep, state_history, prev_state):
 
 Can add in a [[Free Locations Metric]]
 Uses [[Update Agent Locations Mechanism]]
+
+Do a sieve approach where you start with all the movements, try to move, and anywhere that causes issues gets added back in

@@ -53,3 +53,5 @@ params_agent_reproduction_test["Site Size"] = (2, 2)
 params_agent_reproduction_test["Initial Number of Predators"] = 0
 params_agent_reproduction_test["Initial Number of Prey"] = 2
 params_agent_reproduction_test["Initial Prey Food"] = 5
+
+params_mech_test = deepcopy(params_base)
