@@ -164,6 +164,9 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Spaces/Agent Location Space.md",
+    "reports/obsidian/Types/Agent Location Array Type.md",
+    "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
     "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
     "reports/obsidian/States/Global State.md",
     "reports/obsidian/State Variables/Global State-Agents.md",
@@ -186,9 +189,6 @@
     "reports/obsidian/Stateful Metrics/Number of Predators Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Median Site Food Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Median Prey Food Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Prey Age Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Predator Food Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Predator Age Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/DUMMY Nominal Length Stateful Metric.md"
+    "reports/obsidian/Stateful Metrics/Median Prey Age Stateful Metric.md"
   ]
 }
