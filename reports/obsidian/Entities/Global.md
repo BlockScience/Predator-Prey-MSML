@@ -19,6 +19,5 @@
 ### [[DUMMY Log Simulation Data Mechanism]]
 ### [[Remove Agents Mechanism]]
 ### [[Create Agents Mechanism]]
-### [[Create Agents Mechanism]]
 ## Actions Impacting the Entity
 ### [[Natural Death Control Action]]

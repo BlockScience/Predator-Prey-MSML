@@ -43,7 +43,7 @@ create_agents_mechanism = {
     "parameters_used": [],
     "updates": [
         ("Global", "Agents", False),
-        ("Global", "Sites", False),
+        ("Site", "Agent", False),
     ],
 }
 

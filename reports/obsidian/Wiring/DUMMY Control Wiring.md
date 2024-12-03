@@ -22,9 +22,9 @@ direction TB
 X1["DUMMY Length-1 DEF Control Action"]
 X2["DUMMY Letter Count Policy"]
 X3["DUMMY State Update Mechanisms"]
+X3 --> EES0
 X3 --> EES1
 X3 --> EES3
-X3 --> EES0
 X4["DUMMY Log Simulation Data Mechanism"]
 X4 --> EES2
 X1--"DUMMY ABCDEF Space"--->X2
