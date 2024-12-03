@@ -19,4 +19,10 @@ def update_agent_age_mechanism(state, params, spaces):
 
 
 def create_agents_mechanism(state, params, spaces):
-    pass
+    for agent in spaces[0]["Agents"]:
+        loc = agent["Location"]
+        assert (
+            state["Sites Matrix"][loc[0]][loc[1]]["Agent"] is None
+        ), "Agent is already at this location!"
+        state["Agents"].append(agent)
+        state["Sites Matrix"][loc[0]][loc[1]]["Agent"] = agent
