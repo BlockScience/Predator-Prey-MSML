@@ -16,3 +16,7 @@ def update_food_mechanism(state, params, spaces):
 def update_agent_age_mechanism(state, params, spaces):
     for values in spaces[0]["Age Deltas"]:
         values["Agent"]["Age"] += values["Delta Age"]
+
+
+def create_agents_mechanism(state, params, spaces):
+    pass

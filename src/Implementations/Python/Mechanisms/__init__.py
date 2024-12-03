@@ -8,6 +8,7 @@ from .Agent import (
     remove_agents_mechanism,
     update_food_mechanism,
     update_agent_age_mechanism,
+    create_agents_mechanism,
 )
 
 mechanisms = {
@@ -18,4 +19,5 @@ mechanisms = {
     "Remove Agents Mechanism": remove_agents_mechanism,
     "Update Food Mechanism": update_food_mechanism,
     "Increase Agent Age Mechanism": update_agent_age_mechanism,
+    "Create Agents Mechanism": create_agents_mechanism,
 }

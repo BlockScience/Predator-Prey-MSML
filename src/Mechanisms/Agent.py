@@ -34,8 +34,22 @@ increase_agent_age_mechanism = {
     ],
 }
 
+create_agents_mechanism = {
+    "name": "Create Agents Mechanism",
+    "description": "A mechanism which creates a new agent",
+    "constraints": ["The locations of the new agents must not be in use already"],
+    "logic": """Adds the new agents to the agents array and updates the locations matrix""",
+    "domain": ["Agents Space"],
+    "parameters_used": [],
+    "updates": [
+        ("Global", "Agents", False),
+        ("Global", "Sites", False),
+    ],
+}
+
 agent_mechanisms = [
     remove_agents_mechanism,
     update_food_mechanism,
     increase_agent_age_mechanism,
+    create_agents_mechanism,
 ]

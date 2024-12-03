@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Wiring/Food Eating Mechanisms.md",
+                "file": "reports/obsidian/States/Global State.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Food Eating Mechanisms"
+              "title": "Global State"
             }
           }
         ]
@@ -164,6 +164,9 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/State Variables/Global State-Agents.md",
+    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
+    "reports/obsidian/Wiring/Food Eating Mechanisms.md",
     "reports/obsidian/Wiring/DUMMY State Update Mechanisms.md",
     "reports/obsidian/Wiring/DUMMY Length-2 Boundary Wiring.md",
     "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
@@ -186,9 +189,6 @@
     "reports/obsidian/Stateful Metrics/Median Predator Food Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Median Predator Age Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/DUMMY Nominal Length Stateful Metric.md",
-    "reports/obsidian/Mechanisms/Remove Agents Mechanism.md",
-    "reports/obsidian/Policies/Food Growth Policy.md",
-    "reports/obsidian/Policies/Agent Movement Policy.md",
-    "reports/obsidian/Boundary Actions/Agent Movement Boundary Action.md"
+    "reports/obsidian/Mechanisms/Remove Agents Mechanism.md"
   ]
 }
