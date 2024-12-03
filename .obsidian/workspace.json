@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
-                "mode": "preview",
+                "file": "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Create Agents Mechanism"
+              "title": "Update Agent Locations Mechanism"
             }
           }
         ]
@@ -164,9 +164,9 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
     "reports/obsidian/States/Global State.md",
     "reports/obsidian/State Variables/Global State-Agents.md",
-    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
     "reports/obsidian/Wiring/Food Eating Mechanisms.md",
     "reports/obsidian/Wiring/DUMMY State Update Mechanisms.md",
     "reports/obsidian/Wiring/DUMMY Length-2 Boundary Wiring.md",
