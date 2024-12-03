@@ -6,6 +6,7 @@ from .state import (
     state_hunt_prey_test,
     state_agent_movement_test,
     state_agent_reproduction_test,
+    state_mech_test,
 )
 from .params import (
     params_base,
@@ -15,5 +16,6 @@ from .params import (
     params_hunt_prey_test,
     params_agent_movement_test,
     params_agent_reproduction_test,
+    params_mech_test,
 )
 from .experiment import experiments_map

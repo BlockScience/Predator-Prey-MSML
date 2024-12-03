@@ -1,3 +1,42 @@
+## Wiring Diagram (Zoomed Out)
+
+- For display of only depth of 1 in the components/nested wirings
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("DUMMY Entity")]
+EE1[("Global")]
+EES0(["Total Length"])
+EES0 --- EE0
+EES1(["Words"])
+EES1 --- EE0
+EES2(["Time"])
+EES2 --- EE1
+end
+
+subgraph X5["DUMMY State Update Mechanisms"]
+direction TB
+X1["DUMMY Update Dummy Entity Mechanism"]
+X1 --> EES1
+X1 --> EES0
+X2["DUMMY Increment Time Mechanism"]
+X2 --> EES2
+X3[Domain]
+
+direction LR
+direction TB
+X3 --"DUMMY String Length Space"--> X1
+X3 --> X2
+end
+class X1 internal-link;
+class X2 internal-link;
+class X4 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
+```
+
 ## Wiring Diagram
 
 ```mermaid
@@ -28,6 +67,12 @@ direction TB
 X3 --"DUMMY String Length Space"--> X1
 X3 --> X2
 end
+class X1 internal-link;
+class X2 internal-link;
+class X4 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ## Description
@@ -54,6 +99,8 @@ Mechanisms for updating the state of the system
 1. [[DUMMY String Length Space]]
 2. [[Empty Space]]
 3. [[Terminating Space]]
+
+## Metrics Used
 
 ## Parameters Used
 

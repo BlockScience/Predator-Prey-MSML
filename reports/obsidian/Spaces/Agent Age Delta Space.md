@@ -1,3 +1,10 @@
 ## Schema
 
 {Age Deltas: [[Agent Age Delta Array Type]]}
+
+## Blocks with Space in Domain
+1. [[Increase Agent Age Mechanism]]
+
+## Blocks with Space in Codomain
+1. [[Increase Agent Age Policy]]
+

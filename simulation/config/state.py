@@ -27,3 +27,5 @@ state_hunt_prey_test = deepcopy(state_base)
 state_agent_movement_test = deepcopy(state_base)
 
 state_agent_reproduction_test = deepcopy(state_base)
+
+state_mech_test = deepcopy(state_base)

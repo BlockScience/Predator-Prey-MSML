@@ -7,9 +7,21 @@ Updates the agent food based on the delta
 ## Domain Spaces
 1. [[Agent Food Delta Space]]
 ## Constraints
+## Metrics Used
+
+## Parameters Used
+
 ## Logic
 Updates the agent food based on the delta
 
 ## Updates
 
 1. [[Agent]].[[Agent State-Food|Food]]
+## Python Implementation
+```python
+def update_food_mechanism(state, params, spaces):
+    for values in spaces[0]["Food Deltas"]:
+        values["Agent"]["Food"] += values["Delta Food"]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py](../../../src/Implementations/Python/Mechanisms/Agent.py)
+

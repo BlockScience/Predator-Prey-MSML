@@ -1,3 +1,37 @@
+## Wiring Diagram (Zoomed Out)
+
+- For display of only depth of 1 in the components/nested wirings
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("Agent")]
+EES0(["Age"])
+EES0 --- EE0
+EES1(["Food"])
+EES1 --- EE0
+end
+
+subgraph X5["Age & Food Mechanisms"]
+direction TB
+X1["Update Food Mechanism"]
+X1 --> EES1
+X2["Increase Agent Age Mechanism"]
+X2 --> EES0
+X3[Domain]
+
+direction LR
+direction TB
+X3 --"Agent Food Delta Space"--> X1
+X3 --"Agent Age Delta Space"--> X2
+end
+class X1 internal-link;
+class X2 internal-link;
+class X4 internal-link;
+class EE0 internal-link;
+
+```
+
 ## Wiring Diagram
 
 ```mermaid
@@ -24,6 +58,11 @@ direction TB
 X3 --"Agent Food Delta Space"--> X1
 X3 --"Agent Age Delta Space"--> X2
 end
+class X1 internal-link;
+class X2 internal-link;
+class X4 internal-link;
+class EE0 internal-link;
+
 ```
 
 ## Description
@@ -52,6 +91,8 @@ Mechanisms for updating food and age
 2. [[Agent Food Delta Space]]
 3. [[Empty Space]]
 4. [[Terminating Space]]
+
+## Metrics Used
 
 ## Parameters Used
 

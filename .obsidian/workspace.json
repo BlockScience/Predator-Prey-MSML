@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "31ccaa322aaacf54",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cb5a626a9dd2f08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4507d71ae7a37972",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Update Agent Locations Mechanism"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e46fcfb80976bff3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f77f0b3e5222581",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d22544f4bf70edd5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "519d97b2c30da3c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1d755fb1768179ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b35b0bb3eb88d58f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9611353582034795",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01293bb3f9059a0c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "reports/obsidian/Wiring/Food Eating Mechanisms.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Food Eating Mechanisms"
+            }
+          },
+          {
+            "id": "949f681403c3ac43",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "reports/obsidian/Wiring/Food Eating Mechanisms.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Food Eating Mechanisms"
+            }
+          },
+          {
+            "id": "ae035b806eb54a8e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ee345eb50da55e22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "reports/obsidian/Wiring/Food Eating Mechanisms.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Food Eating Mechanisms"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4507d71ae7a37972",
+  "lastOpenFiles": [
+    "reports/obsidian/Spaces/Agent Location Space.md",
+    "reports/obsidian/Types/Agent Location Array Type.md",
+    "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
+    "reports/obsidian/States/Global State.md",
+    "reports/obsidian/State Variables/Global State-Agents.md",
+    "reports/obsidian/Wiring/Food Eating Mechanisms.md",
+    "reports/obsidian/Wiring/DUMMY State Update Mechanisms.md",
+    "reports/obsidian/Wiring/DUMMY Length-2 Boundary Wiring.md",
+    "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
+    "reports/obsidian/Wiring/Agent Movement Wiring.md",
+    "reports/obsidian/Wiring/Age & Food Mechanisms.md",
+    "reports/obsidian/Metrics/Neighbors Metric.md",
+    "reports/obsidian/Metrics/Is Neighbor Metric.md",
+    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
+    "reports/obsidian/Metrics/Free Locations Metric.md",
+    "reports/obsidian/Metrics/DUMMY Multiplied Length Metric.md",
+    "reports/obsidian/Metrics/Available Food Metric.md",
+    "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Predator Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Open Locations Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Number of Prey Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Number of Predators Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Median Site Food Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Median Prey Food Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Median Prey Age Stateful Metric.md"
+  ]
+}

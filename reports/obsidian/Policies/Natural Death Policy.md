@@ -19,4 +19,18 @@ The policy which determines which agents die.
 Anyone over the maximum age dies and anyone with no food dies
 #### Logic
 Filter list by the above
+#### Python Implementation
+```python
+def natural_death_policy(state, params, spaces):
+    agents = spaces[0]["Agents"]
+    space = {
+        "Agents": [
+            agent
+            for agent in agents
+            if agent["Age"] >= params["Maximum Age Parameter"] or agent["Food"] <= 0
+        ]
+    }
+    return [space]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
 

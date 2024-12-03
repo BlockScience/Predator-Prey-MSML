@@ -18,6 +18,7 @@ An agent within the system
 ### [[Agent Movement Boundary Action]]
 ### [[Agent Reproduction Boundary Action]]
 ## Mechanisms Impacting the Entity
+### [[Update Agent Locations Mechanism]]
 ### [[Update Food Mechanism]]
 ### [[Increase Agent Age Mechanism]]
 ## Actions Impacting the Entity

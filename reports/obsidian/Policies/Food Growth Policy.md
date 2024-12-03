@@ -20,4 +20,18 @@ The policy determines the amount of food growth per site.
 Add a constant rate of food growth to each location up to the maximum
 #### Logic
 For each location, the delta is equal to min(Food + params["Food Growth Rate"], params["Maximum Food per Tile"])
+#### Python Implementation
+```python
+def constant_food_growth_policy(state, params, spaces):
+    space = {"Food Locations": []}
+    for loc in spaces[0]["Locations"]:
+        delta_food = min(
+            params["Maximum Food per Tile"] - loc["Food"], params["Food Growth Rate"]
+        )
+        space["Food Locations"].append(
+            {"Location": loc["Location"], "Food": delta_food}
+        )
+    return [space]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Site.py](../../../src/Implementations/Python/Policies/Site.py)
 

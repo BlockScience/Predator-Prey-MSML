@@ -1,3 +1,45 @@
+## Wiring Diagram (Zoomed Out)
+
+- For display of only depth of 1 in the components/nested wirings
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("DUMMY Entity")]
+EE1[("Global")]
+EES0(["Total Length"])
+EES0 --- EE0
+EES1(["Words"])
+EES1 --- EE0
+EES2(["Simulation Log"])
+EES2 --- EE1
+EES3(["Time"])
+EES3 --- EE1
+end
+
+subgraph X5["DUMMY Control Wiring"]
+direction TB
+X1["DUMMY Length-1 DEF Control Action"]
+X2["DUMMY Letter Count Policy"]
+X3["DUMMY State Update Mechanisms"]
+X3 --> EES0
+X3 --> EES3
+X3 --> EES1
+X4["DUMMY Log Simulation Data Mechanism"]
+X4 --> EES2
+X1--"DUMMY ABCDEF Space"--->X2
+X2-."DUMMY String Length Space"..->X3
+X3--->X4
+end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
+```
+
 ## Wiring Diagram
 
 ```mermaid
@@ -40,6 +82,15 @@ X1--"DUMMY ABCDEF Space"--->X2
 X2-."DUMMY String Length Space"..->X7
 X7--->X8
 end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class X8 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ## Description
@@ -72,6 +123,9 @@ Dummy Control Block
 2. [[DUMMY String Length Space]]
 3. [[Empty Space]]
 4. [[Terminating Space]]
+
+## Metrics Used
+1. [[DUMMY Multiplied Length Metric]]
 
 ## Parameters Used
 1. [[DUMMY D Probability]]

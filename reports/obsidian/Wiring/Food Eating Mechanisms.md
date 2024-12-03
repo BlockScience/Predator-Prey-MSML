@@ -1,3 +1,39 @@
+## Wiring Diagram (Zoomed Out)
+
+- For display of only depth of 1 in the components/nested wirings
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("Agent")]
+EE1[("Site")]
+EES0(["Food"])
+EES0 --- EE0
+EES1(["Food"])
+EES1 --- EE1
+end
+
+subgraph X5["Food Eating Mechanisms"]
+direction TB
+X1["Update Food Locations Mechanism"]
+X1 --> EES1
+X2["Update Food Mechanism"]
+X2 --> EES0
+X3[Domain]
+
+direction LR
+direction TB
+X3 --"Location Food Delta Space"--> X1
+X3 --"Agent Food Delta Space"--> X2
+end
+class X1 internal-link;
+class X2 internal-link;
+class X4 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
+```
+
 ## Wiring Diagram
 
 ```mermaid
@@ -25,6 +61,12 @@ direction TB
 X3 --"Location Food Delta Space"--> X1
 X3 --"Agent Food Delta Space"--> X2
 end
+class X1 internal-link;
+class X2 internal-link;
+class X4 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ## Description
@@ -53,6 +95,8 @@ Mechanisms for when food is eaten by prey
 2. [[Empty Space]]
 3. [[Location Food Delta Space]]
 4. [[Terminating Space]]
+
+## Metrics Used
 
 ## Parameters Used
 

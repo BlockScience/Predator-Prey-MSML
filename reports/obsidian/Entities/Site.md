@@ -14,6 +14,8 @@ A site within the sites
 ## Boundary Actions
 ## Mechanisms Impacting the Entity
 ### [[Update Food Locations Mechanism]]
+### [[Update Agent Locations Mechanism]]
+### [[Create Agents Mechanism]]
 ## Actions Impacting the Entity
 ### [[Prey Feeding Boundary Action]]
 ### [[Food Growth Control Action]]
