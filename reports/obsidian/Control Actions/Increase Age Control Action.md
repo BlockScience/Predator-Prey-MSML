@@ -18,4 +18,10 @@ Returns a list of potential agents that should have their age increased
 Simply return all agents
 #### Logic
 Return all agents
+#### Python Implementation
+```python
+def increase_agent_age_control_action_v1(state, params, spaces):
+    return [{"Agents": state["Agents"]}]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/ControlActions/Agent.py](../../../src/Implementations/Python/ControlActions/Agent.py)
 

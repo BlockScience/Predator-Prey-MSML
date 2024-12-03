@@ -40,6 +40,15 @@ X1--"DUMMY ABCDEF Space"--->X2
 X2--"DUMMY String Length Space"--->X7
 X7--->X8
 end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class X8 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ```mermaid
@@ -82,6 +91,15 @@ X1--"DUMMY ABCDEF Space"--->X2
 X2--"DUMMY String Length Space"--->X7
 X7--->X8
 end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class X8 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ## Description

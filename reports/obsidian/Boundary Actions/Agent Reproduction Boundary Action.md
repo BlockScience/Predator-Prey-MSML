@@ -22,4 +22,14 @@ Boundary action which determines which agents are eligible for reproduction.
 All agents with food equal to or over the reproduction threshold reproduce
 #### Logic
 Return all agents eligible for reproduction after shuffling
+#### Python Implementation
+```python
+def reproduction_threshold_reproduction_boundary_action(state, params, spaces):
+    agents = [
+        x for x in state["Agents"] if x["Food"] >= params["Reproduction Food Threshold"]
+    ]
+    shuffle(agents)
+    return [{"Agents": agents}]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py](../../../src/Implementations/Python/BoundaryActions/Agent.py)
 

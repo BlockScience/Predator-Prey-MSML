@@ -19,3 +19,13 @@ A mechanism which appends the word just added and also increments the total leng
 
 1. [[DUMMY Entity]].[[DUMMY State-Words|Words]]
 2. [[DUMMY Entity]].[[DUMMY State-Total Length|Total Length]]
+## Python Implementation
+```python
+def dummy_update_dummy_entity_mechanism(state, params, spaces):
+    new_string = spaces[0]["string"]
+    new_length = spaces[0]["length"]
+    state["Dummy"]["Words"] += new_string
+    state["Dummy"]["Total Length"] += new_length
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Dummy.py](../../../src/Implementations/Python/Mechanisms/Dummy.py)
+

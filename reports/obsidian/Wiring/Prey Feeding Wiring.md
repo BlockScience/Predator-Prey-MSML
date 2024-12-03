@@ -1,3 +1,37 @@
+## Wiring Diagram (Zoomed Out)
+
+- For display of only depth of 1 in the components/nested wirings
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("Agent")]
+EE1[("Site")]
+EES0(["Food"])
+EES0 --- EE0
+EES1(["Food"])
+EES1 --- EE1
+end
+
+subgraph X4["Prey Feeding Wiring"]
+direction TB
+X1["Prey Feeding Boundary Action"]
+X2["Prey Feeding Policy"]
+X3["Food Eating Mechanisms"]
+X3 --> EES0
+X3 --> EES1
+X1--"Agents Space"--->X2
+X2--"Location Food Delta Space
+Agent Food Delta Space"---->X3
+end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
+```
+
 ## Wiring Diagram
 
 ```mermaid
@@ -33,6 +67,14 @@ X1--"Agents Space"--->X2
 X2--"Location Food Delta Space
 Agent Food Delta Space"---->X7
 end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ## Description

@@ -15,3 +15,16 @@ Append simulation data to the simulation log
 ## Updates
 
 1. [[Global]].[[Global State-Simulation Log|Simulation Log]]
+## Python Implementation
+```python
+def dummy_log_simulation_data_mechanism(state, params, spaces):
+    state["Simulation Log"].append(
+        {
+            "Time": state["Time"],
+            "Word": state["Dummy"]["Words"],
+            "Length (Multiplied)": state["Dummy"]["Total Length"],
+        }
+    )
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Dummy.py](../../../src/Implementations/Python/Mechanisms/Dummy.py)
+

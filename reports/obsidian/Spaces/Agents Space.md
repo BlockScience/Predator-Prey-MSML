@@ -3,10 +3,10 @@
 {Agents: [[Agent Array Type]]}
 
 ## Blocks with Space in Domain
-1. [[Increase Agent Age Policy]]
-2. [[Remove Agents Mechanism]]
-3. [[Natural Death Policy]]
-4. [[Prey Feeding Policy]]
+1. [[Remove Agents Mechanism]]
+2. [[Natural Death Policy]]
+3. [[Prey Feeding Policy]]
+4. [[Increase Agent Age Policy]]
 
 ## Blocks with Space in Codomain
 1. [[Increase Age Control Action]]

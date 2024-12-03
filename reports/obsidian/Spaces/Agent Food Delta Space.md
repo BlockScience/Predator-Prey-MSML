@@ -6,6 +6,6 @@
 1. [[Update Food Mechanism]]
 
 ## Blocks with Space in Codomain
-1. [[Increase Agent Age Policy]]
-2. [[Prey Feeding Policy]]
+1. [[Prey Feeding Policy]]
+2. [[Increase Agent Age Policy]]
 
