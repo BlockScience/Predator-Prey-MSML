@@ -34,3 +34,12 @@ def prey_eat_all_food_policy(state, params, spaces):
         ]
     }
     return [space1, space2]
+
+
+def random_agent_movement_with_sieve(state, params, spaces):
+    agents = spaces[0]["Agents"]
+    open_locations = state["Stateful Metrics"]["Open Locations Stateful Metric"](
+        state, params
+    )
+    open_locations = [x["Location"] for x in open_locations]
+    print(open_locations)
