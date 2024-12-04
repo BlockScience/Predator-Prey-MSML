@@ -57,5 +57,25 @@ prey_feeding_policy = {
     "metrics_used": ["Available Food Metric"],
 }
 
+agent_movement_policy = {
+    "name": "Agent Movement Policy",
+    "description": "The policy which determines where agents move to.",
+    "constraints": [],
+    "policy_options": [],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Agent Locations Space"],
+    "parameters_used": [],
+    "metrics_used": [
+        "Neighboring Valid Tiles Metric",
+        "Open Locations Stateful Metric",
+    ],
+}
 
-agent_policies = [natural_death_policy, increase_agent_age_policy, prey_feeding_policy]
+agent_policies = [
+    natural_death_policy,
+    increase_agent_age_policy,
+    prey_feeding_policy,
+    agent_movement_policy,
+]

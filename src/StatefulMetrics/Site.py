@@ -5,12 +5,12 @@ site_stateful_metrics = {
         {
             "type": "Locations Array Type",
             "name": "Open Locations Stateful Metric",
-            "description": "The list of open stateful metrics",
+            "description": "The list of open sites with no agent",
             "variables_used": [("Global State", "Sites"), ("Site State", "Agent")],
             "parameters_used": [],
             "symbol": None,
             "domain": None,
-        }
+        },
     ],
 }
 

@@ -21,7 +21,7 @@ def move_agents(params, substep, state_history, prev_state):
     return {'update_agent_location': new_locations}
 ```
 
-Can add in a [[Free Locations Metric]]
+Can add in a [[Free Locations Stateful Metric]]
 Uses [[Update Agent Locations Mechanism]]
 
 Do a sieve approach where you start with all the movements, try to move, and anywhere that causes issues gets added back in
