@@ -1,4 +1,4 @@
-Description: The list of open stateful metrics
+Description: The list of open sites with no agent
 
 Type: [[Locations Array Type]]
 

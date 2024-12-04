@@ -14,3 +14,17 @@ site_metrics.append(
         "symbol": None,
     }
 )
+
+site_metrics.append(
+    {
+        "type": "Location Type",
+        "name": "Neighboring Valid Tiles Metric",
+        "description": "A metric of the non-busy tiles that are neighbors. The first domain element is the locations to query, the second is the busy tiles.",
+        "variables_used": [],
+        "parameters_used": ["Site Size"],
+        "metrics_used": [],
+        "domain": ["Locations Space", "Locations Space"],
+        "logic": "Query the location neighbors then filter out any that are busy",
+        "symbol": None,
+    }
+)

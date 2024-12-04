@@ -1,4 +1,14 @@
-- Domain of [[Agents Space]]
-- First policy option will be simple random one tile movement
-- Uses [[MSML Scaffold 2/Metrics/Neighboring Valid Tiles Metric|Neighboring Valid Tiles Metric]] and [[MSML Scaffold 2/Metrics/Free Locations Metric|Free Locations Metric]]
-- Codomain: [[Agent Location Space]]
+## Description
+
+The policy which determines where agents move to.
+## Called By
+## Domain Spaces
+1. [[Agents Space]]
+## Followed By
+## Codomain Spaces
+1. [[Agent Location Space]]
+## Constraints
+## Parameters Used
+## Metrics Used
+1. [[Neighboring Valid Tiles Metric]]
+2. [[Open Locations Stateful Metric]]

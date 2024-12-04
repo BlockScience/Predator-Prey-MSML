@@ -104,6 +104,7 @@ cssclasses:
 │   ├──[[Natural Death Policy]]
 │   ├──[[Increase Agent Age Policy]]
 │   ├──[[Prey Feeding Policy]]
+│   ├──[[Agent Movement Policy]]
 ├──**Mechanisms**
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]

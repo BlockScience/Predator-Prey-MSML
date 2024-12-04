@@ -65,7 +65,7 @@ agent_movement_policy = {
     "domain": [
         "Agents Space",
     ],
-    "codomain": ["Agent Locations Space"],
+    "codomain": ["Agent Location Space"],
     "parameters_used": [],
     "metrics_used": [
         "Neighboring Valid Tiles Metric",
