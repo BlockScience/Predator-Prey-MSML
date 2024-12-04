@@ -57,11 +57,19 @@ prey_feeding_policy = {
     "metrics_used": ["Available Food Metric"],
 }
 
+agent_movement_policy_option1 = {
+    "name": "Random Agent Movement with Sieve",
+    "description": "A policy where agents move randomly 1 square but the movements are implemented with a sieve",
+    "logic": """While the length of the agents to move is greater than 0 and has reduced in size since the last iteration:
+1. Iterate through the list of agents, if they have a valid tile to move to, add it to the output, and switch out the tiles from busy squares, otherwise add them to the new sieve
+2. The loop terminates when the remaining agents have no space to move to or there are no more agents""",
+}
+
 agent_movement_policy = {
     "name": "Agent Movement Policy",
     "description": "The policy which determines where agents move to.",
     "constraints": [],
-    "policy_options": [],
+    "policy_options": [agent_movement_policy_option1],
     "domain": [
         "Agents Space",
     ],
