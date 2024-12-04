@@ -68,3 +68,18 @@ agent_wiring.append(
         "type": "Stack",
     }
 )
+
+
+agent_wiring.append(
+    {
+        "name": "Agent Movement Wiring",
+        "components": [
+            "Agent Movement Boundary Action",
+            "Agent Movement Policy",
+            "Update Agent Locations Mechanism",
+        ],
+        "description": "Wiring for agents moving",
+        "constraints": [],
+        "type": "Stack",
+    }
+)

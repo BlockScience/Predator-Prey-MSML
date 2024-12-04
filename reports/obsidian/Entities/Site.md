@@ -19,3 +19,4 @@ A site within the sites
 ## Actions Impacting the Entity
 ### [[Prey Feeding Boundary Action]]
 ### [[Food Growth Control Action]]
+### [[Agent Movement Boundary Action]]

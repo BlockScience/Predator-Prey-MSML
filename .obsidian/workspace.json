@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
+                "file": "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neighboring Valid Tiles Metric"
+              "title": "Update Agent Locations Mechanism"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
+                "file": "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Neighboring Valid Tiles Metric"
+              "title": "Backlinks for Update Agent Locations Mechanism"
             }
           },
           {
@@ -163,9 +163,10 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Spec Tree.md",
+    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
     "reports/obsidian/Metrics/Neighbors Metric.md",
     "reports/obsidian/Metrics/Is Neighbor Metric.md",
-    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
     "reports/obsidian/Spaces/Agent Location Space.md",
     "reports/obsidian/Stateful Metrics/Open Locations Stateful Metric.md",
     "reports/obsidian/Policies/Agent Movement Policy.md",
@@ -187,7 +188,6 @@
     "reports/obsidian/Stateful Metrics/Predator Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Number of Prey Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Number of Predators Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Site Food Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Prey Food Stateful Metric.md"
+    "reports/obsidian/Stateful Metrics/Median Site Food Stateful Metric.md"
   ]
 }

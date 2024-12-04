@@ -22,5 +22,6 @@ An agent within the system
 ### [[Update Food Mechanism]]
 ### [[Increase Agent Age Mechanism]]
 ## Actions Impacting the Entity
+### [[Agent Movement Boundary Action]]
 ### [[Prey Feeding Boundary Action]]
 ### [[Increase Age Control Action]]
