@@ -104,6 +104,29 @@ hunt_prey_policy = {
     ],
 }
 
+agent_reproduction_policy = {
+    "name": "Agent Reproduction Policy",
+    "description": "The policy which determines if and how agents reproduce.",
+    "constraints": [],
+    "policy_options": [],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Agents Space", "Agent Food Delta Space"],
+    "parameters_used": [
+        "Reproduction Food Threshold",
+        "Reproduction Probability",
+        "Reproduction Food Needed",
+    ],
+    "metrics_used": [
+        "Neighboring Valid Tiles Metric",
+        "Prey Locations Stateful Metric",
+        "Predator Locations Stateful Metric",
+        "Predator Stateful Metric",
+        "Prey Stateful Metric",
+    ],
+}
+
 
 agent_policies = [
     natural_death_policy,
@@ -111,4 +134,5 @@ agent_policies = [
     prey_feeding_policy,
     agent_movement_policy,
     hunt_prey_policy,
+    agent_reproduction_policy,
 ]
