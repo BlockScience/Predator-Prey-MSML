@@ -100,6 +100,7 @@ hunt_prey_policy = {
     "metrics_used": [
         "Neighboring Valid Tiles Metric",
         "Prey Locations Stateful Metric",
+        "Predator Stateful Metric",
     ],
 }
 

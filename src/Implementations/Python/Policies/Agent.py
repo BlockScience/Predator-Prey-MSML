@@ -72,4 +72,9 @@ def random_agent_movement_with_sieve(state, params, spaces):
 
 
 def hunt_prey_policy_v1(state, params, spaces):
-    pass
+    possible_prey = state["Stateful Metrics"]["Prey Locations Stateful Metric"](
+        state, params
+    )
+    possible_prey = [x["Location"] for x in possible_prey]
+    predators = state["Stateful Metrics"]["Predator Stateful Metric"]
+    print(possible_prey)
