@@ -48,5 +48,11 @@ def random_agent_movement_with_sieve(state, params, spaces):
         hold = []
         while len(sieve) > 0:
             curr = sieve.pop()
-            print(curr)
+            print(
+                state["Metrics"]["Neighboring Valid Tiles Metric"](
+                    state,
+                    params,
+                    [{"Locations": [curr["Location"]]}, {"Locations": open_locations}],
+                )
+            )
         sieve = hold

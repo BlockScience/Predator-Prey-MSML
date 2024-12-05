@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+                "file": "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update Agent Locations Mechanism"
+              "title": "Neighboring Valid Tiles Metric"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+                "file": "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Update Agent Locations Mechanism"
+              "title": "Backlinks for Neighboring Valid Tiles Metric"
             }
           },
           {
@@ -163,16 +163,19 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
-    "reports/obsidian/Spec Tree.md",
+    "src/Implementations/Python/Metrics/__pycache__/Agent.cpython-39.pyc",
+    "reports/obsidian/Spaces/Locations Space.md",
     "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
+    "reports/obsidian/Policies/Agent Movement Policy.md",
+    "reports/obsidian/Policies/Increase Agent Age Policy.md",
+    "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+    "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Metrics/Neighbors Metric.md",
     "reports/obsidian/Metrics/Is Neighbor Metric.md",
     "reports/obsidian/Spaces/Agent Location Space.md",
     "reports/obsidian/Stateful Metrics/Open Locations Stateful Metric.md",
-    "reports/obsidian/Policies/Agent Movement Policy.md",
     "reports/obsidian/Wiring/Agent Movement Wiring.md",
     "reports/obsidian/Stateful Metrics/Free Locations Stateful Metric.md",
-    "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
     "reports/obsidian/Types/Agent Location Array Type.md",
     "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
     "reports/obsidian/States/Global State.md",
@@ -185,9 +188,6 @@
     "reports/obsidian/Metrics/DUMMY Multiplied Length Metric.md",
     "reports/obsidian/Metrics/Available Food Metric.md",
     "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Predator Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Number of Prey Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Number of Predators Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Site Food Stateful Metric.md"
+    "reports/obsidian/Stateful Metrics/Predator Stateful Metric.md"
   ]
 }
