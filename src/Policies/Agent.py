@@ -81,11 +81,17 @@ agent_movement_policy = {
     ],
 }
 
+hunt_prey_policy_option1 = {
+    "name": "Hunt Prey V1",
+    "description": "If a valid prey is in a nearby site then it is eaten. If there are multiple then there is a random choice.",
+    "logic": """""",
+}
+
 hunt_prey_policy = {
     "name": "Hunt Prey Policy",
     "description": "The policy which determines how and when prey are hunted.",
     "constraints": [],
-    "policy_options": [],
+    "policy_options": [hunt_prey_policy_option1],
     "domain": [
         "Agents Space",
     ],

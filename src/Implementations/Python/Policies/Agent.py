@@ -69,3 +69,7 @@ def random_agent_movement_with_sieve(state, params, spaces):
 
         sieve = hold
     return [out_space]
+
+
+def hunt_prey_policy_v1(state, params, spaces):
+    pass
