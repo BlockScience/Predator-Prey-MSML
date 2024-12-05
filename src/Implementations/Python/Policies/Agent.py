@@ -1,3 +1,6 @@
+from random import choice
+
+
 def natural_death_policy(state, params, spaces):
     agents = spaces[0]["Agents"]
     space = {
@@ -42,17 +45,28 @@ def random_agent_movement_with_sieve(state, params, spaces):
         state, params
     )
     open_locations = [x["Location"] for x in open_locations]
+    out_space = {"Agents": [], "Locations": []}
     last = -1
+
     while len(sieve) > 0 and len(sieve) != last:
         last = len(sieve)
         hold = []
         while len(sieve) > 0:
             curr = sieve.pop()
-            print(
-                state["Metrics"]["Neighboring Valid Tiles Metric"](
-                    state,
-                    params,
-                    [{"Locations": [curr["Location"]]}, {"Locations": open_locations}],
-                )
-            )
+            options = state["Metrics"]["Neighboring Valid Tiles Metric"](
+                state,
+                params,
+                [{"Locations": [curr["Location"]]}, {"Locations": open_locations}],
+            )[0]
+            if len(options) == 0:
+                hold.append(curr)
+            else:
+                new = choice(list(options))
+                old = curr["Location"]
+                open_locations.append(old)
+                open_locations.remove(new)
+                out_space["Agents"].append(curr)
+                out_space["Locations"].append(new)
+
         sieve = hold
+    return [out_space]

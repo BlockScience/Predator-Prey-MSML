@@ -19,7 +19,7 @@ site_metrics.append(
     {
         "type": "Location Type",
         "name": "Neighboring Valid Tiles Metric",
-        "description": "A metric of the non-busy tiles that are neighbors. The first domain element is the locations to query, the second is the open tiles.",
+        "description": "A metric of the non-busy tiles that are neighbors. The first domain element is the locations to query, the second is the busy tiles (or the free tiles if you want to flip it and have the returned values be the potential mates/tiles where there is a neighboring agent).",
         "variables_used": [],
         "parameters_used": ["Site Size"],
         "metrics_used": [],
