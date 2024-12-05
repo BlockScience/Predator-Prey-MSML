@@ -118,4 +118,12 @@ def agent_reproduction_policy_v1(state, params, spaces):
         reproducing_agents = [
             agent for agent in agents if random() <= params["Reproduction Probability"]
         ]
-        print(reproducing_agents)
+        for agent in reproducing_agents:
+            if agent not in agents:
+                continue
+            valid_mates = state["Metrics"]["Is Neighbor Metric"](
+                state, params, [{"Agents": [agent]}, {"Agents": agents}]
+            )
+            if len(valid_mates) == 0:
+                continue
+            print(valid_mates)
