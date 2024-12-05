@@ -7,7 +7,7 @@
 
 ## Blocks with Space in Codomain
 1. [[Prey Feeding Policy]]
-2. [[Increase Agent Age Policy]]
-3. [[Agent Reproduction Policy]]
-4. [[Hunt Prey Policy]]
+2. [[Hunt Prey Policy]]
+3. [[Increase Agent Age Policy]]
+4. [[Agent Reproduction Policy]]
 

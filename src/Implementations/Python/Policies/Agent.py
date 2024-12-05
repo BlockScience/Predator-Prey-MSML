@@ -95,3 +95,7 @@ def hunt_prey_policy_v1(state, params, spaces):
             space1["Food Deltas"].append({"Agent": predator, "Delta Food": food})
             space2["Agents"].append(prey)
     return [space1, space2]
+
+
+def agent_reproduction_policy_v1(state, params, spaces):
+    print(spaces)

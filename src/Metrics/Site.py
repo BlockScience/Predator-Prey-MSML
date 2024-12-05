@@ -38,8 +38,8 @@ site_metrics.append(
         "variables_used": [],
         "parameters_used": ["Site Size"],
         "metrics_used": [],
-        "domain": ["Locations Space", "Locations Space"],
-        "logic": "For each of the locations in the first domain, query to find which of the locations in the second space are valid neighbors and return as a nested list for each location all their valid neighbors",
+        "domain": ["Agents Space", "Agents Space"],
+        "logic": "For each of the agents in the first domain, query to find which of the agents in the second space are valid neighbors and return as a nested list for each location all their valid neighbors",
         "symbol": None,
     }
 )
