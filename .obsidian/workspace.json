@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Policies/Agent Movement Policy.md",
+                "file": "reports/obsidian/Wiring/Prey Feeding Wiring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agent Movement Policy"
+              "title": "Prey Feeding Wiring"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Policies/Agent Movement Policy.md",
+                "file": "reports/obsidian/Wiring/Prey Feeding Wiring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Agent Movement Policy"
+              "title": "Backlinks for Prey Feeding Wiring"
             }
           },
           {
@@ -163,10 +163,14 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Wiring/Hunt Prey Wiring.md",
+    "reports/obsidian/Wiring/Prey Feeding Wiring.md",
+    "reports/obsidian/Mechanisms/Remove Agents Mechanism.md",
+    "reports/obsidian/Policies/Hunt Prey Policy.md",
+    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
+    "reports/obsidian/Policies/Agent Movement Policy.md",
     "reports/obsidian/Spaces/Agent Location Space.md",
     "reports/obsidian/Types/Agent Location Array Type.md",
-    "reports/obsidian/Policies/Agent Movement Policy.md",
-    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
     "src/Implementations/Python/Metrics/__pycache__/Agent.cpython-39.pyc",
     "reports/obsidian/Spaces/Locations Space.md",
     "reports/obsidian/Policies/Increase Agent Age Policy.md",
@@ -185,9 +189,6 @@
     "reports/obsidian/Wiring/DUMMY Length-2 Boundary Wiring.md",
     "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
     "reports/obsidian/Wiring/Age & Food Mechanisms.md",
-    "reports/obsidian/Metrics/DUMMY Multiplied Length Metric.md",
-    "reports/obsidian/Metrics/Available Food Metric.md",
-    "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Predator Stateful Metric.md"
+    "reports/obsidian/Metrics/DUMMY Multiplied Length Metric.md"
   ]
 }

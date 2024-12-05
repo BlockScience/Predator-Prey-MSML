@@ -81,9 +81,27 @@ agent_movement_policy = {
     ],
 }
 
+hunt_prey_policy = {
+    "name": "Hunt Prey Policy",
+    "description": "The policy which determines how and when prey are hunted.",
+    "constraints": [],
+    "policy_options": [],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Agent Food Delta Space", "Agents Space"],
+    "parameters_used": [],
+    "metrics_used": [
+        "Neighboring Valid Tiles Metric",
+        "Filled Locations Stateful Metric",
+    ],
+}
+
+
 agent_policies = [
     natural_death_policy,
     increase_agent_age_policy,
     prey_feeding_policy,
     agent_movement_policy,
+    hunt_prey_policy,
 ]
