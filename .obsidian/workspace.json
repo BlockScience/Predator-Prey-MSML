@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+                "file": "reports/obsidian/Wiring/Hunt Prey Wiring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update Agent Locations Mechanism"
+              "title": "Hunt Prey Wiring"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Wiring/Food Eating Mechanisms.md",
+                "file": "reports/obsidian/Wiring/Hunt Prey Wiring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Food Eating Mechanisms"
+              "title": "Backlinks for Hunt Prey Wiring"
             }
           },
           {
@@ -149,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,31 +163,32 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Wiring/Prey Eaten Mechanisms.md",
+    "reports/obsidian/Wiring/Prey Feeding Wiring.md",
+    "reports/obsidian/Wiring/Hunt Prey Wiring.md",
+    "reports/obsidian/Types/Agent Food Delta Array Type.md",
+    "reports/obsidian/Spaces/Agent Food Delta Space.md",
+    "reports/obsidian/Policies/Hunt Prey Policy.md",
+    "reports/obsidian/Spaces/Agents Space.md",
+    "reports/obsidian/Stateful Metrics/Prey Locations Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
+    "reports/obsidian/Stateful Metrics/Filled Locations Stateful Metric.md",
+    "reports/obsidian/Mechanisms/Remove Agents Mechanism.md",
+    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
+    "reports/obsidian/Policies/Agent Movement Policy.md",
     "reports/obsidian/Spaces/Agent Location Space.md",
     "reports/obsidian/Types/Agent Location Array Type.md",
+    "src/Implementations/Python/Metrics/__pycache__/Agent.cpython-39.pyc",
+    "reports/obsidian/Spaces/Locations Space.md",
+    "reports/obsidian/Policies/Increase Agent Age Policy.md",
     "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
-    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
-    "reports/obsidian/States/Global State.md",
-    "reports/obsidian/State Variables/Global State-Agents.md",
-    "reports/obsidian/Wiring/Food Eating Mechanisms.md",
-    "reports/obsidian/Wiring/DUMMY State Update Mechanisms.md",
-    "reports/obsidian/Wiring/DUMMY Length-2 Boundary Wiring.md",
-    "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
-    "reports/obsidian/Wiring/Agent Movement Wiring.md",
-    "reports/obsidian/Wiring/Age & Food Mechanisms.md",
+    "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Metrics/Neighbors Metric.md",
     "reports/obsidian/Metrics/Is Neighbor Metric.md",
-    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
-    "reports/obsidian/Metrics/Free Locations Metric.md",
-    "reports/obsidian/Metrics/DUMMY Multiplied Length Metric.md",
-    "reports/obsidian/Metrics/Available Food Metric.md",
-    "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Predator Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Open Locations Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Number of Prey Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Number of Predators Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Site Food Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Prey Food Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Median Prey Age Stateful Metric.md"
+    "reports/obsidian/Wiring/Agent Movement Wiring.md",
+    "reports/obsidian/Stateful Metrics/Free Locations Stateful Metric.md",
+    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
+    "reports/obsidian/States/Global State.md"
   ]
 }

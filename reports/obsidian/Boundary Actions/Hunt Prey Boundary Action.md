@@ -5,6 +5,7 @@ Boundary action which returns the prey that might eat.
 1. [[Agent]]
 
 ## Followed By
+1. [[Hunt Prey Policy]]
 
 ## Constraints
 

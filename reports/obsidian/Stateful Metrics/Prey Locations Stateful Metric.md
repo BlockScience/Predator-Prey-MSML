@@ -1,4 +1,4 @@
-Description: The list of open sites with no agent
+Description: The list of sites with prey on them
 
 Type: [[Locations Array Type]]
 

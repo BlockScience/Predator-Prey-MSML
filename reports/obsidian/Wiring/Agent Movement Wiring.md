@@ -1,27 +1,107 @@
-- All [[Agent Movement Wiring|agents move]] (if possible) to an available random neighboring location.
+## Wiring Diagram (Zoomed Out)
 
-## Legacy Code
+- For display of only depth of 1 in the components/nested wirings
+```mermaid
+graph TB
 
-```python
-def move_agents(params, substep, state_history, prev_state):
-    """
-    Move agents.
-    """
-    sites = prev_state['sites']
-    agents = prev_state['agents']
-    busy_locations = [agent['location'] for agent in agents.values()]
-    new_locations = {}
-    for label, properties in agents.items():
-        new_location = get_free_location(properties['location'], sites, busy_locations)
-        if new_location is not False:
-            new_locations[label] = new_location
-            busy_locations.append(new_location)
-        else:
-            continue
-    return {'update_agent_location': new_locations}
+subgraph SVS["State Variables"]
+EE0[("Agent")]
+EE1[("Site")]
+EES0(["Location"])
+EES0 --- EE0
+EES1(["Agent"])
+EES1 --- EE1
+end
+
+subgraph X4["Agent Movement Wiring"]
+direction TB
+X1["Agent Movement Boundary Action"]
+X2["Agent Movement Policy"]
+X3["Update Agent Locations Mechanism"]
+X3 --> EES1
+X3 --> EES0
+X1--"Agents Space"--->X2
+X2--"Agent Location Space"--->X3
+end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
-Can add in a [[Free Locations Metric]]
-Uses [[Update Agent Locations Mechanism]]
+## Wiring Diagram
 
-Do a sieve approach where you start with all the movements, try to move, and anywhere that causes issues gets added back in
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("Agent")]
+EE1[("Site")]
+EES0(["Location"])
+EES0 --- EE0
+EES1(["Agent"])
+EES1 --- EE1
+end
+
+subgraph X4["Agent Movement Wiring"]
+direction TB
+X1["Agent Movement Boundary Action"]
+X2["Agent Movement Policy"]
+X3["Update Agent Locations Mechanism"]
+X3 --> EES1
+X3 --> EES0
+X1--"Agents Space"--->X2
+X2--"Agent Location Space"--->X3
+end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
+```
+
+## Description
+
+Block Type: Stack Block
+Wiring for agents moving
+## Components
+1. [[Agent Movement Boundary Action]]
+2. [[Agent Movement Policy]]
+3. [[Update Agent Locations Mechanism]]
+
+## All Blocks
+1. [[Agent Movement Boundary Action]]
+2. [[Agent Movement Policy]]
+3. [[Update Agent Locations Mechanism]]
+
+## Constraints
+
+## Domain Spaces
+1. [[Empty Space]]
+
+## Codomain Spaces
+1. [[Terminating Space]]
+
+## All Spaces Used
+1. [[Agent Location Space]]
+2. [[Agents Space]]
+3. [[Empty Space]]
+4. [[Terminating Space]]
+
+## Metrics Used
+1. [[Neighboring Valid Tiles Metric]]
+2. [[Open Locations Stateful Metric]]
+
+## Parameters Used
+
+## Called By
+
+## Calls
+
+## All State Updates
+1. [[Agent]].[[Agent State-Location|Location]]
+2. [[Site]].[[Site State-Agent|Agent]]
+

@@ -68,3 +68,45 @@ agent_wiring.append(
         "type": "Stack",
     }
 )
+
+
+agent_wiring.append(
+    {
+        "name": "Agent Movement Wiring",
+        "components": [
+            "Agent Movement Boundary Action",
+            "Agent Movement Policy",
+            "Update Agent Locations Mechanism",
+        ],
+        "description": "Wiring for agents moving",
+        "constraints": [],
+        "type": "Stack",
+    }
+)
+
+agent_wiring.append(
+    {
+        "name": "Hunt Prey Wiring",
+        "components": [
+            "Hunt Prey Boundary Action",
+            "Hunt Prey Policy",
+            "Prey Eaten Mechanisms",
+        ],
+        "description": "Wiring for agents hunting prey",
+        "constraints": [],
+        "type": "Stack",
+    }
+)
+
+agent_wiring.append(
+    {
+        "name": "Prey Eaten Mechanisms",
+        "components": [
+            "Update Food Mechanism",
+            "Remove Agents Mechanism",
+        ],
+        "description": "Wiring for predators eating prey",
+        "constraints": [],
+        "type": "Parallel",
+    }
+)

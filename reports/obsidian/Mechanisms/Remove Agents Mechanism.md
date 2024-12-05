@@ -3,6 +3,7 @@
 A mechanism for removing agents
 ## Called By
 1. [[Natural Death Policy]]
+2. [[Hunt Prey Policy]]
 ## Domain Spaces
 1. [[Agents Space]]
 ## Constraints

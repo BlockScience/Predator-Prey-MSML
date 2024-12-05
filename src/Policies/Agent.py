@@ -57,5 +57,58 @@ prey_feeding_policy = {
     "metrics_used": ["Available Food Metric"],
 }
 
+agent_movement_policy_option1 = {
+    "name": "Random Agent Movement with Sieve",
+    "description": "A policy where agents move randomly 1 square but the movements are implemented with a sieve",
+    "logic": """While the length of the agents to move is greater than 0 and has reduced in size since the last iteration:
+1. Iterate through the list of agents, if they have a valid tile to move to, add it to the output, and switch out the tiles from busy squares, otherwise add them to the new sieve
+2. The loop terminates when the remaining agents have no space to move to or there are no more agents""",
+}
 
-agent_policies = [natural_death_policy, increase_agent_age_policy, prey_feeding_policy]
+agent_movement_policy = {
+    "name": "Agent Movement Policy",
+    "description": "The policy which determines where agents move to.",
+    "constraints": [],
+    "policy_options": [agent_movement_policy_option1],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Agent Location Space"],
+    "parameters_used": [],
+    "metrics_used": [
+        "Neighboring Valid Tiles Metric",
+        "Open Locations Stateful Metric",
+    ],
+}
+
+hunt_prey_policy_option1 = {
+    "name": "Hunt Prey V1",
+    "description": "If a valid prey is in a nearby site then it is eaten. If there are multiple then there is a random choice.",
+    "logic": """""",
+}
+
+hunt_prey_policy = {
+    "name": "Hunt Prey Policy",
+    "description": "The policy which determines how and when prey are hunted.",
+    "constraints": [],
+    "policy_options": [hunt_prey_policy_option1],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Agent Food Delta Space", "Agents Space"],
+    "parameters_used": [],
+    "metrics_used": [
+        "Neighboring Valid Tiles Metric",
+        "Prey Locations Stateful Metric",
+        "Predator Stateful Metric",
+    ],
+}
+
+
+agent_policies = [
+    natural_death_policy,
+    increase_agent_age_policy,
+    prey_feeding_policy,
+    agent_movement_policy,
+    hunt_prey_policy,
+]
