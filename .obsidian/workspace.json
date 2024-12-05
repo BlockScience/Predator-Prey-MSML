@@ -163,12 +163,13 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Wiring/Prey Eaten Mechanisms.md",
     "reports/obsidian/Wiring/Prey Feeding Wiring.md",
+    "reports/obsidian/Wiring/Hunt Prey Wiring.md",
     "reports/obsidian/Types/Agent Food Delta Array Type.md",
     "reports/obsidian/Spaces/Agent Food Delta Space.md",
     "reports/obsidian/Policies/Hunt Prey Policy.md",
     "reports/obsidian/Spaces/Agents Space.md",
-    "reports/obsidian/Wiring/Hunt Prey Wiring.md",
     "reports/obsidian/Stateful Metrics/Prey Locations Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Filled Locations Stateful Metric.md",
@@ -188,7 +189,6 @@
     "reports/obsidian/Wiring/Agent Movement Wiring.md",
     "reports/obsidian/Stateful Metrics/Free Locations Stateful Metric.md",
     "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
-    "reports/obsidian/States/Global State.md",
-    "reports/obsidian/State Variables/Global State-Agents.md"
+    "reports/obsidian/States/Global State.md"
   ]
 }

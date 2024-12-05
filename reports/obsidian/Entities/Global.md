@@ -20,4 +20,5 @@
 ### [[Remove Agents Mechanism]]
 ### [[Create Agents Mechanism]]
 ## Actions Impacting the Entity
+### [[Hunt Prey Boundary Action]]
 ### [[Natural Death Control Action]]

@@ -4,6 +4,7 @@ Updates the agent food based on the delta
 ## Called By
 1. [[Increase Agent Age Policy]]
 2. [[Prey Feeding Policy]]
+3. [[Hunt Prey Policy]]
 ## Domain Spaces
 1. [[Agent Food Delta Space]]
 ## Constraints
