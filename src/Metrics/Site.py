@@ -28,3 +28,18 @@ site_metrics.append(
         "symbol": None,
     }
 )
+
+
+site_metrics.append(
+    {
+        "type": "Location Type",
+        "name": "Is Neighbor Metric",
+        "description": "A metric for filtering to only neighboring tiles.",
+        "variables_used": [],
+        "parameters_used": ["Site Size"],
+        "metrics_used": [],
+        "domain": ["Locations Space", "Locations Space"],
+        "logic": "For each of the locations in the first domain, query to find which of the locations in the second space are valid neighbors and return as a nested list for each location all their valid neighbors",
+        "symbol": None,
+    }
+)
