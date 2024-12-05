@@ -34,4 +34,25 @@ AA3. Find valid open spaces with [[Neighboring Valid Tiles Metric]], if length i
 AA4. Randomly pick a valid mate and a valid open location
 AA5. Add to the spaces -[[Reproduction Food Needed]] for both of the mates
 AA6. Add a newly created anget that has food of 2 * [[Reproduction Food Needed]]
+#### Python Implementation
+```python
+def agent_reproduction_policy_v1(state, params, spaces):
+
+    # Find the agents
+    predators = state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
+    prey = state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
+
+    # Filter to having enough food
+    predators = [
+        agent
+        for agent in predators
+        if agent["Food"] >= params["Reproduction Food Threshold"]
+    ]
+    prey = [
+        agent
+        for agent in prey
+        if agent["Food"] >= params["Reproduction Food Threshold"]
+    ]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
 

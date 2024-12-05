@@ -1,4 +1,4 @@
-from random import choice
+from random import choice, random
 
 
 def natural_death_policy(state, params, spaces):
@@ -98,4 +98,24 @@ def hunt_prey_policy_v1(state, params, spaces):
 
 
 def agent_reproduction_policy_v1(state, params, spaces):
-    print(spaces)
+
+    # Find the agents
+    predators = state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
+    prey = state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
+
+    # Filter to having enough food
+    predators = [
+        agent
+        for agent in predators
+        if agent["Food"] >= params["Reproduction Food Threshold"]
+    ]
+    prey = [
+        agent
+        for agent in prey
+        if agent["Food"] >= params["Reproduction Food Threshold"]
+    ]
+    for agents in [predators, prey]:
+        reproducing_agents = [
+            agent for agent in agents if random() <= params["Reproduction Probability"]
+        ]
+        print(reproducing_agents)
