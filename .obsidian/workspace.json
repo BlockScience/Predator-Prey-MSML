@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Metrics/Is Neighbor Metric.md",
+                "file": "reports/obsidian/Spaces/Agent Food Delta Space.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Is Neighbor Metric"
+              "title": "Agent Food Delta Space"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Metrics/Is Neighbor Metric.md",
+                "file": "reports/obsidian/Spaces/Agent Food Delta Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Is Neighbor Metric"
+              "title": "Backlinks for Agent Food Delta Space"
             }
           },
           {
@@ -164,6 +164,7 @@
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
     "reports/obsidian/Policies/Agent Reproduction Policy.md",
+    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
     "reports/obsidian/Metrics/Is Neighbor Metric.md",
     "reports/obsidian/Wiring/Agent Reproduction Wiring.md",
     "reports/obsidian/Spec Tree.md",
@@ -179,7 +180,6 @@
     "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
     "reports/obsidian/Stateful Metrics/Filled Locations Stateful Metric.md",
     "reports/obsidian/Mechanisms/Remove Agents Mechanism.md",
-    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
     "reports/obsidian/Policies/Agent Movement Policy.md",
     "reports/obsidian/Spaces/Agent Location Space.md",
     "reports/obsidian/Types/Agent Location Array Type.md",

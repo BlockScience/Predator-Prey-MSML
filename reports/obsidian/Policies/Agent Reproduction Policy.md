@@ -16,8 +16,9 @@ The policy which determines if and how agents reproduce.
 ## Metrics Used
 1. [[Is Neighbor Metric]]
 2. [[Neighboring Valid Tiles Metric]]
-3. [[Predator Stateful Metric]]
-4. [[Prey Stateful Metric]]
+3. [[Open Locations Stateful Metric]]
+4. [[Predator Stateful Metric]]
+5. [[Prey Stateful Metric]]
 ## Policy Options
 ### 1. Agent Reproduction Policy V1
 #### Description
@@ -38,9 +39,12 @@ AA6. Add a newly created anget that has food of 2 * [[Reproduction Food Needed]]
 ```python
 def agent_reproduction_policy_v1(state, params, spaces):
 
-    # Find the agents
+    # Find the agents and open locations
     predators = state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
     prey = state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
+    open_locations = state["Stateful Metrics"]["Open Locations Stateful Metric"](
+        state, params
+    )
 
     # Filter to having enough food
     predators = [
@@ -53,6 +57,19 @@ def agent_reproduction_policy_v1(state, params, spaces):
         for agent in prey
         if agent["Food"] >= params["Reproduction Food Threshold"]
     ]
+    for agents in [predators, prey]:
+        reproducing_agents = [
+            agent for agent in agents if random() <= params["Reproduction Probability"]
+        ]
+        for agent in reproducing_agents:
+            if agent not in agents:
+                continue
+            valid_mates = state["Metrics"]["Is Neighbor Metric"](
+                state, params, [{"Agents": [agent]}, {"Agents": agents}]
+            )
+            if len(valid_mates) == 0:
+                continue
+            print(valid_mates)
 ```
 Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
 

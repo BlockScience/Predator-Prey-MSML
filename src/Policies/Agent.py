@@ -135,6 +135,7 @@ agent_reproduction_policy = {
         "Reproduction Food Needed",
     ],
     "metrics_used": [
+        "Open Locations Stateful Metric",
         "Neighboring Valid Tiles Metric",
         "Predator Stateful Metric",
         "Prey Stateful Metric",

@@ -99,9 +99,16 @@ def hunt_prey_policy_v1(state, params, spaces):
 
 def agent_reproduction_policy_v1(state, params, spaces):
 
-    # Find the agents
+    space1 = {"Agents": []}
+    space2 = {"Food Deltas": []}
+
+    # Find the agents and open locations
     predators = state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
     prey = state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
+    open_locations = state["Stateful Metrics"]["Open Locations Stateful Metric"](
+        state, params
+    )
+    open_locations = [x["Location"] for x in open_locations]
 
     # Filter to having enough food
     predators = [
@@ -116,14 +123,36 @@ def agent_reproduction_policy_v1(state, params, spaces):
     ]
     for agents in [predators, prey]:
         reproducing_agents = [
-            agent for agent in agents if random() <= params["Reproduction Probability"]
+            agent_i
+            for agent_i in agents
+            if random() <= params["Reproduction Probability"]
         ]
         for agent in reproducing_agents:
             if agent not in agents:
                 continue
             valid_mates = state["Metrics"]["Is Neighbor Metric"](
                 state, params, [{"Agents": [agent]}, {"Agents": agents}]
-            )
+            )[0]
             if len(valid_mates) == 0:
                 continue
-            print(valid_mates)
+
+            mate = choice(valid_mates)
+
+            # Valid locations for birth on either agent
+            valid_locations = state["Metrics"]["Neighboring Valid Tiles Metric"](
+                state,
+                params,
+                [
+                    {"Locations": [agent["Location"], mate["Location"]]},
+                    {"Locations": open_locations},
+                ],
+            )
+            valid_locations = valid_locations[0].union(valid_locations[1])
+            if len(valid_locations) == 0:
+                continue
+            new_location = choice(list(valid_locations))
+            agents.remove(agent)
+            agents.remove(mate)
+            open_locations.remove(new_location)
+
+            print(mate, new_location)
