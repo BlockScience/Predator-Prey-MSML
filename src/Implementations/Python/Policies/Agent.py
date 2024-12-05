@@ -155,4 +155,18 @@ def agent_reproduction_policy_v1(state, params, spaces):
             agents.remove(mate)
             open_locations.remove(new_location)
 
-            print(mate, new_location)
+            space1["Agents"].append(
+                {
+                    "Age": 0,
+                    "Agent Type": agent["Agent Type"],
+                    "Food": params["Reproduction Food Needed"] * 2,
+                    "Location": new_location,
+                }
+            )
+            space2["Food Deltas"].append(
+                {"Agent": agent, "Delta Food": -params["Reproduction Food Needed"]}
+            )
+            space2["Food Deltas"].append(
+                {"Agent": mate, "Delta Food": -params["Reproduction Food Needed"]}
+            )
+    return [space1, space2]
