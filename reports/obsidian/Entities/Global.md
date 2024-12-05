@@ -22,3 +22,4 @@
 ## Actions Impacting the Entity
 ### [[Hunt Prey Boundary Action]]
 ### [[Natural Death Control Action]]
+### [[Agent Reproduction Boundary Action]]

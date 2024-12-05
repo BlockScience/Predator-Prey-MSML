@@ -7,28 +7,35 @@ graph TB
 subgraph SVS["State Variables"]
 EE0[("Agent")]
 EE1[("Global")]
+EE2[("Site")]
 EES0(["Food"])
 EES0 --- EE0
 EES1(["Agents"])
 EES1 --- EE1
+EES2(["Agent"])
+EES2 --- EE2
 end
 
-subgraph X4["Hunt Prey Wiring"]
+subgraph X5["Agent Reproduction Mechanisms"]
 direction TB
-X1["Hunt Prey Boundary Action"]
-X2["Hunt Prey Policy"]
-X3["Prey Eaten Mechanisms"]
-X3 --> EES0
-X3 --> EES1
-X1--"Agents Space"--->X2
-X2--"Agent Food Delta Space
-Agents Space"---->X3
+X1["Create Agents Mechanism"]
+X1 --> EES1
+X1 --> EES2
+X2["Update Food Mechanism"]
+X2 --> EES0
+X3[Domain]
+
+direction LR
+direction TB
+X3 --"Agents Space"--> X1
+X3 --"Agent Food Delta Space"--> X2
 end
 class X1 internal-link;
 class X2 internal-link;
-class X3 internal-link;
+class X4 internal-link;
 class EE0 internal-link;
 class EE1 internal-link;
+class EE2 internal-link;
 
 ```
 
@@ -40,62 +47,55 @@ graph TB
 subgraph SVS["State Variables"]
 EE0[("Agent")]
 EE1[("Global")]
+EE2[("Site")]
 EES0(["Food"])
 EES0 --- EE0
 EES1(["Agents"])
 EES1 --- EE1
+EES2(["Agent"])
+EES2 --- EE2
 end
 
-subgraph X8["Hunt Prey Wiring"]
+subgraph X5["Agent Reproduction Mechanisms"]
 direction TB
-X1["Hunt Prey Boundary Action"]
-X2["Hunt Prey Policy"]
-subgraph X7["Prey Eaten Mechanisms"]
-direction TB
-X3["Update Food Mechanism"]
-X3 --> EES0
-X4["Remove Agents Mechanism"]
-X4 --> EES1
-X5[Domain]
+X1["Create Agents Mechanism"]
+X1 --> EES1
+X1 --> EES2
+X2["Update Food Mechanism"]
+X2 --> EES0
+X3[Domain]
 
 direction LR
 direction TB
-X5 --"Agent Food Delta Space"--> X3
-X5 --"Agents Space"--> X4
-end
-X1--"Agents Space"--->X2
-X2--"Agent Food Delta Space
-Agents Space"---->X7
+X3 --"Agents Space"--> X1
+X3 --"Agent Food Delta Space"--> X2
 end
 class X1 internal-link;
 class X2 internal-link;
-class X3 internal-link;
 class X4 internal-link;
-class X6 internal-link;
 class EE0 internal-link;
 class EE1 internal-link;
+class EE2 internal-link;
 
 ```
 
 ## Description
 
-Block Type: Stack Block
-Wiring for agents hunting prey
+Block Type: Parallel Block
+Wiring for reproduction
 ## Components
-1. [[Hunt Prey Boundary Action]]
-2. [[Hunt Prey Policy]]
-3. [[Prey Eaten Mechanisms]]
+1. [[Create Agents Mechanism]]
+2. [[Update Food Mechanism]]
 
 ## All Blocks
-1. [[Hunt Prey Boundary Action]]
-2. [[Hunt Prey Policy]]
-3. [[Remove Agents Mechanism]]
-4. [[Update Food Mechanism]]
+1. [[Create Agents Mechanism]]
+2. [[Update Food Mechanism]]
 
 ## Constraints
 
 ## Domain Spaces
-1. [[Empty Space]]
+1. [[Agents Space]]
+2. [[Agent Food Delta Space]]
 
 ## Codomain Spaces
 1. [[Empty Space]]
@@ -107,12 +107,8 @@ Wiring for agents hunting prey
 4. [[Terminating Space]]
 
 ## Metrics Used
-1. [[Neighboring Valid Tiles Metric]]
-2. [[Predator Stateful Metric]]
-3. [[Prey Locations Stateful Metric]]
 
 ## Parameters Used
-1. [[Hunger Threshold]]
 
 ## Called By
 
@@ -121,4 +117,5 @@ Wiring for agents hunting prey
 ## All State Updates
 1. [[Agent]].[[Agent State-Food|Food]]
 2. [[Global]].[[Global State-Agents|Agents]]
+3. [[Site]].[[Site State-Agent|Agent]]
 

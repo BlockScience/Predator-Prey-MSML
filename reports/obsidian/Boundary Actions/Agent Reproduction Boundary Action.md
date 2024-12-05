@@ -5,6 +5,7 @@ Boundary action which determines which agents are eligible for reproduction.
 1. [[Agent]]
 
 ## Followed By
+1. [[Agent Reproduction Policy]]
 
 ## Constraints
 

@@ -1,58 +1,139 @@
-- The [[Agent Reproduction Wiring|agents reproduce]] themselves if there is an available partner nearby
+## Wiring Diagram (Zoomed Out)
 
-## Legacy Code
+- For display of only depth of 1 in the components/nested wirings
+```mermaid
+graph TB
 
-```python
-def reproduce_agents(params, substep, state_history, prev_state):
-    """
-    Generates an new agent through an nearby agent pair, subject to rules.
-    Not done.
-    """
-    agents = prev_state['agents']
-    sites = prev_state['sites']
-    food_threshold = params['reproduction_food_threshold']
-    reproduction_food = params['reproduction_food']
-    reproduction_probability = params['reproduction_probability']
-    busy_locations = [agent['location'] for agent in agents.values()]
-    already_reproduced = []
-    new_agents = {}
-    agent_delta_food = {}
-    for agent_type in set(agent['type'] for agent in agents.values()):
-        # Only reproduce agents of the same type
-        specific_agents = {label: agent for label, agent in agents.items()
-                           if agent['type'] == agent_type}
-        for agent_label, agent_properties in specific_agents.items():
-            location = agent_properties['location']
-            if (agent_properties['food'] < food_threshold or agent_label in already_reproduced):
-                continue
-            kind_neighbors = nearby_agents(location, specific_agents)
-            available_partners = [label for label, agent in kind_neighbors.items()
-                                  if agent['food'] >= food_threshold
-                                  and label not in already_reproduced]
-            reproduction_location = get_free_location(location, sites, busy_locations)
-            
-            if reproduction_location is not False and len(available_partners) > 0:
-                reproduction_partner_label = random.choice(available_partners)
-                reproduction_partner = agents[reproduction_partner_label]
-                already_reproduced += [agent_label, reproduction_partner_label]
+subgraph SVS["State Variables"]
+EE0[("Agent")]
+EE1[("Global")]
+EE2[("Site")]
+EES0(["Food"])
+EES0 --- EE0
+EES1(["Agents"])
+EES1 --- EE1
+EES2(["Agent"])
+EES2 --- EE2
+end
 
-                agent_delta_food[agent_label] = -1.0 * reproduction_food
-                agent_delta_food[reproduction_partner_label] = -1.0 * reproduction_food
-                new_agent_properties = {'type': agent_type,
-                                        'location': reproduction_location,
-                                        'food': 2.0 * reproduction_food,
-                                        'age': 0}
-                new_agents[uuid4()] = new_agent_properties
-                busy_locations.append(reproduction_location)
-    return {'agent_delta_food': agent_delta_food,'agent_create': new_agents}
+subgraph X4["Agent Reproduction Wiring"]
+direction TB
+X1["Agent Reproduction Boundary Action"]
+X2["Agent Reproduction Policy"]
+X3["Agent Reproduction Mechanisms"]
+X3 --> EES2
+X3 --> EES0
+X3 --> EES1
+X1--"Agents Space"--->X2
+X2--"Agents Space
+Agent Food Delta Space"---->X3
+end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+class EE2 internal-link;
+
 ```
 
-```python
-def new_agent(agent_type: str, location: Tuple[int, int],
-              food: int=10, age: int=0) -> dict:
-    agent = {'type': agent_type,
-             'location': location,
-             'food': food,
-             'age':age}
-    return agent
+## Wiring Diagram
+
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("Agent")]
+EE1[("Global")]
+EE2[("Site")]
+EES0(["Food"])
+EES0 --- EE0
+EES1(["Agents"])
+EES1 --- EE1
+EES2(["Agent"])
+EES2 --- EE2
+end
+
+subgraph X8["Agent Reproduction Wiring"]
+direction TB
+X1["Agent Reproduction Boundary Action"]
+X2["Agent Reproduction Policy"]
+subgraph X7["Agent Reproduction Mechanisms"]
+direction TB
+X3["Create Agents Mechanism"]
+X3 --> EES1
+X3 --> EES2
+X4["Update Food Mechanism"]
+X4 --> EES0
+X5[Domain]
+
+direction LR
+direction TB
+X5 --"Agents Space"--> X3
+X5 --"Agent Food Delta Space"--> X4
+end
+X1--"Agents Space"--->X2
+X2--"Agents Space
+Agent Food Delta Space"---->X7
+end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+class EE2 internal-link;
+
 ```
+
+## Description
+
+Block Type: Stack Block
+Wiring for agents hunting prey
+## Components
+1. [[Agent Reproduction Boundary Action]]
+2. [[Agent Reproduction Policy]]
+3. [[Agent Reproduction Mechanisms]]
+
+## All Blocks
+1. [[Agent Reproduction Boundary Action]]
+2. [[Agent Reproduction Policy]]
+3. [[Create Agents Mechanism]]
+4. [[Update Food Mechanism]]
+
+## Constraints
+
+## Domain Spaces
+1. [[Empty Space]]
+
+## Codomain Spaces
+1. [[Empty Space]]
+
+## All Spaces Used
+1. [[Agent Food Delta Space]]
+2. [[Agents Space]]
+3. [[Empty Space]]
+4. [[Terminating Space]]
+
+## Metrics Used
+1. [[Is Neighbor Metric]]
+2. [[Neighboring Valid Tiles Metric]]
+3. [[Open Locations Stateful Metric]]
+4. [[Predator Stateful Metric]]
+5. [[Prey Stateful Metric]]
+
+## Parameters Used
+1. [[Reproduction Food Needed]]
+2. [[Reproduction Food Threshold]]
+3. [[Reproduction Probability]]
+
+## Called By
+
+## Calls
+
+## All State Updates
+1. [[Agent]].[[Agent State-Food|Food]]
+2. [[Global]].[[Global State-Agents|Agents]]
+3. [[Site]].[[Site State-Agent|Agent]]
+

@@ -2,9 +2,12 @@
 
 The policy which determines if and how agents reproduce.
 ## Called By
+1. [[Agent Reproduction Boundary Action]]
 ## Domain Spaces
 1. [[Agents Space]]
 ## Followed By
+1. [[Create Agents Mechanism]]
+2. [[Update Food Mechanism]]
 ## Codomain Spaces
 1. [[Agents Space]]
 2. [[Agent Food Delta Space]]
@@ -39,12 +42,16 @@ AA6. Add a newly created anget that has food of 2 * [[Reproduction Food Needed]]
 ```python
 def agent_reproduction_policy_v1(state, params, spaces):
 
+    space1 = {"Agents": []}
+    space2 = {"Food Deltas": []}
+
     # Find the agents and open locations
     predators = state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
     prey = state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
     open_locations = state["Stateful Metrics"]["Open Locations Stateful Metric"](
         state, params
     )
+    open_locations = [x["Location"] for x in open_locations]
 
     # Filter to having enough food
     predators = [
@@ -59,17 +66,53 @@ def agent_reproduction_policy_v1(state, params, spaces):
     ]
     for agents in [predators, prey]:
         reproducing_agents = [
-            agent for agent in agents if random() <= params["Reproduction Probability"]
+            agent_i
+            for agent_i in agents
+            if random() <= params["Reproduction Probability"]
         ]
         for agent in reproducing_agents:
             if agent not in agents:
                 continue
             valid_mates = state["Metrics"]["Is Neighbor Metric"](
                 state, params, [{"Agents": [agent]}, {"Agents": agents}]
-            )
+            )[0]
             if len(valid_mates) == 0:
                 continue
-            print(valid_mates)
+
+            mate = choice(valid_mates)
+
+            # Valid locations for birth on either agent
+            valid_locations = state["Metrics"]["Neighboring Valid Tiles Metric"](
+                state,
+                params,
+                [
+                    {"Locations": [agent["Location"], mate["Location"]]},
+                    {"Locations": open_locations},
+                ],
+            )
+            valid_locations = valid_locations[0].union(valid_locations[1])
+            if len(valid_locations) == 0:
+                continue
+            new_location = choice(list(valid_locations))
+            agents.remove(agent)
+            agents.remove(mate)
+            open_locations.remove(new_location)
+
+            space1["Agents"].append(
+                {
+                    "Age": 0,
+                    "Agent Type": agent["Agent Type"],
+                    "Food": params["Reproduction Food Needed"] * 2,
+                    "Location": new_location,
+                }
+            )
+            space2["Food Deltas"].append(
+                {"Agent": agent, "Delta Food": -params["Reproduction Food Needed"]}
+            )
+            space2["Food Deltas"].append(
+                {"Agent": mate, "Delta Food": -params["Reproduction Food Needed"]}
+            )
+    return [space1, space2]
 ```
 Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
 
