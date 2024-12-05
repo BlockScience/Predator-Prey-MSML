@@ -9,13 +9,15 @@
 4. [[Increase Agent Age Policy]]
 5. [[Create Agents Mechanism]]
 6. [[Natural Death Policy]]
+7. [[Hunt Prey Policy]]
 
 ## Blocks with Space in Codomain
 1. [[Agent Movement Boundary Action]]
-2. [[Prey Feeding Boundary Action]]
-3. [[Agent Reproduction Boundary Action]]
-4. [[Natural Death Policy]]
-5. [[Hunt Prey Boundary Action]]
-6. [[Natural Death Control Action]]
-7. [[Increase Age Control Action]]
+2. [[Hunt Prey Policy]]
+3. [[Increase Age Control Action]]
+4. [[Hunt Prey Boundary Action]]
+5. [[Natural Death Control Action]]
+6. [[Natural Death Policy]]
+7. [[Agent Reproduction Boundary Action]]
+8. [[Prey Feeding Boundary Action]]
 

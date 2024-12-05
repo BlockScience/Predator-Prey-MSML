@@ -163,6 +163,7 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Stateful Metrics/Filled Locations Stateful Metric.md",
     "reports/obsidian/Wiring/Hunt Prey Wiring.md",
     "reports/obsidian/Wiring/Prey Feeding Wiring.md",
     "reports/obsidian/Mechanisms/Remove Agents Mechanism.md",
@@ -188,7 +189,6 @@
     "reports/obsidian/Wiring/DUMMY State Update Mechanisms.md",
     "reports/obsidian/Wiring/DUMMY Length-2 Boundary Wiring.md",
     "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
-    "reports/obsidian/Wiring/Age & Food Mechanisms.md",
-    "reports/obsidian/Metrics/DUMMY Multiplied Length Metric.md"
+    "reports/obsidian/Wiring/Age & Food Mechanisms.md"
   ]
 }

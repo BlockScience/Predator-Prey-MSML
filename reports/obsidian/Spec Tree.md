@@ -32,6 +32,7 @@ cssclasses:
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]
 │   ├──Site Stateful Metrics
 │   │   ├──[[Open Locations Stateful Metric]]
+│   │   ├──[[Filled Locations Stateful Metric]]
 │   ├──Agent Stateful Metrics
 │   │   ├──[[Prey Stateful Metric]]
 │   │   ├──[[Predator Stateful Metric]]
@@ -105,6 +106,7 @@ cssclasses:
 │   ├──[[Increase Agent Age Policy]]
 │   ├──[[Prey Feeding Policy]]
 │   ├──[[Agent Movement Policy]]
+│   ├──[[Hunt Prey Policy]]
 ├──**Mechanisms**
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
