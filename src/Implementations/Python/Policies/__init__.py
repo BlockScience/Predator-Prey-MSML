@@ -6,6 +6,7 @@ from .Agent import (
     prey_eat_all_food_policy,
     random_agent_movement_with_sieve,
     hunt_prey_policy_v1,
+    agent_reproduction_policy_v1,
 )
 
 
@@ -17,4 +18,5 @@ policies = {
     "Prey Eat All Food Policy": prey_eat_all_food_policy,
     "Random Agent Movement with Sieve": random_agent_movement_with_sieve,
     "Hunt Prey V1": hunt_prey_policy_v1,
+    "Agent Reproduction Policy V1": agent_reproduction_policy_v1,
 }

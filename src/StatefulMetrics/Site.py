@@ -29,7 +29,17 @@ site_stateful_metrics = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Locations Array Type",
+            "name": "Predator Locations Stateful Metric",
+            "description": "The list of sites with predators on them",
+            "variables_used": [("Global State", "Sites"), ("Site State", "Agent")],
+            "parameters_used": [],
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }
+
 
 site_stateful_metrics = [site_stateful_metrics]

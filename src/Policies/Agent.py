@@ -104,6 +104,45 @@ hunt_prey_policy = {
     ],
 }
 
+agent_reproduction_policy_option1 = {
+    "name": "Agent Reproduction Policy V1",
+    "description": "Simple reproduction method where randomly agents will reproduce with others if they are on nearby tiles and have enough food (and are of the same type).",
+    "logic": """1. Get valid prey/predators with the stateful metrics
+2. Filter the agents to be only the ones which have at least the [[Reproduction Food Threshold]]
+3. For the group of predators and then the group of prey do the following, where agents is the variable representing the agents of that type still in play...
+A1. Create a filtered list of agents based on randomly being under [[Reproduction Probability]], these agents that will reproduce
+A2. Loop over each agent in this reproduction and do the following:
+AA1. Check that they are still in the agents list (have not reproduced), otherwise continue on
+AA2. Find valid_mates by filtering agents array with [[Is Neighbor Metric]], if length is 0 then continue
+AA3. Find valid open spaces with [[Neighboring Valid Tiles Metric]], if length is 0 then continue
+AA4. Randomly pick a valid mate and a valid open location
+AA5. Add to the spaces -[[Reproduction Food Needed]] for both of the mates
+AA6. Add a newly created anget that has food of 2 * [[Reproduction Food Needed]]""",
+}
+
+agent_reproduction_policy = {
+    "name": "Agent Reproduction Policy",
+    "description": "The policy which determines if and how agents reproduce.",
+    "constraints": [],
+    "policy_options": [agent_reproduction_policy_option1],
+    "domain": [
+        "Agents Space",
+    ],
+    "codomain": ["Agents Space", "Agent Food Delta Space"],
+    "parameters_used": [
+        "Reproduction Food Threshold",
+        "Reproduction Probability",
+        "Reproduction Food Needed",
+    ],
+    "metrics_used": [
+        "Open Locations Stateful Metric",
+        "Neighboring Valid Tiles Metric",
+        "Predator Stateful Metric",
+        "Prey Stateful Metric",
+        "Is Neighbor Metric",
+    ],
+}
+
 
 agent_policies = [
     natural_death_policy,
@@ -111,4 +150,5 @@ agent_policies = [
     prey_feeding_policy,
     agent_movement_policy,
     hunt_prey_policy,
+    agent_reproduction_policy,
 ]

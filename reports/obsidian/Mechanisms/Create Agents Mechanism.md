@@ -2,6 +2,7 @@
 
 A mechanism which creates a new agent
 ## Called By
+1. [[Agent Reproduction Policy]]
 ## Domain Spaces
 1. [[Agents Space]]
 ## Constraints

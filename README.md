@@ -264,6 +264,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Open Locations Stateful Metric
 │   │   ├──Filled Locations Stateful Metric
 │   │   ├──Prey Locations Stateful Metric
+│   │   ├──Predator Locations Stateful Metric
 │   ├──Agent Stateful Metrics
 │   │   ├──Prey Stateful Metric
 │   │   ├──Predator Stateful Metric
@@ -338,6 +339,7 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Prey Feeding Policy
 │   ├──Agent Movement Policy
 │   ├──Hunt Prey Policy
+│   ├──Agent Reproduction Policy
 ├──Mechanisms
 │   ├──DUMMY Update Dummy Entity Mechanism
 │   ├──DUMMY Increment Time Mechanism

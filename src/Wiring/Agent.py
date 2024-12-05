@@ -110,3 +110,30 @@ agent_wiring.append(
         "type": "Parallel",
     }
 )
+
+agent_wiring.append(
+    {
+        "name": "Agent Reproduction Wiring",
+        "components": [
+            "Agent Reproduction Boundary Action",
+            "Agent Reproduction Policy",
+            "Agent Reproduction Mechanisms",
+        ],
+        "description": "Wiring for agents hunting prey",
+        "constraints": [],
+        "type": "Stack",
+    }
+)
+
+agent_wiring.append(
+    {
+        "name": "Agent Reproduction Mechanisms",
+        "components": [
+            "Create Agents Mechanism",
+            "Update Food Mechanism",
+        ],
+        "description": "Wiring for reproduction",
+        "constraints": [],
+        "type": "Parallel",
+    }
+)
