@@ -99,7 +99,7 @@ hunt_prey_policy = {
     "parameters_used": [],
     "metrics_used": [
         "Neighboring Valid Tiles Metric",
-        "Filled Locations Stateful Metric",
+        "Prey Locations Stateful Metric",
     ],
 }
 

@@ -17,8 +17,8 @@ direction TB
 X1["Increase Age Control Action"]
 X2["Increase Agent Age Policy"]
 X3["Age & Food Mechanisms"]
-X3 --> EES0
 X3 --> EES1
+X3 --> EES0
 X1--"Agents Space"--->X2
 X2--"Agent Food Delta Space
 Agent Age Delta Space"---->X3
