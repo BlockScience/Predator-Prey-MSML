@@ -163,6 +163,7 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Stateful Metrics/Predator Locations Stateful Metric.md",
     "reports/obsidian/Policies/Agent Reproduction Policy.md",
     "reports/obsidian/Wiring/Agent Reproduction Wiring.md",
     "reports/obsidian/Wiring/Prey Feeding Wiring.md",
@@ -188,7 +189,6 @@
     "reports/obsidian/Metrics/Neighbors Metric.md",
     "reports/obsidian/Metrics/Is Neighbor Metric.md",
     "reports/obsidian/Stateful Metrics/Open Locations Stateful Metric.md",
-    "reports/obsidian/Wiring/Agent Movement Wiring.md",
-    "reports/obsidian/Stateful Metrics/Free Locations Stateful Metric.md"
+    "reports/obsidian/Wiring/Agent Movement Wiring.md"
   ]
 }

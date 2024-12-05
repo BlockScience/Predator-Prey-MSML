@@ -18,8 +18,8 @@ direction TB
 X1["Prey Feeding Boundary Action"]
 X2["Prey Feeding Policy"]
 X3["Food Eating Mechanisms"]
-X3 --> EES1
 X3 --> EES0
+X3 --> EES1
 X1--"Agents Space"--->X2
 X2--"Location Food Delta Space
 Agent Food Delta Space"---->X3
