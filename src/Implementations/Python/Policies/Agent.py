@@ -45,7 +45,7 @@ def random_agent_movement_with_sieve(state, params, spaces):
         state, params
     )
     open_locations = [x["Location"] for x in open_locations]
-    out_space = {"Agents": [], "Locations": []}
+    out_space = {"Agent Locations": []}
     last = -1
 
     while len(sieve) > 0 and len(sieve) != last:
@@ -65,8 +65,7 @@ def random_agent_movement_with_sieve(state, params, spaces):
                 old = curr["Location"]
                 open_locations.append(old)
                 open_locations.remove(new)
-                out_space["Agents"].append(curr)
-                out_space["Locations"].append(new)
+                out_space["Agent Locations"].append({"Agent": curr, "Location": new})
 
         sieve = hold
     return [out_space]
