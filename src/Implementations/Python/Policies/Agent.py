@@ -78,6 +78,9 @@ def hunt_prey_policy_v1(state, params, spaces):
     possible_prey = [x["Location"] for x in possible_prey]
     predators = state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
 
+    space1 = {"Food Deltas": []}
+    space2 = {"Agents": []}
+
     for predator in predators:
         options = state["Metrics"]["Neighboring Valid Tiles Metric"](
             state,
@@ -88,4 +91,7 @@ def hunt_prey_policy_v1(state, params, spaces):
             prey = choice(list(options))
             possible_prey.remove(prey)
             prey = state["Sites Matrix"][prey[0]][prey[1]]
-            print(prey)
+            food = prey["Food"]
+            space1["Food Deltas"].append({"Agent": predator, "Food": food})
+            space2["Agents"].append(prey)
+    return [space1, space2]
