@@ -1,7 +1,4 @@
 mapping = {
-    "DummyABCDEFType": str,
-    "DummyIntegerType": int,
-    "DummyDecimalType": float,
-    "EntityType": object,
+                "EntityType": object,
     "SimulationLogType": list,
 }
