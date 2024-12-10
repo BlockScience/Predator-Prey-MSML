@@ -4,17 +4,11 @@ cssclasses:
 ---
 
 ├──**Entities**
-│   ├──[[DUMMY Entity]]
 │   ├──[[Global]]
 │   ├──[[Site]]
 │   ├──[[Agent]]
 ├──**State**
-│   ├──[[DUMMY State]]
-│   │   ├──[[DUMMY State-Words\|Words]]
-│   │   ├──[[DUMMY State-Total Length\|Total Length]]
 │   ├──[[Global State]]
-│   │   ├──[[Global State-Dummy\|Dummy]]
-│   │   ├──[[Global State-Time\|Time]]
 │   │   ├──[[Global State-Simulation Log\|Simulation Log]]
 │   │   ├──[[Global State-Agents\|Agents]]
 │   │   ├──[[Global State-Sites\|Sites]]
@@ -28,8 +22,6 @@ cssclasses:
 │   │   ├──[[Site State-Food\|Food]]
 │   │   ├──[[Site State-Agent\|Agent]]
 ├──**Stateful Metrics**
-│   ├──DUMMY Stateful Metrics
-│   │   ├──[[DUMMY Nominal Length Stateful Metric]]
 │   ├──Site Stateful Metrics
 │   │   ├──[[Open Locations Stateful Metric]]
 │   │   ├──[[Filled Locations Stateful Metric]]
@@ -39,9 +31,6 @@ cssclasses:
 │   │   ├──[[Prey Stateful Metric]]
 │   │   ├──[[Predator Stateful Metric]]
 ├──**Types**
-│   ├──[[DUMMY ABCDEF Type]]
-│   ├──[[DUMMY Integer Type]]
-│   ├──[[DUMMY Decimal Type]]
 │   ├──[[Entity Type]]
 │   ├──[[Simulation Log Type]]
 │   ├──[[2D Size Type]]
@@ -61,8 +50,6 @@ cssclasses:
 ├──**Spaces**
 │   ├──[[Terminating Space]]
 │   ├──[[Empty Space]]
-│   ├──[[DUMMY ABCDEF Space]]
-│   ├──[[DUMMY String Length Space]]
 │   ├──[[Locations Space]]
 │   ├──[[Location Food Delta Space]]
 │   ├──[[Agents Space]]
@@ -70,9 +57,6 @@ cssclasses:
 │   ├──[[Agent Food Delta Space]]
 │   ├──[[Agent Location Space]]
 ├──**Parameters**
-│   ├──DUMMY Parameter Set
-│   │   ├──[[DUMMY D Probability]]
-│   │   ├──[[DUMMY Length Multiplier]]
 │   ├──Initial Site Parameter Set
 │   │   ├──[[Site Size]]
 │   │   ├──[[Initial Number of Food Tiles]]
@@ -90,19 +74,15 @@ cssclasses:
 │   │   ├──[[Initial Prey Food]]
 │   │   ├──[[Initial Predator Food]]
 ├──**Boundary Actions**
-│   ├──[[DUMMY Length-1 ABC Boundary Action]]
-│   ├──[[DUMMY Length-2 ABC Combo Boundary Action]]
 │   ├──[[Prey Feeding Boundary Action]]
 │   ├──[[Hunt Prey Boundary Action]]
 │   ├──[[Agent Movement Boundary Action]]
 │   ├──[[Agent Reproduction Boundary Action]]
 ├──**Control Actions**
-│   ├──[[DUMMY Length-1 DEF Control Action]]
 │   ├──[[Food Growth Control Action]]
 │   ├──[[Natural Death Control Action]]
 │   ├──[[Increase Age Control Action]]
 ├──**Policies**
-│   ├──[[DUMMY Letter Count Policy]]
 │   ├──[[Food Growth Policy]]
 │   ├──[[Natural Death Policy]]
 │   ├──[[Increase Agent Age Policy]]
@@ -111,9 +91,6 @@ cssclasses:
 │   ├──[[Hunt Prey Policy]]
 │   ├──[[Agent Reproduction Policy]]
 ├──**Mechanisms**
-│   ├──[[DUMMY Update Dummy Entity Mechanism]]
-│   ├──[[DUMMY Increment Time Mechanism]]
-│   ├──[[DUMMY Log Simulation Data Mechanism]]
 │   ├──[[Update Food Locations Mechanism]]
 │   ├──[[Update Agent Locations Mechanism]]
 │   ├──[[Remove Agents Mechanism]]

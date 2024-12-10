@@ -234,17 +234,11 @@ There are five notebooks built in which will listed sequentially by what order i
 
 ```
 ├──Entities
-│   ├──DUMMY Entity
 │   ├──Global
 │   ├──Site
 │   ├──Agent
 ├──State
-│   ├──DUMMY State
-│   │   ├──Words
-│   │   ├──Total Length
 │   ├──Global State
-│   │   ├──Dummy
-│   │   ├──Time
 │   │   ├──Simulation Log
 │   │   ├──Agents
 │   │   ├──Sites
@@ -258,8 +252,6 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Food
 │   │   ├──Agent
 ├──Stateful Metrics
-│   ├──DUMMY Stateful Metrics
-│   │   ├──DUMMY Nominal Length Stateful Metric
 │   ├──Site Stateful Metrics
 │   │   ├──Open Locations Stateful Metric
 │   │   ├──Filled Locations Stateful Metric
@@ -269,9 +261,6 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Prey Stateful Metric
 │   │   ├──Predator Stateful Metric
 ├──Types
-│   ├──DUMMY ABCDEF Type
-│   ├──DUMMY Integer Type
-│   ├──DUMMY Decimal Type
 │   ├──Entity Type
 │   ├──Simulation Log Type
 │   ├──2D Size Type
@@ -291,8 +280,6 @@ There are five notebooks built in which will listed sequentially by what order i
 ├──Spaces
 │   ├──Terminating Space
 │   ├──Empty Space
-│   ├──DUMMY ABCDEF Space
-│   ├──DUMMY String Length Space
 │   ├──Locations Space
 │   ├──Location Food Delta Space
 │   ├──Agents Space
@@ -300,9 +287,6 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Agent Food Delta Space
 │   ├──Agent Location Space
 ├──Parameters
-│   ├──DUMMY Parameter Set
-│   │   ├──DUMMY D Probability
-│   │   ├──DUMMY Length Multiplier
 │   ├──Initial Site Parameter Set
 │   │   ├──Site Size
 │   │   ├──Initial Number of Food Tiles
@@ -320,19 +304,15 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Initial Prey Food
 │   │   ├──Initial Predator Food
 ├──Boundary Actions
-│   ├──DUMMY Length-1 ABC Boundary Action
-│   ├──DUMMY Length-2 ABC Combo Boundary Action
 │   ├──Prey Feeding Boundary Action
 │   ├──Hunt Prey Boundary Action
 │   ├──Agent Movement Boundary Action
 │   ├──Agent Reproduction Boundary Action
 ├──Control Actions
-│   ├──DUMMY Length-1 DEF Control Action
 │   ├──Food Growth Control Action
 │   ├──Natural Death Control Action
 │   ├──Increase Age Control Action
 ├──Policies
-│   ├──DUMMY Letter Count Policy
 │   ├──Food Growth Policy
 │   ├──Natural Death Policy
 │   ├──Increase Agent Age Policy
@@ -341,9 +321,6 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Hunt Prey Policy
 │   ├──Agent Reproduction Policy
 ├──Mechanisms
-│   ├──DUMMY Update Dummy Entity Mechanism
-│   ├──DUMMY Increment Time Mechanism
-│   ├──DUMMY Log Simulation Data Mechanism
 │   ├──Update Food Locations Mechanism
 │   ├──Update Agent Locations Mechanism
 │   ├──Remove Agents Mechanism
