@@ -6,6 +6,6 @@
 1. [[Update Food Locations Mechanism]]
 
 ## Blocks with Space in Codomain
-1. [[Prey Feeding Policy]]
-2. [[Food Growth Policy]]
+1. [[Food Growth Policy]]
+2. [[Prey Feeding Policy]]
 

@@ -21,9 +21,9 @@ direction TB
 X1["Agent Reproduction Boundary Action"]
 X2["Agent Reproduction Policy"]
 X3["Agent Reproduction Mechanisms"]
+X3 --> EES2
 X3 --> EES0
 X3 --> EES1
-X3 --> EES2
 X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
 X2--"<a href='Agents Space' class=internal-link>Agents Space</a>
 <a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"---->X3

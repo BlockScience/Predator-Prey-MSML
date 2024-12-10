@@ -23,8 +23,8 @@ X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
 X3["DUMMY Update Dummy Entity Mechanism"]
-X3 --> EES1
 X3 --> EES0
+X3 --> EES1
 X4["DUMMY Increment Time Mechanism"]
 X4 --> EES3
 X5[Domain]
@@ -74,8 +74,8 @@ X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
 X3["DUMMY Update Dummy Entity Mechanism"]
-X3 --> EES1
 X3 --> EES0
+X3 --> EES1
 X4["DUMMY Increment Time Mechanism"]
 X4 --> EES3
 X5[Domain]

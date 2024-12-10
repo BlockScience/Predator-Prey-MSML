@@ -18,8 +18,8 @@ end
 subgraph X5["DUMMY State Update Mechanisms"]
 direction TB
 X1["DUMMY Update Dummy Entity Mechanism"]
-X1 --> EES1
 X1 --> EES0
+X1 --> EES1
 X2["DUMMY Increment Time Mechanism"]
 X2 --> EES2
 X3[Domain]
@@ -56,8 +56,8 @@ end
 subgraph X5["DUMMY State Update Mechanisms"]
 direction TB
 X1["DUMMY Update Dummy Entity Mechanism"]
-X1 --> EES1
 X1 --> EES0
+X1 --> EES1
 X2["DUMMY Increment Time Mechanism"]
 X2 --> EES2
 X3[Domain]
