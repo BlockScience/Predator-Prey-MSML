@@ -18,11 +18,11 @@ direction TB
 X1["Prey Feeding Boundary Action"]
 X2["Prey Feeding Policy"]
 X3["Food Eating Mechanisms"]
-X3 --> EES0
 X3 --> EES1
-X1--"Agents Space"--->X2
-X2--"Location Food Delta Space
-Agent Food Delta Space"---->X3
+X3 --> EES0
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Location Food Delta Space' class=internal-link>Location Food Delta Space</a>
+<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"---->X3
 end
 class X1 internal-link;
 class X2 internal-link;
@@ -60,12 +60,12 @@ X5[Domain]
 
 direction LR
 direction TB
-X5 --"Location Food Delta Space"--> X3
-X5 --"Agent Food Delta Space"--> X4
+X5 --"<a href='Location Food Delta Space' class=internal-link>Location Food Delta Space</a>"--> X3
+X5 --"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"--> X4
 end
-X1--"Agents Space"--->X2
-X2--"Location Food Delta Space
-Agent Food Delta Space"---->X7
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Location Food Delta Space' class=internal-link>Location Food Delta Space</a>
+<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"---->X7
 end
 class X1 internal-link;
 class X2 internal-link;

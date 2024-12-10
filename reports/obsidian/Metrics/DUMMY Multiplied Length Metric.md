@@ -15,3 +15,10 @@ Multiply the length of the string in the domain space by [[DUMMY Length Multipli
 ## Domain Spaces
 1. [[DUMMY ABCDEF Space]]
 ## Metrics Used
+## Python Implementation
+```python
+def dummy_multiplied_length_metric(state, params, spaces):
+    return len(spaces[0]["string"]) * params["DUMMY Length Multiplier"]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Metrics/Dummy.py](../../../src/Implementations/Python/Metrics/Dummy.py)
+

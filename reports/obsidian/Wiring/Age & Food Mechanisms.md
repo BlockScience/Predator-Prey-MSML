@@ -22,8 +22,8 @@ X3[Domain]
 
 direction LR
 direction TB
-X3 --"Agent Food Delta Space"--> X1
-X3 --"Agent Age Delta Space"--> X2
+X3 --"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"--> X1
+X3 --"<a href='Agent Age Delta Space' class=internal-link>Agent Age Delta Space</a>"--> X2
 end
 class X1 internal-link;
 class X2 internal-link;
@@ -55,8 +55,8 @@ X3[Domain]
 
 direction LR
 direction TB
-X3 --"Agent Food Delta Space"--> X1
-X3 --"Agent Age Delta Space"--> X2
+X3 --"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"--> X1
+X3 --"<a href='Agent Age Delta Space' class=internal-link>Agent Age Delta Space</a>"--> X2
 end
 class X1 internal-link;
 class X2 internal-link;

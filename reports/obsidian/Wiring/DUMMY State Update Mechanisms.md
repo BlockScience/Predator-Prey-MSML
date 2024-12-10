@@ -26,7 +26,7 @@ X3[Domain]
 
 direction LR
 direction TB
-X3 --"DUMMY String Length Space"--> X1
+X3 --"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--> X1
 X3 --> X2
 end
 class X1 internal-link;
@@ -64,7 +64,7 @@ X3[Domain]
 
 direction LR
 direction TB
-X3 --"DUMMY String Length Space"--> X1
+X3 --"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--> X1
 X3 --> X2
 end
 class X1 internal-link;

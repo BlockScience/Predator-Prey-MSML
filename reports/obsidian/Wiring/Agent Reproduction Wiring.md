@@ -21,12 +21,12 @@ direction TB
 X1["Agent Reproduction Boundary Action"]
 X2["Agent Reproduction Policy"]
 X3["Agent Reproduction Mechanisms"]
-X3 --> EES2
 X3 --> EES0
 X3 --> EES1
-X1--"Agents Space"--->X2
-X2--"Agents Space
-Agent Food Delta Space"---->X3
+X3 --> EES2
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agents Space' class=internal-link>Agents Space</a>
+<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"---->X3
 end
 class X1 internal-link;
 class X2 internal-link;
@@ -69,12 +69,12 @@ X5[Domain]
 
 direction LR
 direction TB
-X5 --"Agents Space"--> X3
-X5 --"Agent Food Delta Space"--> X4
+X5 --"<a href='Agents Space' class=internal-link>Agents Space</a>"--> X3
+X5 --"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"--> X4
 end
-X1--"Agents Space"--->X2
-X2--"Agents Space
-Agent Food Delta Space"---->X7
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agents Space' class=internal-link>Agents Space</a>
+<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"---->X7
 end
 class X1 internal-link;
 class X2 internal-link;

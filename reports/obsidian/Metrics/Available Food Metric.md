@@ -16,3 +16,12 @@ Query the locations and their foods
 ## Domain Spaces
 1. [[Locations Space]]
 ## Metrics Used
+## Python Implementation
+```python
+def available_food_metric(state, params, spaces):
+    sites = [state["Sites Matrix"][x[0]][x[1]] for x in spaces[0]["Locations"]]
+    food = [x["Food"] for x in sites]
+    return food
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Metrics/Site.py](../../../src/Implementations/Python/Metrics/Site.py)
+

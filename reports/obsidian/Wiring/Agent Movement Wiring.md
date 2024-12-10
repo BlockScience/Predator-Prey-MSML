@@ -20,8 +20,8 @@ X2["Agent Movement Policy"]
 X3["Update Agent Locations Mechanism"]
 X3 --> EES1
 X3 --> EES0
-X1--"Agents Space"--->X2
-X2--"Agent Location Space"--->X3
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agent Location Space' class=internal-link>Agent Location Space</a>"--->X3
 end
 class X1 internal-link;
 class X2 internal-link;
@@ -52,8 +52,8 @@ X2["Agent Movement Policy"]
 X3["Update Agent Locations Mechanism"]
 X3 --> EES1
 X3 --> EES0
-X1--"Agents Space"--->X2
-X2--"Agent Location Space"--->X3
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agent Location Space' class=internal-link>Agent Location Space</a>"--->X3
 end
 class X1 internal-link;
 class X2 internal-link;

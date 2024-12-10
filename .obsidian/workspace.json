@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Policies/Agent Reproduction Policy.md",
+                "file": "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agent Reproduction Policy"
+              "title": "Neighboring Valid Tiles Metric"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Policies/Agent Reproduction Policy.md",
+                "file": "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Agent Reproduction Policy"
+              "title": "Backlinks for Neighboring Valid Tiles Metric"
             }
           },
           {
@@ -163,32 +163,32 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
-    "reports/obsidian/Boundary Actions/Agent Reproduction Boundary Action.md",
-    "reports/obsidian/Policies/Agent Reproduction Policy.md",
-    "reports/obsidian/Wiring/Agent Reproduction Mechanisms.md",
-    "reports/obsidian/Spaces/Agent Food Delta Space.md",
-    "reports/obsidian/Types/Agent Food Delta Array Type.md",
-    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
-    "reports/obsidian/Metrics/Is Neighbor Metric.md",
-    "reports/obsidian/Wiring/Agent Reproduction Wiring.md",
-    "reports/obsidian/Spec Tree.md",
-    "reports/obsidian/Stateful Metrics/Predator Locations Stateful Metric.md",
-    "reports/obsidian/Wiring/Prey Feeding Wiring.md",
-    "reports/obsidian/Wiring/Hunt Prey Wiring.md",
-    "reports/obsidian/Wiring/Prey Eaten Mechanisms.md",
-    "reports/obsidian/Policies/Hunt Prey Policy.md",
-    "reports/obsidian/Spaces/Agents Space.md",
-    "reports/obsidian/Stateful Metrics/Prey Locations Stateful Metric.md",
-    "reports/obsidian/Stateful Metrics/Prey Stateful Metric.md",
+    "reports/obsidian/Metrics/Neighbors Metric.md",
     "reports/obsidian/Stateful Metrics/Filled Locations Stateful Metric.md",
-    "reports/obsidian/Mechanisms/Remove Agents Mechanism.md",
-    "reports/obsidian/Policies/Agent Movement Policy.md",
-    "reports/obsidian/Spaces/Agent Location Space.md",
-    "reports/obsidian/Types/Agent Location Array Type.md",
-    "src/Implementations/Python/Metrics/__pycache__/Agent.cpython-39.pyc",
-    "reports/obsidian/Spaces/Locations Space.md",
-    "reports/obsidian/Policies/Increase Agent Age Policy.md",
+    "reports/obsidian/Policies/Agent Reproduction Policy.md",
+    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
+    "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
+    "reports/obsidian/Boundary Actions/Hunt Prey Boundary Action.md",
+    "reports/obsidian/Boundary Actions/DUMMY Length-1 ABC Boundary Action.md",
+    "reports/obsidian/Boundary Actions/Agent Reproduction Boundary Action.md",
+    "reports/obsidian/Boundary Actions/Agent Movement Boundary Action.md",
+    "reports/obsidian/Boundary Actions/DUMMY Length-2 ABC Combo Boundary Action.md",
+    "reports/obsidian/Control Actions/DUMMY Length-1 DEF Control Action.md",
+    "reports/obsidian/Wiring/Agent Reproduction Wiring.md",
+    "reports/obsidian/Spaces/Agents Space.md",
+    "reports/obsidian/Wiring/Agent Reproduction Mechanisms.md",
+    "reports/obsidian/Wiring/Agent Movement Wiring.md",
+    "reports/obsidian/Wiring/Age & Food Mechanisms.md",
+    "reports/obsidian/Types/Agent Type.md",
+    "Type.md",
+    "reports/obsidian/State Variables/Agent State-Location.md",
+    "reports/obsidian/Policies/Hunt Prey Policy.md",
+    "reports/obsidian/State Variables/Agent State-Food.md",
+    "reports/obsidian/Mechanisms/Update Food Mechanism.md",
     "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
-    "reports/obsidian/Metrics/Neighbors Metric.md"
+    "reports/obsidian/Mechanisms/Update Agents Mechanism.md",
+    "reports/obsidian/State Variables/Agent State-Agent Type.md",
+    "reports/obsidian/Stateful Metrics/Predator Locations Stateful Metric.md",
+    "src/Implementations/Python/Metrics/__pycache__/Agent.cpython-39.pyc"
   ]
 }

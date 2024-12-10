@@ -27,8 +27,8 @@ X3 --> EES3
 X3 --> EES0
 X4["DUMMY Log Simulation Data Mechanism"]
 X4 --> EES2
-X1--"DUMMY ABCDEF Space"--->X2
-X2--"DUMMY String Length Space"--->X3
+X1--"<a href='DUMMY ABCDEF Space' class=internal-link>DUMMY ABCDEF Space</a>"--->X2
+X2--"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--->X3
 X3--->X4
 end
 class X1 internal-link;
@@ -73,13 +73,13 @@ X5[Domain]
 
 direction LR
 direction TB
-X5 --"DUMMY String Length Space"--> X3
+X5 --"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--> X3
 X5 --> X4
 end
 X8["DUMMY Log Simulation Data Mechanism"]
 X8 --> EES2
-X1--"DUMMY ABCDEF Space"--->X2
-X2--"DUMMY String Length Space"--->X7
+X1--"<a href='DUMMY ABCDEF Space' class=internal-link>DUMMY ABCDEF Space</a>"--->X2
+X2--"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--->X7
 X7--->X8
 end
 class X1 internal-link;

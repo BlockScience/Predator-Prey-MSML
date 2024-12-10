@@ -20,9 +20,9 @@ X2["Hunt Prey Policy"]
 X3["Prey Eaten Mechanisms"]
 X3 --> EES0
 X3 --> EES1
-X1--"Agents Space"--->X2
-X2--"Agent Food Delta Space
-Agents Space"---->X3
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>
+<a href='Agents Space' class=internal-link>Agents Space</a>"---->X3
 end
 class X1 internal-link;
 class X2 internal-link;
@@ -60,12 +60,12 @@ X5[Domain]
 
 direction LR
 direction TB
-X5 --"Agent Food Delta Space"--> X3
-X5 --"Agents Space"--> X4
+X5 --"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>"--> X3
+X5 --"<a href='Agents Space' class=internal-link>Agents Space</a>"--> X4
 end
-X1--"Agents Space"--->X2
-X2--"Agent Food Delta Space
-Agents Space"---->X7
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>
+<a href='Agents Space' class=internal-link>Agents Space</a>"---->X7
 end
 class X1 internal-link;
 class X2 internal-link;

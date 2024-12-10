@@ -16,8 +16,8 @@ X1["Natural Death Control Action"]
 X2["Natural Death Policy"]
 X3["Remove Agents Mechanism"]
 X3 --> EES0
-X1--"Agents Space"--->X2
-X2--"Agents Space"--->X3
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X3
 end
 class X1 internal-link;
 class X2 internal-link;
@@ -43,8 +43,8 @@ X1["Natural Death Control Action"]
 X2["Natural Death Policy"]
 X3["Remove Agents Mechanism"]
 X3 --> EES0
-X1--"Agents Space"--->X2
-X2--"Agents Space"--->X3
+X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
+X2--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X3
 end
 class X1 internal-link;
 class X2 internal-link;
