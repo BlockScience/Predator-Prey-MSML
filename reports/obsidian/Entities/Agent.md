@@ -27,3 +27,7 @@ An agent within the system
 ### [[Hunt Prey Boundary Action]]
 ### [[Prey Feeding Boundary Action]]
 ### [[Increase Age Control Action]]
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Entities/Agent.py](../../../../src/Entities/Agent.py)
+

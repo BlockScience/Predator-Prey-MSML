@@ -108,3 +108,7 @@ Mechanisms for when food is eaten by prey
 1. [[Agent]].[[Agent State-Food|Food]]
 2. [[Site]].[[Site State-Food|Food]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+

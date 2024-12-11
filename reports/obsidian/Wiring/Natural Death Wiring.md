@@ -92,3 +92,7 @@ Wiring for growth of food
 ## All State Updates
 1. [[Global]].[[Global State-Agents|Agents]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+

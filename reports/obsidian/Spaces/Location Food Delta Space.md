@@ -9,3 +9,7 @@
 1. [[Food Growth Policy]]
 2. [[Prey Feeding Policy]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Site.py](../../../../src/Spaces/Site.py)
+

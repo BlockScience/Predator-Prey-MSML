@@ -11,3 +11,7 @@
 3. [[Increase Agent Age Policy]]
 4. [[Prey Feeding Policy]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Agent.py](../../../../src/Spaces/Agent.py)
+

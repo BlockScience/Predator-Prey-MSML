@@ -34,3 +34,7 @@ def hunt_prey_boundary_action_v1(state, params, spaces):
 ```
 Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py](../../../src/Implementations/Python/BoundaryActions/Agent.py)
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/BoundaryActions/Agent.py](../../../../src/BoundaryActions/Agent.py)
+

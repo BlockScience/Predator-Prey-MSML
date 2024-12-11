@@ -94,3 +94,7 @@ Wiring for growth of food
 ## All State Updates
 1. [[Site]].[[Site State-Food|Food]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Site.py](../../../../src/Wiring/Site.py)
+

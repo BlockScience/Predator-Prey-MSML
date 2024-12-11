@@ -105,3 +105,7 @@ Wiring for agents moving
 1. [[Agent]].[[Agent State-Location|Location]]
 2. [[Site]].[[Site State-Agent|Agent]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+
