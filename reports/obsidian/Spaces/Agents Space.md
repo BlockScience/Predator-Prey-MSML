@@ -23,3 +23,7 @@
 8. [[Natural Death Policy]]
 9. [[Prey Feeding Boundary Action]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Agent.py](../../../../src/Spaces/Agent.py)
+

@@ -21,3 +21,7 @@ A site within the sites
 ### [[Food Growth Control Action]]
 ### [[Agent Movement Boundary Action]]
 ### [[Agent Reproduction Boundary Action]]
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Entities/Sites.py](../../../../src/Entities/Sites.py)
+

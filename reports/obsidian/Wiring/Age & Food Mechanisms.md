@@ -104,3 +104,7 @@ Mechanisms for updating food and age
 1. [[Agent]].[[Agent State-Age|Age]]
 2. [[Agent]].[[Agent State-Food|Food]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+

@@ -34,3 +34,7 @@ def neighboring_valid_tiles_metric(state, params, spaces):
 ```
 Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Metrics/Agent.py](../../../src/Implementations/Python/Metrics/Agent.py)
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Metrics/Site.py](../../../../src/Metrics/Site.py)
+

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Displays/Wiring/All Top Level Wirings.md",
+                "file": "reports/obsidian/Mechanisms/Increase Agent Age Mechanism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "All Top Level Wirings"
+              "title": "Increase Agent Age Mechanism"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Displays/Wiring/All Top Level Wirings.md",
+                "file": "reports/obsidian/Mechanisms/Increase Agent Age Mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for All Top Level Wirings"
+              "title": "Backlinks for Increase Agent Age Mechanism"
             }
           },
           {
@@ -163,6 +163,18 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Mechanisms/Update Food Locations Mechanism.md",
+    "reports/obsidian/Mechanisms/Update Agents Mechanism.md",
+    "reports/obsidian/Mechanisms/DUMMY Increment Time Mechanism.md",
+    "reports/obsidian/Entities/Global.md",
+    "reports/obsidian/Policies/Hunt Prey Policy.md",
+    "reports/obsidian/Policies/Agent Reproduction Policy.md",
+    "reports/obsidian/Types/Agent Age Delta Array Type.md",
+    "reports/obsidian/States/Global State.md",
+    "reports/obsidian/States/Agent State.md",
+    "reports/obsidian/State Variables/Agent State-Agent Type.md",
+    "reports/obsidian/States/Site State.md",
+    "reports/obsidian/Displays/Wiring/All Top Level Wirings.md",
     "src/Wiring/Dummy.py",
     "src/Types/Dummy.py",
     "src/StatefulMetrics/Dummy.py",
@@ -173,9 +185,7 @@
     "src/Metrics/Dummy.py",
     "src/Mechanisms/Dummy.py",
     "src/Entities/Dummy.py",
-    "src/ControlActions/Dummy.py",
     "reports/obsidian/Displays/Wiring/Boundary Wirings.md",
-    "reports/obsidian/Displays/Wiring/All Top Level Wirings.md",
     "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
     "reports/obsidian/Wiring/Food Growth Wiring.md",
     "reports/obsidian/Wiring/Food Eating Mechanisms.md",
@@ -188,16 +198,6 @@
     "reports/obsidian/Boundary Actions/Agent Movement Boundary Action.md",
     "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Types/DUMMY Integer Type.md",
-    "reports/obsidian/Entities/Site.md",
-    "reports/obsidian/Metrics/Neighboring Valid Tiles Metric.md",
-    "reports/obsidian/Metrics/Neighbors Metric.md",
-    "reports/obsidian/Stateful Metrics/Filled Locations Stateful Metric.md",
-    "reports/obsidian/Policies/Agent Reproduction Policy.md",
-    "reports/obsidian/Mechanisms/Create Agents Mechanism.md",
-    "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
-    "reports/obsidian/Boundary Actions/Hunt Prey Boundary Action.md",
-    "reports/obsidian/Boundary Actions/DUMMY Length-1 ABC Boundary Action.md",
-    "reports/obsidian/Boundary Actions/Agent Reproduction Boundary Action.md",
-    "reports/obsidian/Boundary Actions/DUMMY Length-2 ABC Combo Boundary Action.md"
+    "reports/obsidian/Entities/Site.md"
   ]
 }

@@ -8,3 +8,7 @@
 ## Blocks with Space in Codomain
 1. [[Increase Agent Age Policy]]
 
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Agent.py](../../../../src/Spaces/Agent.py)
+

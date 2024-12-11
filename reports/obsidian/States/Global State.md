@@ -11,3 +11,7 @@
 ## Updated By
 ### [[Remove Agents Mechanism]]
 ### [[Create Agents Mechanism]]
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Global.py](../../../../src/State/Global.py)
+

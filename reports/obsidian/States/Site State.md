@@ -12,3 +12,7 @@
 ### [[Update Food Locations Mechanism]]
 ### [[Update Agent Locations Mechanism]]
 ### [[Create Agents Mechanism]]
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Site.py](../../../../src/State/Site.py)
+

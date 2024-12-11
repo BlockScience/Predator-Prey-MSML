@@ -19,3 +19,7 @@
 ### [[Hunt Prey Boundary Action]]
 ### [[Natural Death Control Action]]
 ### [[Agent Reproduction Boundary Action]]
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Entities/Global.py](../../../../src/Entities/Global.py)
+
