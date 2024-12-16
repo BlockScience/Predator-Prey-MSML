@@ -258,9 +258,16 @@ There are five notebooks built in which will listed sequentially by what order i
 │   │   ├──Filled Locations Stateful Metric
 │   │   ├──Prey Locations Stateful Metric
 │   │   ├──Predator Locations Stateful Metric
+│   │   ├──Median Site Food Stateful Metric
 │   ├──Agent Stateful Metrics
 │   │   ├──Prey Stateful Metric
 │   │   ├──Predator Stateful Metric
+│   │   ├──Number of Prey Stateful Metric
+│   │   ├──Number of Predators Stateful Metric
+│   │   ├──Median Predator Food Stateful Metric
+│   │   ├──Median Prey Food Stateful Metric
+│   │   ├──Median Predator Age Stateful Metric
+│   │   ├──Median Prey Age Stateful Metric
 ├──Metrics
 │   ├──Available Food Metric
 │   ├──Neighboring Valid Tiles Metric

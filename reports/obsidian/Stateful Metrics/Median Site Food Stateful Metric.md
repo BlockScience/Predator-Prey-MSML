@@ -1,3 +1,19 @@
-- Uses [[MSML Scaffold 2/Stateful Metrics/Prey Stateful Metric|Prey Stateful Metric]]
-- Uses [[MSML Scaffold 2/State Variables/Global State-Sites|Global State-Sites]]
-- Uses [[Site State-Food]]
+Description: The median food in sites
+
+Type: [[Food Type]]
+
+Symbol: None
+
+Domain: None
+
+## Parameters Used
+
+## Variables Used
+1. [[Global State]].Sites
+2. [[Site State]].Food
+
+
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Site.py](../../../../src/StatefulMetrics/Site.py)
+

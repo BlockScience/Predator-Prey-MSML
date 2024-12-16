@@ -38,6 +38,15 @@ site_stateful_metrics = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Food Type",
+            "name": "Median Site Food Stateful Metric",
+            "description": "The median food in sites",
+            "variables_used": [("Global State", "Sites"), ("Site State", "Food")],
+            "parameters_used": [],
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }
 
