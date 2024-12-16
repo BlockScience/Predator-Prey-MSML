@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Policies/Simulation Meta Policy.md",
+                "file": "reports/obsidian/Spaces/Timestep Space.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simulation Meta Policy"
+              "title": "Timestep Space"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Policies/Simulation Meta Policy.md",
+                "file": "reports/obsidian/Spaces/Timestep Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Simulation Meta Policy"
+              "title": "Backlinks for Timestep Space"
             }
           },
           {
@@ -163,10 +163,12 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Policies/Simulation Meta Policy.md",
+    "src/Implementations/Python/Mechanisms/__pycache__/Meta.cpython-39.pyc",
+    "src/Implementations/Python/Mechanisms/Meta.py",
     "reports/obsidian/Spaces/Timestep Space.md",
     "tests/Simulation Log Test.ipynb",
     "src/Implementations/Python/Policies/__pycache__/Meta.cpython-39.pyc",
-    "reports/obsidian/Policies/Simulation Meta Policy.md",
     "reports/obsidian/Spec Tree.md",
     "tests/Stateful Metrics.ipynb",
     "reports/obsidian/Wiring/Simulation Meta Wiring.md",
@@ -182,8 +184,6 @@
     "src/Spaces/__pycache__/Meta.cpython-39.pyc",
     "src/Spaces/Meta.py",
     "src/Policies/__pycache__/Meta.cpython-39.pyc",
-    "src/Policies/Meta.py",
-    "src/Implementations/Python/Policies/Meta.py",
     "reports/obsidian/Wiring/Food Growth Wiring.md",
     "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
     "reports/obsidian/Wiring/Prey Feeding Wiring.md",
