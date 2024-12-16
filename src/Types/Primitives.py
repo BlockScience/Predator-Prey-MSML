@@ -57,6 +57,12 @@ ProbabilityType = {
     "notes": "A probability which takes a value between 0 and 1 inclusive.",
 }
 
+DeltaTimestepType = {
+    "name": "Delta Timestep Type",
+    "type": "DeltaTimestepType",
+    "notes": "A delta timestep.",
+}
+
 
 primitive_types = [
     EntityType,
@@ -69,4 +75,5 @@ primitive_types = [
     LocationType,
     AgentType,
     ProbabilityType,
+    DeltaTimestepType,
 ]

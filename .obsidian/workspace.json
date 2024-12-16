@@ -163,6 +163,8 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "src/Spaces/__pycache__/Meta.cpython-39.pyc",
+    "src/Spaces/Meta.py",
     "src/Policies/__pycache__/Meta.cpython-39.pyc",
     "src/Policies/Meta.py",
     "src/Implementations/Python/Policies/Meta.py",
@@ -196,8 +198,6 @@
     "reports/obsidian/States/Site State.md",
     "src/Wiring/Dummy.py",
     "src/Types/Dummy.py",
-    "src/StatefulMetrics/Dummy.py",
-    "src/State/Dummy.py",
-    "src/Spaces/Dummy.py"
+    "src/StatefulMetrics/Dummy.py"
   ]
 }
