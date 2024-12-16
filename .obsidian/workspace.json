@@ -163,6 +163,9 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "src/Policies/__pycache__/Meta.cpython-39.pyc",
+    "src/Policies/Meta.py",
+    "src/Implementations/Python/Policies/Meta.py",
     "src/Wiring/__pycache__/Meta.cpython-39.pyc",
     "src/Wiring/Meta.py",
     "LICENSE",
@@ -195,9 +198,6 @@
     "src/Types/Dummy.py",
     "src/StatefulMetrics/Dummy.py",
     "src/State/Dummy.py",
-    "src/Spaces/Dummy.py",
-    "src/Policies/Dummy.py",
-    "src/Parameters/Dummy.py",
-    "src/Metrics/Dummy.py"
+    "src/Spaces/Dummy.py"
   ]
 }
