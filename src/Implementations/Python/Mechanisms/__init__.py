@@ -5,7 +5,7 @@ from .Agent import (
     update_agent_age_mechanism,
     create_agents_mechanism,
 )
-from .Meta import increment_time_mechanism
+from .Meta import increment_time_mechanism, log_simulation_data_mechanism
 
 mechanisms = {
     "Update Food Locations Mechanism": update_food_locations_mechanism,
@@ -15,4 +15,5 @@ mechanisms = {
     "Create Agents Mechanism": create_agents_mechanism,
     "Update Agent Locations Mechanism": update_agent_locations_mechanism,
     "Increment Time Mechanism": increment_time_mechanism,
+    "Log Simulation Data Mechanism": log_simulation_data_mechanism,
 }
