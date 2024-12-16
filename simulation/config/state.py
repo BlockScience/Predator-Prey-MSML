@@ -1,8 +1,7 @@
 from copy import deepcopy
 
 state_base = {
-    "Dummy": {"Words": "", "Total Length": None},
-    "Time": 0,
+    "Timestep": 0,
     "Simulation Log": [],
     "Agents": None,
     "Sites": None,

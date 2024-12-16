@@ -163,6 +163,7 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "tests/Stateful Metrics.ipynb",
     "reports/obsidian/Wiring/Simulation Meta Wiring.md",
     "reports/obsidian/Wiring/Simulation Meta Mechanisms.md",
     "reports/obsidian/Spaces/Simulation Log Space.md",
@@ -197,7 +198,6 @@
     "reports/obsidian/Wiring/Age & Food Mechanisms.md",
     "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
     "reports/obsidian/Mechanisms/Increase Agent Age Mechanism.md",
-    "reports/obsidian/Mechanisms/Update Food Locations Mechanism.md",
-    "reports/obsidian/Mechanisms/Update Agents Mechanism.md"
+    "reports/obsidian/Mechanisms/Update Food Locations Mechanism.md"
   ]
 }
