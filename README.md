@@ -260,6 +260,10 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Agent Stateful Metrics
 │   │   ├──Prey Stateful Metric
 │   │   ├──Predator Stateful Metric
+├──Metrics
+│   ├──Available Food Metric
+│   ├──Neighboring Valid Tiles Metric
+│   ├──Is Neighbor Metric
 ├──Types
 │   ├──Entity Type
 │   ├──Simulation Log Type
