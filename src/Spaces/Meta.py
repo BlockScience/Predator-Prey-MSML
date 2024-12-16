@@ -5,5 +5,12 @@ timestep_space = {
     },
 }
 
+simulation_log_space = {
+    "name": "Simulation Log Space",
+    "schema": {
+        "Simulation Log": "Simulation Log Type",
+    },
+}
 
-meta_spaces = [timestep_space]
+
+meta_spaces = [timestep_space, simulation_log_space]

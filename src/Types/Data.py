@@ -35,6 +35,12 @@ LocationsArrayType = {
     "notes": """An array of [[Location Type]]""",
 }
 
+SimulationLogType = {
+    "name": "Simulation Log Type",
+    "type": "SimulationLogType",
+    "notes": """A log of simulation data""",
+}
+
 
 data_types = [
     AgentAgeDeltaArrayType,
@@ -43,4 +49,5 @@ data_types = [
     AgentLocationArrayType,
     FoodLocationArrayType,
     LocationsArrayType,
+    SimulationLogType,
 ]
