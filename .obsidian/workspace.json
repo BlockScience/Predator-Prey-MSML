@@ -163,6 +163,7 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "LICENSE",
     "reports/obsidian/Wiring/Food Growth Wiring.md",
     "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
@@ -188,7 +189,6 @@
     "reports/obsidian/States/Agent State.md",
     "reports/obsidian/State Variables/Agent State-Agent Type.md",
     "reports/obsidian/States/Site State.md",
-    "reports/obsidian/Displays/Wiring/All Top Level Wirings.md",
     "src/Wiring/Dummy.py",
     "src/Types/Dummy.py",
     "src/StatefulMetrics/Dummy.py",
