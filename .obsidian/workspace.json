@@ -163,6 +163,8 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Wiring/Food Growth Wiring.md",
+    "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
     "reports/obsidian/Wiring/Prey Feeding Wiring.md",
     "reports/obsidian/Policies/Prey Feeding Policy.md",
@@ -170,7 +172,6 @@
     "reports/obsidian/Wiring/Food Eating Mechanisms.md",
     "reports/obsidian/Spaces/Location Food Delta Space.md",
     "reports/obsidian/Wiring/Agent Reproduction Mechanisms.md",
-    "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Boundary Actions/Agent Movement Boundary Action.md",
     "reports/obsidian/Wiring/Agent Movement Wiring.md",
     "reports/obsidian/Wiring/Age & Food Mechanisms.md",
@@ -197,7 +198,6 @@
     "src/Parameters/Dummy.py",
     "src/Metrics/Dummy.py",
     "src/Mechanisms/Dummy.py",
-    "src/Entities/Dummy.py",
-    "reports/obsidian/Displays/Wiring/Boundary Wirings.md"
+    "src/Entities/Dummy.py"
   ]
 }

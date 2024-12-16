@@ -331,5 +331,17 @@ There are five notebooks built in which will listed sequentially by what order i
 │   ├──Update Food Mechanism
 │   ├──Increase Agent Age Mechanism
 │   ├──Create Agents Mechanism
+├──Wirings
+│   ├──Food Growth Wiring
+│   ├──Natural Death Wiring
+│   ├──Age & Food Mechanisms
+│   ├──Increase Agent Age Wiring
+│   ├──Food Eating Mechanisms
+│   ├──Prey Feeding Wiring
+│   ├──Agent Movement Wiring
+│   ├──Prey Eaten Mechanisms
+│   ├──Agent Reproduction Mechanisms
+│   ├──Hunt Prey Wiring
+│   ├──Agent Reproduction Wiring
 
 ```
