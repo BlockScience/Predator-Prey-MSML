@@ -18,40 +18,32 @@ def number_of_predators_stateful_metric(state, params):
 
 
 def median_predator_food_stateful_metric(state, params):
-    return median(
-        [
-            x["Food"]
-            for x in state["Stateful Metrics"]["Predator Stateful Metric"](
-                state, params
-            )
-        ]
-    )
+    predators = [
+        x["Food"]
+        for x in state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
+    ]
+    return median(predators) if len(predators) > 0 else None
 
 
 def median_prey_food_stateful_metric(state, params):
-    return median(
-        [
-            x["Food"]
-            for x in state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
-        ]
-    )
+    prey = [
+        x["Food"]
+        for x in state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
+    ]
+    return median(prey) if len(prey) > 0 else None
 
 
 def median_predator_age_stateful_metric(state, params):
-    return median(
-        [
-            x["Age"]
-            for x in state["Stateful Metrics"]["Predator Stateful Metric"](
-                state, params
-            )
-        ]
-    )
+    predators = [
+        x["Age"]
+        for x in state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
+    ]
+    return median(predators) if len(predators) > 0 else None
 
 
 def median_prey_age_stateful_metric(state, params):
-    return median(
-        [
-            x["Age"]
-            for x in state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
-        ]
-    )
+    prey = [
+        x["Age"]
+        for x in state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
+    ]
+    return median(prey) if len(prey) > 0 else None

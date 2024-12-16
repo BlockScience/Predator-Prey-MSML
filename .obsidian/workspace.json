@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reports/obsidian/Spaces/Timestep Space.md",
+                "file": "reports/obsidian/Policies/Simulation Meta Policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Timestep Space"
+              "title": "Simulation Meta Policy"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Spaces/Timestep Space.md",
+                "file": "reports/obsidian/Policies/Simulation Meta Policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Timestep Space"
+              "title": "Backlinks for Simulation Meta Policy"
             }
           },
           {
@@ -163,6 +163,8 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Spaces/Timestep Space.md",
+    "tests/Simulation Log Test.ipynb",
     "src/Implementations/Python/Policies/__pycache__/Meta.cpython-39.pyc",
     "reports/obsidian/Policies/Simulation Meta Policy.md",
     "reports/obsidian/Spec Tree.md",
@@ -170,7 +172,6 @@
     "reports/obsidian/Wiring/Simulation Meta Wiring.md",
     "reports/obsidian/Wiring/Simulation Meta Mechanisms.md",
     "reports/obsidian/Spaces/Simulation Log Space.md",
-    "reports/obsidian/Spaces/Timestep Space.md",
     "reports/obsidian/Mechanisms/Log Simulation Data Mechanism.md",
     "reports/obsidian/Mechanisms/Increment Time Mechanism.md",
     "reports/obsidian/Types/Timestep Type.md",
@@ -183,8 +184,6 @@
     "src/Policies/__pycache__/Meta.cpython-39.pyc",
     "src/Policies/Meta.py",
     "src/Implementations/Python/Policies/Meta.py",
-    "src/Wiring/__pycache__/Meta.cpython-39.pyc",
-    "src/Wiring/Meta.py",
     "reports/obsidian/Wiring/Food Growth Wiring.md",
     "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
     "reports/obsidian/Wiring/Prey Feeding Wiring.md",
