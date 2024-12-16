@@ -6,8 +6,8 @@ type SimulationLogType = object[]
 
 ## Notes
 
-Will be a list of entries expanding over time
+A log of simulation data
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Types/Primitives.py](../../../../src/Types/Primitives.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Types/Data.py](../../../../src/Types/Data.py)
 

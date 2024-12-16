@@ -7,8 +7,10 @@
 ## Blocks with Space in Codomain
 1. [[Create Agents Mechanism]]
 2. [[Increase Agent Age Mechanism]]
-3. [[Remove Agents Mechanism]]
-4. [[Update Agent Locations Mechanism]]
-5. [[Update Food Locations Mechanism]]
-6. [[Update Food Mechanism]]
+3. [[Increment Time Mechanism]]
+4. [[Log Simulation Data Mechanism]]
+5. [[Remove Agents Mechanism]]
+6. [[Update Agent Locations Mechanism]]
+7. [[Update Food Locations Mechanism]]
+8. [[Update Food Mechanism]]
 
