@@ -163,6 +163,8 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "src/Wiring/__pycache__/Meta.cpython-39.pyc",
+    "src/Wiring/Meta.py",
     "LICENSE",
     "reports/obsidian/Wiring/Food Growth Wiring.md",
     "reports/obsidian/Spec Tree.md",
@@ -196,8 +198,6 @@
     "src/Spaces/Dummy.py",
     "src/Policies/Dummy.py",
     "src/Parameters/Dummy.py",
-    "src/Metrics/Dummy.py",
-    "src/Mechanisms/Dummy.py",
-    "src/Entities/Dummy.py"
+    "src/Metrics/Dummy.py"
   ]
 }
