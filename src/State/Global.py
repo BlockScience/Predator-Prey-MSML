@@ -10,6 +10,13 @@ global_state = {
             "domain": None,
         },
         {
+            "type": "Timestep Type",
+            "name": "Timestep",
+            "description": "The current timestep of the simulation",
+            "symbol": None,
+            "domain": None,
+        },
+        {
             "type": "Entity Type",
             "name": "Agents",
             "description": "The agents in the simulation",

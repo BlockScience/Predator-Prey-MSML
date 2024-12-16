@@ -7,6 +7,7 @@
 | Name | Description | Type | Symbol | Domain |
 | --- | --- | --- | --- | --- |
 |[[Global State-Simulation Log\|Simulation Log]]|The simulation log holding historical data|[[Simulation Log Type]]|||
+|[[Global State-Timestep\|Timestep]]|The current timestep of the simulation|[[Timestep Type]]|||
 |[[Global State-Agents\|Agents]]|The agents in the simulation|[[Entity Type]]|||
 |[[Global State-Sites\|Sites]]|The sites in the simulation|[[Entity Type]]|||
 
@@ -15,6 +16,8 @@
 ## Mechanisms Impacting the Entity
 ### [[Remove Agents Mechanism]]
 ### [[Create Agents Mechanism]]
+### [[Increment Time Mechanism]]
+### [[Log Simulation Data Mechanism]]
 ## Actions Impacting the Entity
 ### [[Hunt Prey Boundary Action]]
 ### [[Natural Death Control Action]]

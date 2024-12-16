@@ -63,6 +63,11 @@ DeltaTimestepType = {
     "notes": "A delta timestep.",
 }
 
+TimestepType = {
+    "name": "Timestep Type",
+    "type": "TimestepType",
+    "notes": "A timestep.",
+}
 
 primitive_types = [
     EntityType,
@@ -76,4 +81,5 @@ primitive_types = [
     AgentType,
     ProbabilityType,
     DeltaTimestepType,
+    TimestepType,
 ]

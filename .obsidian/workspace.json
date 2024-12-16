@@ -163,6 +163,18 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Wiring/Simulation Meta Wiring.md",
+    "reports/obsidian/Wiring/Simulation Meta Mechanisms.md",
+    "reports/obsidian/Spaces/Simulation Log Space.md",
+    "reports/obsidian/Spaces/Timestep Space.md",
+    "reports/obsidian/Mechanisms/Log Simulation Data Mechanism.md",
+    "reports/obsidian/Mechanisms/Increment Time Mechanism.md",
+    "reports/obsidian/Policies/Simulation Meta Policy.md",
+    "reports/obsidian/Types/Timestep Type.md",
+    "reports/obsidian/Types/Delta Timestep Type.md",
+    "reports/obsidian/State Variables/Global State-Timestep.md",
+    "src/Mechanisms/__pycache__/Meta.cpython-39.pyc",
+    "src/Mechanisms/Meta.py",
     "src/Spaces/__pycache__/Meta.cpython-39.pyc",
     "src/Spaces/Meta.py",
     "src/Policies/__pycache__/Meta.cpython-39.pyc",
@@ -186,18 +198,6 @@
     "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
     "reports/obsidian/Mechanisms/Increase Agent Age Mechanism.md",
     "reports/obsidian/Mechanisms/Update Food Locations Mechanism.md",
-    "reports/obsidian/Mechanisms/Update Agents Mechanism.md",
-    "reports/obsidian/Mechanisms/DUMMY Increment Time Mechanism.md",
-    "reports/obsidian/Entities/Global.md",
-    "reports/obsidian/Policies/Hunt Prey Policy.md",
-    "reports/obsidian/Policies/Agent Reproduction Policy.md",
-    "reports/obsidian/Types/Agent Age Delta Array Type.md",
-    "reports/obsidian/States/Global State.md",
-    "reports/obsidian/States/Agent State.md",
-    "reports/obsidian/State Variables/Agent State-Agent Type.md",
-    "reports/obsidian/States/Site State.md",
-    "src/Wiring/Dummy.py",
-    "src/Types/Dummy.py",
-    "src/StatefulMetrics/Dummy.py"
+    "reports/obsidian/Mechanisms/Update Agents Mechanism.md"
   ]
 }
