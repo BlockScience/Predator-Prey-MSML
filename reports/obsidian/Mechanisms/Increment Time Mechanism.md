@@ -16,6 +16,12 @@ Add the delta timestep to the current timestep
 ## Updates
 
 1. [[Global]].[[Global State-Timestep|Timestep]]
+## Python Implementation
+```python
+def increment_time_mechanism(state, params, spaces):
+    state["Timestep"] += spaces[0]["Timestep"]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Meta.py](../../../src/Implementations/Python/Mechanisms/Meta.py)
 
 ## Spec Source Code Location
 

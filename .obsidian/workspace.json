@@ -11,14 +11,10 @@
             "id": "4507d71ae7a37972",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reports/obsidian/Spaces/Timestep Space.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Timestep Space"
+              "title": "New tab"
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reports/obsidian/Spaces/Timestep Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Timestep Space"
+              "title": "Backlinks"
             }
           },
           {
@@ -163,27 +158,28 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
-    "reports/obsidian/Policies/Simulation Meta Policy.md",
-    "src/Implementations/Python/Mechanisms/__pycache__/Meta.cpython-39.pyc",
-    "src/Implementations/Python/Mechanisms/Meta.py",
-    "reports/obsidian/Spaces/Timestep Space.md",
-    "tests/Simulation Log Test.ipynb",
-    "src/Implementations/Python/Policies/__pycache__/Meta.cpython-39.pyc",
-    "reports/obsidian/Spec Tree.md",
     "tests/Stateful Metrics.ipynb",
+    "tests/Simulation Log Test.ipynb",
+    "src/Wiring/Meta.py",
+    "src/Spaces/Meta.py",
+    "src/Policies/Meta.py",
+    "src/Mechanisms/Meta.py",
+    "src/Implementations/Python/Policies/Meta.py",
+    "src/Implementations/Python/Mechanisms/Meta.py",
     "reports/obsidian/Wiring/Simulation Meta Wiring.md",
     "reports/obsidian/Wiring/Simulation Meta Mechanisms.md",
-    "reports/obsidian/Spaces/Simulation Log Space.md",
-    "reports/obsidian/Mechanisms/Log Simulation Data Mechanism.md",
-    "reports/obsidian/Mechanisms/Increment Time Mechanism.md",
     "reports/obsidian/Types/Timestep Type.md",
     "reports/obsidian/Types/Delta Timestep Type.md",
     "reports/obsidian/State Variables/Global State-Timestep.md",
-    "src/Mechanisms/__pycache__/Meta.cpython-39.pyc",
-    "src/Mechanisms/Meta.py",
-    "src/Spaces/__pycache__/Meta.cpython-39.pyc",
-    "src/Spaces/Meta.py",
-    "src/Policies/__pycache__/Meta.cpython-39.pyc",
+    "reports/obsidian/Spaces/Timestep Space.md",
+    "reports/obsidian/Spaces/Simulation Log Space.md",
+    "reports/obsidian/Policies/Simulation Meta Policy.md",
+    "reports/obsidian/Mechanisms/Log Simulation Data Mechanism.md",
+    "reports/obsidian/Mechanisms/Increment Time Mechanism.md",
+    "LICENSE",
+    "src/Implementations/Python/Mechanisms/__pycache__/Meta.cpython-39.pyc",
+    "src/Implementations/Python/Policies/__pycache__/Meta.cpython-39.pyc",
+    "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Wiring/Food Growth Wiring.md",
     "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
     "reports/obsidian/Wiring/Prey Feeding Wiring.md",

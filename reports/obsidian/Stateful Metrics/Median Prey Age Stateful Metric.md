@@ -15,12 +15,11 @@ Domain: None
 ## Python Implementation
 ```python
 def median_prey_age_stateful_metric(state, params):
-    return median(
-        [
-            x["Age"]
-            for x in state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
-        ]
-    )
+    prey = [
+        x["Age"]
+        for x in state["Stateful Metrics"]["Prey Stateful Metric"](state, params)
+    ]
+    return median(prey) if len(prey) > 0 else None
 ```
 Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Agent.py](../../../src/Implementations/Python/StatefulMetrics/Agent.py)
 
