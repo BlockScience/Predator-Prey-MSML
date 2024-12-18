@@ -75,7 +75,7 @@ agent_stateful_metric = {
             "domain": None,
         },
         {
-            "type": "Age Type",
+            "type": "Integer Type",
             "name": "Median Predator Age Stateful Metric",
             "description": "The median age of predators",
             "variables_used": [
@@ -87,7 +87,7 @@ agent_stateful_metric = {
             "domain": None,
         },
         {
-            "type": "Age Type",
+            "type": "Integer Type",
             "name": "Median Prey Age Stateful Metric",
             "description": "The median age of prey",
             "variables_used": [

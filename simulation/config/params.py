@@ -14,6 +14,7 @@ params_base = {
     "Reproduction Food Needed": 3,
     "Initial Prey Food": 5,
     "Initial Predator Food": 5,
+    "FP Food Growth Policy": "Constant Food Growth Policy",
 }
 
 

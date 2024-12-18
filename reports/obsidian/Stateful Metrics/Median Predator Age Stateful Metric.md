@@ -1,6 +1,6 @@
 Description: The median age of predators
 
-Type: [[Age Type]]
+Type: [[Integer Type]]
 
 Symbol: None
 
