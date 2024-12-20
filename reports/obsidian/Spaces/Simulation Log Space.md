@@ -10,5 +10,5 @@
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Meta.py](../../../../src/Spaces/Meta.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Meta.py#L9](../../../../src/Spaces/Meta.py#L9)
 

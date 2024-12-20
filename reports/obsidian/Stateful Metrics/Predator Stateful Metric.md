@@ -17,9 +17,9 @@ Domain: None
 def predator_stateful_metric(state, params):
     return [agent for agent in state["Agents"] if agent["Agent Type"] == "Predator"]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Agent.py](../../../src/Implementations/Python/StatefulMetrics/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Agent.py#L8](../../../src/Implementations/Python/StatefulMetrics/Agent.py#L8)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Agent.py](../../../../src/StatefulMetrics/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Agent.py#L19](../../../../src/StatefulMetrics/Agent.py#L19)
 

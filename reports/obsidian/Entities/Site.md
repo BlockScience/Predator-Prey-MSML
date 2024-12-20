@@ -23,5 +23,5 @@ A site within the sites
 ### [[Agent Reproduction Boundary Action]]
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Entities/Sites.py](../../../../src/Entities/Sites.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Entities/Sites.py#L2](../../../../src/Entities/Sites.py#L2)
 

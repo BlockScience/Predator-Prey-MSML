@@ -25,9 +25,9 @@ def update_food_locations_mechanism(state, params, spaces):
             "Food"
         ]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Site.py](../../../src/Implementations/Python/Mechanisms/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Site.py#L1](../../../src/Implementations/Python/Mechanisms/Site.py#L1)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Site.py](../../../../src/Mechanisms/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Site.py#L2](../../../../src/Mechanisms/Site.py#L2)
 

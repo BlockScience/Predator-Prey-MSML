@@ -32,9 +32,9 @@ def hunt_prey_boundary_action_v1(state, params, spaces):
     shuffle(predators)
     return [{"Agents": predators}]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py](../../../src/Implementations/Python/BoundaryActions/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py#L10](../../../src/Implementations/Python/BoundaryActions/Agent.py#L10)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/BoundaryActions/Agent.py](../../../../src/BoundaryActions/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/BoundaryActions/Agent.py#L23](../../../../src/BoundaryActions/Agent.py#L23)
 

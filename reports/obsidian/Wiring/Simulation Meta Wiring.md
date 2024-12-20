@@ -108,5 +108,5 @@ Wiring for meta simulation steps
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Meta.py](../../../../src/Wiring/Meta.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Meta.py#L5](../../../../src/Wiring/Meta.py#L5)
 

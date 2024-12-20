@@ -114,9 +114,9 @@ def agent_reproduction_policy_v1(state, params, spaces):
             )
     return [space1, space2]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py#L100](../../../src/Implementations/Python/Policies/Agent.py#L100)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py](../../../../src/Policies/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py#L108](../../../../src/Policies/Agent.py#L108)
 

@@ -31,9 +31,9 @@ def update_agent_locations_mechanism(state, params, spaces):
         agent["Location"] = loc
         state["Sites Matrix"][loc[0]][loc[1]]["Agent"] = agent
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Site.py](../../../src/Implementations/Python/Mechanisms/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Site.py#L8](../../../src/Implementations/Python/Mechanisms/Site.py#L8)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Site.py](../../../../src/Mechanisms/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Site.py#L14](../../../../src/Mechanisms/Site.py#L14)
 

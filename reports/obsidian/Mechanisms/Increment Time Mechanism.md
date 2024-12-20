@@ -21,9 +21,9 @@ Add the delta timestep to the current timestep
 def increment_time_mechanism(state, params, spaces):
     state["Timestep"] += spaces[0]["Timestep"]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Meta.py](../../../src/Implementations/Python/Mechanisms/Meta.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Meta.py#L1](../../../src/Implementations/Python/Mechanisms/Meta.py#L1)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Meta.py](../../../../src/Mechanisms/Meta.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Meta.py#L2](../../../../src/Mechanisms/Meta.py#L2)
 

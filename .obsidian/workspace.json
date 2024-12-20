@@ -11,10 +11,14 @@
             "id": "4507d71ae7a37972",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "reports/obsidian/Control Actions/Increase Age Control Action.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Increase Age Control Action"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "reports/obsidian/Control Actions/Increase Age Control Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Increase Age Control Action"
             }
           },
           {
@@ -158,6 +163,10 @@
   },
   "active": "4507d71ae7a37972",
   "lastOpenFiles": [
+    "reports/obsidian/Control Actions/Food Growth Control Action.md",
+    "reports/obsidian/Parameters/Initial Number of Predators.md",
+    "reports/obsidian/Mechanisms/Update Agent Locations Mechanism.md",
+    "reports/obsidian/Displays/Wiring/All Top Level Wirings.md",
     "tests/Stateful Metrics.ipynb",
     "tests/Simulation Log Test.ipynb",
     "src/Wiring/Meta.py",
@@ -178,7 +187,6 @@
     "reports/obsidian/Mechanisms/Increment Time Mechanism.md",
     "LICENSE",
     "src/Implementations/Python/Mechanisms/__pycache__/Meta.cpython-39.pyc",
-    "src/Implementations/Python/Policies/__pycache__/Meta.cpython-39.pyc",
     "reports/obsidian/Spec Tree.md",
     "reports/obsidian/Wiring/Food Growth Wiring.md",
     "reports/obsidian/Boundary Actions/Prey Feeding Boundary Action.md",
@@ -190,9 +198,6 @@
     "reports/obsidian/Wiring/Agent Reproduction Mechanisms.md",
     "reports/obsidian/Boundary Actions/Agent Movement Boundary Action.md",
     "reports/obsidian/Wiring/Agent Movement Wiring.md",
-    "reports/obsidian/Wiring/Age & Food Mechanisms.md",
-    "reports/obsidian/Wiring/DUMMY Length-1 Boundary Wiring.md",
-    "reports/obsidian/Mechanisms/Increase Agent Age Mechanism.md",
-    "reports/obsidian/Mechanisms/Update Food Locations Mechanism.md"
+    "reports/obsidian/Wiring/Age & Food Mechanisms.md"
   ]
 }

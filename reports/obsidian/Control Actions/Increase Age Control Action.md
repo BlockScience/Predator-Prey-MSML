@@ -23,9 +23,9 @@ Return all agents
 def increase_agent_age_control_action_v1(state, params, spaces):
     return [{"Agents": state["Agents"]}]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/ControlActions/Agent.py](../../../src/Implementations/Python/ControlActions/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/ControlActions/Agent.py#L5](../../../src/Implementations/Python/ControlActions/Agent.py#L5)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/ControlActions/Agent.py](../../../../src/ControlActions/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/ControlActions/Agent.py#L23](../../../../src/ControlActions/Agent.py#L23)
 

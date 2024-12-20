@@ -46,9 +46,9 @@ def simulation_meta_policy_v1(state, params, spaces):
 
     return [space1, space2]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Meta.py](../../../src/Implementations/Python/Policies/Meta.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Meta.py#L1](../../../src/Implementations/Python/Policies/Meta.py#L1)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Meta.py](../../../../src/Policies/Meta.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Meta.py#L2](../../../../src/Policies/Meta.py#L2)
 

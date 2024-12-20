@@ -50,9 +50,9 @@ def hunt_prey_policy_v1(state, params, spaces):
             space2["Agents"].append(prey)
     return [space1, space2]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py#L74](../../../src/Implementations/Python/Policies/Agent.py#L74)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py](../../../../src/Policies/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py#L91](../../../../src/Policies/Agent.py#L91)
 

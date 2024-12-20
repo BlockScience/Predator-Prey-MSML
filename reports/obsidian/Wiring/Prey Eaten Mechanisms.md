@@ -110,5 +110,5 @@ Wiring for predators eating prey
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py#L93](../../../../src/Wiring/Agent.py#L93)
 

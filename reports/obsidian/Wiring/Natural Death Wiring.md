@@ -94,5 +94,5 @@ Wiring for growth of food
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py#L5](../../../../src/Wiring/Agent.py#L5)
 

@@ -29,9 +29,9 @@ def create_agents_mechanism(state, params, spaces):
         state["Agents"].append(agent)
         state["Sites Matrix"][loc[0]][loc[1]]["Agent"] = agent
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py](../../../src/Implementations/Python/Mechanisms/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py#L21](../../../src/Implementations/Python/Mechanisms/Agent.py#L21)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py](../../../../src/Mechanisms/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py#L38](../../../../src/Mechanisms/Agent.py#L38)
 

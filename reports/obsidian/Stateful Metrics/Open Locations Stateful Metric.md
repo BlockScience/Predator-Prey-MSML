@@ -17,9 +17,9 @@ Domain: None
 def open_locations_stateful_metric(state, params):
     return [site for site in state["Sites"] if site["Agent"] is None]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Site.py](../../../src/Implementations/Python/StatefulMetrics/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Site.py#L4](../../../src/Implementations/Python/StatefulMetrics/Site.py#L4)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Site.py](../../../../src/StatefulMetrics/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Site.py#L7](../../../../src/StatefulMetrics/Site.py#L7)
 

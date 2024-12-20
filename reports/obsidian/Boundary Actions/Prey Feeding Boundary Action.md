@@ -31,9 +31,9 @@ def prey_feeding_boundary_action_v1(state, params, spaces):
     prey = [x for x in prey if x["Food"] <= params["Hunger Threshold"]]
     return [{"Agents": prey}]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py](../../../src/Implementations/Python/BoundaryActions/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py#L4](../../../src/Implementations/Python/BoundaryActions/Agent.py#L4)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/BoundaryActions/Agent.py](../../../../src/BoundaryActions/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/BoundaryActions/Agent.py#L2](../../../../src/BoundaryActions/Agent.py#L2)
 

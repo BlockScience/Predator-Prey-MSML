@@ -33,7 +33,7 @@ def constant_food_growth_policy(state, params, spaces):
         )
     return [space]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Site.py](../../../src/Implementations/Python/Policies/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Site.py#L1](../../../src/Implementations/Python/Policies/Site.py#L1)
 
 ### 2. Poisson Food Growth Policy
 #### Description
@@ -43,5 +43,5 @@ For each location, the delta is equal to min(Food + POISSON(params["Food Growth 
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Site.py](../../../../src/Policies/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Site.py#L2](../../../../src/Policies/Site.py#L2)
 
