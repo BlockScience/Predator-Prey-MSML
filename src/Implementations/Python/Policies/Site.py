@@ -18,7 +18,7 @@ def poisson_food_growth_policy(state, params, spaces):
     for loc in spaces[0]["Locations"]:
         delta_food = min(
             params["Maximum Food per Tile"] - loc["Food"],
-            np.random.poisson(["Food Growth Rate"]),
+            np.random.poisson(params["Food Growth Rate"]),
         )
         space["Food Locations"].append(
             {"Location": loc["Location"], "Food": delta_food}

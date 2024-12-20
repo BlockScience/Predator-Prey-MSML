@@ -16,6 +16,7 @@ from .config import (
     state_agent_reproduction_test,
     params_mech_test,
     state_mech_test,
+    params_test_food_growth2,
 )
 from .preprocessing import (
     compute_starting_total_length,
