@@ -19,8 +19,6 @@ from .config import (
     params_test_food_growth2,
 )
 from .preprocessing import (
-    compute_starting_total_length,
-    check_d_probability,
     create_sites,
     create_initial_agents,
 )
