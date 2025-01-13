@@ -19,10 +19,10 @@ end
 subgraph X5["Agent Reproduction Mechanisms"]
 direction TB
 X1["Create Agents Mechanism"]
-X1 --> EES1
-X1 --> EES2
+X1 --"State Update"--> EES1
+X1 --"State Update"--> EES2
 X2["Update Food Mechanism"]
-X2 --> EES0
+X2 --"State Update"--> EES0
 X3[Domain]
 
 direction LR
@@ -59,10 +59,10 @@ end
 subgraph X5["Agent Reproduction Mechanisms"]
 direction TB
 X1["Create Agents Mechanism"]
-X1 --> EES1
-X1 --> EES2
+X1 --"State Update"--> EES1
+X1 --"State Update"--> EES2
 X2["Update Food Mechanism"]
-X2 --> EES0
+X2 --"State Update"--> EES0
 X3[Domain]
 
 direction LR

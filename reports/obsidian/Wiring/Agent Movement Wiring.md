@@ -18,8 +18,8 @@ direction TB
 X1["Agent Movement Boundary Action"]
 X2["Agent Movement Policy"]
 X3["Update Agent Locations Mechanism"]
-X3 --> EES0
-X3 --> EES1
+X3 --"State Update"--> EES0
+X3 --"State Update"--> EES1
 X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
 X2--"<a href='Agent Location Space' class=internal-link>Agent Location Space</a>"--->X3
 end
@@ -50,8 +50,8 @@ direction TB
 X1["Agent Movement Boundary Action"]
 X2["Agent Movement Policy"]
 X3["Update Agent Locations Mechanism"]
-X3 --> EES0
-X3 --> EES1
+X3 --"State Update"--> EES0
+X3 --"State Update"--> EES1
 X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
 X2--"<a href='Agent Location Space' class=internal-link>Agent Location Space</a>"--->X3
 end

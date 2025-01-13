@@ -20,6 +20,7 @@ agent_food_delta_space = {
 }
 
 agent_locations_space = {
+    "description": "The space for denoting the locations of some agents",
     "name": "Agent Location Space",
     "schema": {
         "Agent Locations": "Agent Location Array Type",

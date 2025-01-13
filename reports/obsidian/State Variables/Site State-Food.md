@@ -1,5 +1,7 @@
 Description: The food at the location
 
+Underlying state: [[Site State]]
+
 Type: [[Food Type]]
 
 Symbol: 

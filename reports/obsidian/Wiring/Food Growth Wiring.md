@@ -15,7 +15,7 @@ direction TB
 X1["Food Growth Control Action"]
 X2["Food Growth Policy"]
 X3["Update Food Locations Mechanism"]
-X3 --> EES0
+X3 --"State Update"--> EES0
 X1--"<a href='Locations Space' class=internal-link>Locations Space</a>"--->X2
 X2--"<a href='Location Food Delta Space' class=internal-link>Location Food Delta Space</a>"--->X3
 end
@@ -42,7 +42,7 @@ direction TB
 X1["Food Growth Control Action"]
 X2["Food Growth Policy"]
 X3["Update Food Locations Mechanism"]
-X3 --> EES0
+X3 --"State Update"--> EES0
 X1--"<a href='Locations Space' class=internal-link>Locations Space</a>"--->X2
 X2--"<a href='Location Food Delta Space' class=internal-link>Location Food Delta Space</a>"--->X3
 end

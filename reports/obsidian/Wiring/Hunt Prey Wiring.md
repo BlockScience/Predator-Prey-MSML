@@ -18,8 +18,8 @@ direction TB
 X1["Hunt Prey Boundary Action"]
 X2["Hunt Prey Policy"]
 X3["Prey Eaten Mechanisms"]
-X3 --> EES0
-X3 --> EES1
+X3 --"State Update"--> EES0
+X3 --"State Update"--> EES1
 X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
 X2--"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>
 <a href='Agents Space' class=internal-link>Agents Space</a>"---->X3
@@ -53,9 +53,9 @@ X2["Hunt Prey Policy"]
 subgraph X7["Prey Eaten Mechanisms"]
 direction TB
 X3["Update Food Mechanism"]
-X3 --> EES0
+X3 --"State Update"--> EES0
 X4["Remove Agents Mechanism"]
-X4 --> EES1
+X4 --"State Update"--> EES1
 X5[Domain]
 
 direction LR
