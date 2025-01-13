@@ -32,9 +32,9 @@ def natural_death_policy(state, params, spaces):
     }
     return [space]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py#L4](../../../src/Implementations/Python/Policies/Agent.py#L4)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py](../../../../src/Policies/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py#L2](../../../../src/Policies/Agent.py#L2)
 

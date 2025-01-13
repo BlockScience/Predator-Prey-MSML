@@ -21,9 +21,9 @@ def predator_locations_stateful_metric(state, params):
         if (site["Agent"] is not None) and (site["Agent"]["Agent Type"] == "Predator")
     ]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Site.py](../../../src/Implementations/Python/StatefulMetrics/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Site.py#L21](../../../src/Implementations/Python/StatefulMetrics/Site.py#L21)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Site.py](../../../../src/StatefulMetrics/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Site.py#L34](../../../../src/StatefulMetrics/Site.py#L34)
 

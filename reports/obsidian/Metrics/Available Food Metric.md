@@ -23,9 +23,9 @@ def available_food_metric(state, params, spaces):
     food = [x["Food"] for x in sites]
     return food
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Metrics/Site.py](../../../src/Implementations/Python/Metrics/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Metrics/Site.py#L1](../../../src/Implementations/Python/Metrics/Site.py#L1)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Metrics/Site.py](../../../../src/Metrics/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Metrics/Site.py#L7](../../../../src/Metrics/Site.py#L7)
 

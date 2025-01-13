@@ -13,5 +13,5 @@
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Agent.py](../../../../src/Spaces/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Agent.py#L16](../../../../src/Spaces/Agent.py#L16)
 

@@ -1,5 +1,7 @@
 Description: The current timestep of the simulation
 
+Underlying state: [[Global State]]
+
 Type: [[Timestep Type]]
 
 Symbol: 

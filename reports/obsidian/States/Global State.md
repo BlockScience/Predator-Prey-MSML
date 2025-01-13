@@ -16,5 +16,5 @@
 ### [[Log Simulation Data Mechanism]]
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Global.py](../../../../src/State/Global.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Global.py#L2](../../../../src/State/Global.py#L2)
 

@@ -29,9 +29,9 @@ def food_growth_control_action_v1(state, params, spaces):
     ]
     return [{"Locations": sites}]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/ControlActions/Site.py](../../../src/Implementations/Python/ControlActions/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/ControlActions/Site.py#L1](../../../src/Implementations/Python/ControlActions/Site.py#L1)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/ControlActions/Site.py](../../../../src/ControlActions/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/ControlActions/Site.py#L2](../../../../src/ControlActions/Site.py#L2)
 

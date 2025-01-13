@@ -28,9 +28,9 @@ def remove_agents_mechanism(state, params, spaces):
             "Agent"
         ] = None
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py](../../../src/Implementations/Python/Mechanisms/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py#L1](../../../src/Implementations/Python/Mechanisms/Agent.py#L1)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py](../../../../src/Mechanisms/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py#L2](../../../../src/Mechanisms/Agent.py#L2)
 

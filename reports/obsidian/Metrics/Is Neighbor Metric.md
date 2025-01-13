@@ -35,9 +35,9 @@ def is_neighbor_metric(state, params, spaces):
         out.append(neighbors)
     return out
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Metrics/Agent.py](../../../src/Implementations/Python/Metrics/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Metrics/Agent.py#L16](../../../src/Implementations/Python/Metrics/Agent.py#L16)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Metrics/Site.py](../../../../src/Metrics/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Metrics/Site.py#L36](../../../../src/Metrics/Site.py#L36)
 

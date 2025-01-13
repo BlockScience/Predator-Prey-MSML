@@ -10,5 +10,5 @@ Parameter Class: System
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Parameters/Agent.py](../../../../src/Parameters/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Parameters/Agent.py#L23](../../../../src/Parameters/Agent.py#L23)
 

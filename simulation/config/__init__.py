@@ -17,5 +17,6 @@ from .params import (
     params_agent_movement_test,
     params_agent_reproduction_test,
     params_mech_test,
+    params_test_food_growth2,
 )
 from .experiment import experiments_map

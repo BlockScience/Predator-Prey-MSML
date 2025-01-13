@@ -16,8 +16,8 @@ subgraph X3["Simulation Meta Wiring"]
 direction TB
 X1["Simulation Meta Policy"]
 X2["Simulation Meta Mechanisms"]
-X2 --> EES0
-X2 --> EES1
+X2 --"State Update"--> EES0
+X2 --"State Update"--> EES1
 X1--"<a href='Timestep Space' class=internal-link>Timestep Space</a>
 <a href='Simulation Log Space' class=internal-link>Simulation Log Space</a>"---->X2
 end
@@ -46,9 +46,9 @@ X1["Simulation Meta Policy"]
 subgraph X6["Simulation Meta Mechanisms"]
 direction TB
 X2["Increment Time Mechanism"]
-X2 --> EES1
+X2 --"State Update"--> EES1
 X3["Log Simulation Data Mechanism"]
-X3 --> EES0
+X3 --"State Update"--> EES0
 X4[Domain]
 
 direction LR
@@ -108,5 +108,5 @@ Wiring for meta simulation steps
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Meta.py](../../../../src/Wiring/Meta.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Meta.py#L5](../../../../src/Wiring/Meta.py#L5)
 

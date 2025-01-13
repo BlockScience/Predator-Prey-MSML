@@ -16,9 +16,9 @@ end
 subgraph X5["Prey Eaten Mechanisms"]
 direction TB
 X1["Update Food Mechanism"]
-X1 --> EES0
+X1 --"State Update"--> EES0
 X2["Remove Agents Mechanism"]
-X2 --> EES1
+X2 --"State Update"--> EES1
 X3[Domain]
 
 direction LR
@@ -51,9 +51,9 @@ end
 subgraph X5["Prey Eaten Mechanisms"]
 direction TB
 X1["Update Food Mechanism"]
-X1 --> EES0
+X1 --"State Update"--> EES0
 X2["Remove Agents Mechanism"]
-X2 --> EES1
+X2 --"State Update"--> EES1
 X3[Domain]
 
 direction LR
@@ -110,5 +110,5 @@ Wiring for predators eating prey
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py#L93](../../../../src/Wiring/Agent.py#L93)
 

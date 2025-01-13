@@ -32,9 +32,9 @@ def reproduction_threshold_reproduction_boundary_action(state, params, spaces):
     shuffle(agents)
     return [{"Agents": agents}]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py](../../../src/Implementations/Python/BoundaryActions/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/BoundaryActions/Agent.py#L23](../../../src/Implementations/Python/BoundaryActions/Agent.py#L23)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/BoundaryActions/Agent.py](../../../../src/BoundaryActions/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/BoundaryActions/Agent.py#L72](../../../../src/BoundaryActions/Agent.py#L72)
 

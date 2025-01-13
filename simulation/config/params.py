@@ -14,6 +14,7 @@ params_base = {
     "Reproduction Food Needed": 3,
     "Initial Prey Food": 5,
     "Initial Predator Food": 5,
+    "FP Food Growth Policy": "Constant Food Growth Policy",
 }
 
 
@@ -22,6 +23,8 @@ params_test_food_growth["Site Size"] = (2, 2)
 params_test_food_growth["Maximum Food per Tile"] = 2
 params_test_food_growth["Food Growth Rate"] = 1
 
+params_test_food_growth2 = deepcopy(params_test_food_growth)
+params_test_food_growth2["FP Food Growth Policy"] = "Poisson Food Growth Policy"
 
 params_test2 = deepcopy(params_base)
 params_test2["DUMMY D Probability"] = 0

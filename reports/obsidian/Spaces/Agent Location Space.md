@@ -1,3 +1,6 @@
+## Description
+The space for denoting the locations of some agents
+
 ## Schema
 
 {Agent Locations: [[Agent Location Array Type]]}
@@ -10,5 +13,5 @@
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Agent.py](../../../../src/Spaces/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Agent.py#L24](../../../../src/Spaces/Agent.py#L24)
 

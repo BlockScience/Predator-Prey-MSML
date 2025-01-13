@@ -14,5 +14,5 @@
 ### [[Create Agents Mechanism]]
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Site.py](../../../../src/State/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Site.py#L2](../../../../src/State/Site.py#L2)
 

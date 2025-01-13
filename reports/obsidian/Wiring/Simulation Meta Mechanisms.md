@@ -15,9 +15,9 @@ end
 subgraph X5["Simulation Meta Mechanisms"]
 direction TB
 X1["Increment Time Mechanism"]
-X1 --> EES1
+X1 --"State Update"--> EES1
 X2["Log Simulation Data Mechanism"]
-X2 --> EES0
+X2 --"State Update"--> EES0
 X3[Domain]
 
 direction LR
@@ -48,9 +48,9 @@ end
 subgraph X5["Simulation Meta Mechanisms"]
 direction TB
 X1["Increment Time Mechanism"]
-X1 --> EES1
+X1 --"State Update"--> EES1
 X2["Log Simulation Data Mechanism"]
-X2 --> EES0
+X2 --"State Update"--> EES0
 X3[Domain]
 
 direction LR
@@ -106,5 +106,5 @@ Wiring for mechanisms that update the simulation log and simulation metadata
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Meta.py](../../../../src/Wiring/Meta.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Meta.py#L8](../../../../src/Wiring/Meta.py#L8)
 

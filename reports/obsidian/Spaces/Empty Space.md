@@ -1,3 +1,6 @@
+## Description
+Built-in space for denoting returning no data
+
 ## Schema
 
 {}

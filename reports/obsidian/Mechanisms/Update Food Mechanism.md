@@ -25,9 +25,9 @@ def update_food_mechanism(state, params, spaces):
     for values in spaces[0]["Food Deltas"]:
         values["Agent"]["Food"] += values["Delta Food"]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py](../../../src/Implementations/Python/Mechanisms/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py#L11](../../../src/Implementations/Python/Mechanisms/Agent.py#L11)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py](../../../../src/Mechanisms/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py#L14](../../../../src/Mechanisms/Agent.py#L14)
 

@@ -55,9 +55,9 @@ def random_agent_movement_with_sieve(state, params, spaces):
         sieve = hold
     return [out_space]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py](../../../src/Implementations/Python/Policies/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Agent.py#L42](../../../src/Implementations/Python/Policies/Agent.py#L42)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py](../../../../src/Policies/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Agent.py#L69](../../../../src/Policies/Agent.py#L69)
 

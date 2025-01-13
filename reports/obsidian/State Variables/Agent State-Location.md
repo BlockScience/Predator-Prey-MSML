@@ -1,5 +1,7 @@
 Description: The current location of an agent
 
+Underlying state: [[Agent State]]
+
 Type: [[Location Type]]
 
 Symbol: 

@@ -15,18 +15,15 @@ Domain: None
 ## Python Implementation
 ```python
 def median_predator_food_stateful_metric(state, params):
-    return median(
-        [
-            x["Food"]
-            for x in state["Stateful Metrics"]["Predator Stateful Metric"](
-                state, params
-            )
-        ]
-    )
+    predators = [
+        x["Food"]
+        for x in state["Stateful Metrics"]["Predator Stateful Metric"](state, params)
+    ]
+    return median(predators) if len(predators) > 0 else None
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Agent.py](../../../src/Implementations/Python/StatefulMetrics/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Agent.py#L20](../../../src/Implementations/Python/StatefulMetrics/Agent.py#L20)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Agent.py](../../../../src/StatefulMetrics/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Agent.py#L55](../../../../src/StatefulMetrics/Agent.py#L55)
 

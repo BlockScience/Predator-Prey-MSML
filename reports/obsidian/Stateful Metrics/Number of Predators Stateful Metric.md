@@ -17,9 +17,9 @@ Domain: None
 def number_of_predators_stateful_metric(state, params):
     return len(state["Stateful Metrics"]["Predator Stateful Metric"](state, params))
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Agent.py](../../../src/Implementations/Python/StatefulMetrics/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/StatefulMetrics/Agent.py#L16](../../../src/Implementations/Python/StatefulMetrics/Agent.py#L16)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Agent.py](../../../../src/StatefulMetrics/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/StatefulMetrics/Agent.py#L43](../../../../src/StatefulMetrics/Agent.py#L43)
 

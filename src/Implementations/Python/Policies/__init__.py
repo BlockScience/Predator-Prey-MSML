@@ -1,4 +1,4 @@
-from .Site import constant_food_growth_policy
+from .Site import constant_food_growth_policy, poisson_food_growth_policy
 from .Agent import (
     natural_death_policy,
     increase_agent_age_policy_plus1,
@@ -18,4 +18,5 @@ policies = {
     "Hunt Prey V1": hunt_prey_policy_v1,
     "Agent Reproduction Policy V1": agent_reproduction_policy_v1,
     "Simulation Meta Policy V1": simulation_meta_policy_v1,
+    "Poisson Food Growth Policy": poisson_food_growth_policy,
 }

@@ -11,5 +11,5 @@
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Site.py](../../../../src/Spaces/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Spaces/Site.py#L9](../../../../src/Spaces/Site.py#L9)
 

@@ -17,8 +17,8 @@ direction TB
 X1["Increase Age Control Action"]
 X2["Increase Agent Age Policy"]
 X3["Age & Food Mechanisms"]
-X3 --> EES0
-X3 --> EES1
+X3 --"State Update"--> EES0
+X3 --"State Update"--> EES1
 X1--"<a href='Agents Space' class=internal-link>Agents Space</a>"--->X2
 X2--"<a href='Agent Food Delta Space' class=internal-link>Agent Food Delta Space</a>
 <a href='Agent Age Delta Space' class=internal-link>Agent Age Delta Space</a>"---->X3
@@ -50,9 +50,9 @@ X2["Increase Agent Age Policy"]
 subgraph X7["Age & Food Mechanisms"]
 direction TB
 X3["Update Food Mechanism"]
-X3 --> EES1
+X3 --"State Update"--> EES1
 X4["Increase Agent Age Mechanism"]
-X4 --> EES0
+X4 --"State Update"--> EES0
 X5[Domain]
 
 direction LR
@@ -117,5 +117,5 @@ Wiring for updating of the agent age and decreasing their food from aging
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py](../../../../src/Wiring/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Wiring/Agent.py#L33](../../../../src/Wiring/Agent.py#L33)
 

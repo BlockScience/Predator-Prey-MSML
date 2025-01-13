@@ -33,9 +33,30 @@ def constant_food_growth_policy(state, params, spaces):
         )
     return [space]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Site.py](../../../src/Implementations/Python/Policies/Site.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Site.py#L4](../../../src/Implementations/Python/Policies/Site.py#L4)
+
+### 2. Poisson Food Growth Policy
+#### Description
+Food growth is based on the Poisson distribution
+#### Logic
+For each location, the delta is equal to min(Food + POISSON(params["Food Growth Rate"]), params["Maximum Food per Tile"])
+#### Python Implementation
+```python
+def poisson_food_growth_policy(state, params, spaces):
+    space = {"Food Locations": []}
+    for loc in spaces[0]["Locations"]:
+        delta_food = min(
+            params["Maximum Food per Tile"] - loc["Food"],
+            np.random.poisson(params["Food Growth Rate"]),
+        )
+        space["Food Locations"].append(
+            {"Location": loc["Location"], "Food": delta_food}
+        )
+    return [space]
+```
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Policies/Site.py#L16](../../../src/Implementations/Python/Policies/Site.py#L16)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Site.py](../../../../src/Policies/Site.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Policies/Site.py#L2](../../../../src/Policies/Site.py#L2)
 

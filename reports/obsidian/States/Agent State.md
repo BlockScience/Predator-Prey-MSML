@@ -15,5 +15,5 @@
 ### [[Increase Agent Age Mechanism]]
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Agent.py](../../../../src/State/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Agent.py#L2](../../../../src/State/Agent.py#L2)
 

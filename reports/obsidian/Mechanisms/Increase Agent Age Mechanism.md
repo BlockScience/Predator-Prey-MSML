@@ -22,9 +22,9 @@ def update_agent_age_mechanism(state, params, spaces):
     for values in spaces[0]["Age Deltas"]:
         values["Agent"]["Age"] += values["Delta Age"]
 ```
-Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py](../../../src/Implementations/Python/Mechanisms/Agent.py)
+Implementation Path (only works if vault is opened at level including the src folder): [../../../src/Implementations/Python/Mechanisms/Agent.py#L16](../../../src/Implementations/Python/Mechanisms/Agent.py#L16)
 
 ## Spec Source Code Location
 
-Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py](../../../../src/Mechanisms/Agent.py)
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Mechanisms/Agent.py#L26](../../../../src/Mechanisms/Agent.py#L26)
 
