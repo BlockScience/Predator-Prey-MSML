@@ -23,4 +23,5 @@ mapping = {
             },
         )
     ],
+    "TimestepType": int,
 }

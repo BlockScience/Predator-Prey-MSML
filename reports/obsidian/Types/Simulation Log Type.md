@@ -1,6 +1,6 @@
 ## Type
 ### Python Type
-list
+typing.List[src.TypeMappings.types.Simulation Log]
 ### Typescript Type
 type SimulationLogType = object[]
 
